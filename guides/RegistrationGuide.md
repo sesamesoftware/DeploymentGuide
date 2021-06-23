@@ -1,6 +1,5 @@
 
-<img src="../images/SesameSoftwareLogo-2020Final.png" width="200">
-<img src="../images/RJOrbitLogo-2021Final.png" width="200">
+<img src="../images/SesameSoftwareLogo-2020Final.png" width="200"><img src="../images/RJOrbitLogo-2021Final.png" width="200">
 ## Relational Junction Product Registration
 To get your Registration Code [click here](https://licensemanager.sesamesoftware.com:8443/rjlm/registration/register)
 <img src="../images/registrationPage.png" width="1000">
