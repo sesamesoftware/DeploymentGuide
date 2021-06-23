@@ -17,6 +17,6 @@ To get your Registration Code [click here](https://licensemanager.sesamesoftware
 4. Click “Register New Account” 
    1. Paste the emailed key into the field on the “Register New Account” screen.
    2. Once you click the Save button, you will be automatially taken to  the login page
-5. Use the Username and Password saved in step 1.2
+5. Use the Username and Password saved in step 1.ii
 
 If you do not receive the email within 5 minutes, please contact support@sesamesoftware.com immediately.
