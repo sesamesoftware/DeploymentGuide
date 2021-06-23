@@ -2,7 +2,7 @@
 <img src="../images/SesameSoftwareLogo-2020Final.png" width="200"><img src="../images/RJOrbitLogo-2021Final.png" width="200">
 ## Relational Junction Product Registration
 To get your Registration Code [click here](https://licensemanager.sesamesoftware.com:8443/rjlm/registration/register)
-<img src="../images/registrationPage.png" width="1000">
+<img src="../images/registrationPage.PNG" width="1000">
 1. Fill out form
    1. All fields are required.
       1. Username and password Can not have special characters.
@@ -17,7 +17,7 @@ To get your Registration Code [click here](https://licensemanager.sesamesoftware
 4. Click “Register New Account” 
    1. Paste the emailed key into the field on the “Register New Account” screen.
    2. Once you click the Save button, you will be automatially taken to  the login page
-5. Use the Username and Password saved in step 1.2
+5. Use the Username and Password saved in step 1.ii
 
 If you do not receive the email within 5 minutes, please contact support
 Support: +1 (408) 550-7999  |  support@sesamesoftware.com
