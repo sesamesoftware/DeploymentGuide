@@ -3,4 +3,3 @@
 ## Relational Junction install Guide
 
 The install using Terraform guide [click here](installwithTerraform.md)
-
