@@ -1,4 +1,5 @@
-<img style="float:left;" src="../images/RJOrbitLogo-2021Final.png" width="200"> 
+<img  src="images/SesameSoftwareLogo-2020Final.png" width="100"><img align=right src="images/RJOrbitLogo-2021Final.png" width="100">
+
 # Relational Junction Configuration Guide
 
 ---
@@ -70,6 +71,5 @@ Click Save or Save and Run
 If running a job, return to the main Jobs tab to verify the job is running.
 
 ---
-<img  src="../images/SesameSoftwareLogo-2020Final.png" width="200">
 
 [Back to Install](../guides/configurationGuide.md)[Back to Main](../README.md)
