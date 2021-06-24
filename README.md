@@ -1,6 +1,7 @@
-<img src="images/SesameSoftwareLogo-2020Final.png" width="200"><img src="images/RJOrbitLogo-2021Final.png" width="200">
+<img  src="images/SesameSoftwareLogo-2020Final.png" width="100"><img align=right src="images/RJOrbitLogo-2021Final.png" width="100">
 
-# Deployment Guide
+
+  # Deployment Guide 
 
 [Installation Guide](guides/installguide.md)
 
