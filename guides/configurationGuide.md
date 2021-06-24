@@ -2,6 +2,10 @@
 
 # Relational Junction Configuration Guide
 
+[Pre-Installation](guides/installguide.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Installation](guides/installguide.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Registration](guides/RegistrationGuide.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Configuration](guides/configurationGuide.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Datasource](Datasources/README.md)
+
+---
+
 ## Relational Junction Global Settings
 
 Use these instructions to set up email notifications if desired. Go to Connection Configuration to skip this step.

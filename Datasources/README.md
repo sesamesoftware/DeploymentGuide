@@ -1,4 +1,4 @@
-<img src="../images/SesameSoftwareLogo-2020Final.png" width="200"><img src="../images/RJOrbitLogo-2021Final.png" width="200">
+<img  src="../images/SesameSoftwareLogo-2020Final.png" width="100"><img align=right src="../images/RJOrbitLogo-2021Final.png" width="100">
 
 ## Relational Junction Datasource Guide
 
@@ -7,4 +7,4 @@
 * [Netsuite](netsuite.md)
 * [Oracle Service Thin](OraceleServiceThin.md)
 
-[Back to Configuratin Guide](../guides/configurationGuide.md)
+[Configuration Guide](../guides/configurationGuide.md)
