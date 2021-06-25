@@ -2,7 +2,7 @@
 
 ## Datasource Guide for Oracle Service Thin
 
-[Pre-Installation](../../README.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Installation](../guides/installguide.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Registration](../guides/RegistrationGuide.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Configuration](../guides/configurationGuide.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Datasource](README.md)
+[Pre-Installation](../README.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Installation](../guides/installguide.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Registration](../guides/RegistrationGuide.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Configuration](../guides/configurationGuide.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Datasource](README.md)
 
 ---
 
