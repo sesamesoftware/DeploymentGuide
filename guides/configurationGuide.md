@@ -53,7 +53,7 @@ Repeat above for source and Target. If you are using Columnar based systems like
       1. This ID is the unique identifier for this job and will be important if you run any ETL jobs through the terminal.
    2. Log
    3. no email to unless they have the smtp
-   4. For Scheduling see {link to file}
+   4. For Scheduling see [schedule guide](Schedule.md)
 7. {image of job steps tab}
 8. **Job Steps tab**
    1. Replication Type (select in drop down **RJ Warehouse**) 
