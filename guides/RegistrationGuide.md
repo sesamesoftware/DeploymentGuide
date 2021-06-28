@@ -9,7 +9,7 @@
 
 To get your Registration Code [click here](https://licensemanager.sesamesoftware.com:8443/rjlm/registration/register)
 
-<img src="../images/registrationPage.PNG" width="1000">
+![Registration Form](../images/registrationPage.PNG)
 
 1. Fill out form
    1. All fields are required.
@@ -31,3 +31,4 @@ If you do not receive the email within 5 minutes, please contact support
 Support: +1 (408) 550-7999  |  support@sesamesoftware.com
 
 [Configuration Guide](../guides/configurationGuide.md)
+
