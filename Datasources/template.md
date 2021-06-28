@@ -28,7 +28,7 @@
 [comment]: # (adjust step 4 and below as needed)
 
 1. From the front page of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
-2. On the next screen, choose a label for your Datasource. 
+2. On the next screen, choose a label for your Datasource.
    1. Recommended: ‘Source NetSuite’ or something similar.
    2. Select OracleServiceThin Template
    3. Click Save
