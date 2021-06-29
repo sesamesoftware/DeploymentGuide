@@ -2,7 +2,7 @@
 
 # Deployment Guide 
 
-[Pre-Installation](guides/installguide.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Installation](guides/installguide.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Registration](guides/RegistrationGuide.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Configuration](guides/configurationGuide.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Datasource](Datasources/README.md)
+[![Pre-Installation](images/Button_PreInstall.png)](guides/installguide.md)[![Installation](images/Button_Installation.png)](guides/installguide.md)[![Registration](images/Button_Registration.png)](guides/RegistrationGuide.md)[![Configuration](images/Button_Configuration.png)](guides/configurationGuide.md)[![Datasource](images/Button_Datasource.png)](Datasources/README.md)
 
 ---
 
