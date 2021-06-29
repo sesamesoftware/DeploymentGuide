@@ -67,3 +67,5 @@ Other Permissions
 |Permissions &rarr; Transactions|	Transfer Order|	Access to the TransferOrder table|
 |Permissions &rarr; Transactions|	Vendor| Return Authorization	Access to the VendorReturnAuthorization tableTransaction table|
 |Permissions &rarr; Transactions|	Work Order|	Access to the WorkOrder table|
+
+[Previous](../netsuite.md)

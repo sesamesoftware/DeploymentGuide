@@ -15,30 +15,33 @@
 
 ### *Steps*
 
-1. From the frontpage of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
-2. On the next screen, choose a label for your Datasource.
+1. before you begin
+   1. [Obtain Netsuite Credentials](additionalinfo/NetsuiteCreds.md)
+   2. [set Permissions](additionalinfo/netsuitePermissions.md)
+2. From the frontpage of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
+3. On the next screen, choose a label for your Datasource.
    1. Recommended: ‘Source NetSuite’ or something similar.
-3. Select the Netsuite Template
-4. <img src="../images/netsuite1.png" width="1000">
-5. Logon Information Section
+4. Select the Netsuite Template
+5. ![Datasource](../images/netsuite1.png)
+6. Logon Information Section
    1. RoleID
    2. AccountID
    3. Date of First Record
       1. This field is optional. For best performance, back up 1 year from the date of your earliest transaction.
-6. <img src="../images/netsuite2.png" width="1000">
-7. Open Authorization Section - Authorization Tokens from NetSuite
+7. ![tokens](../images/netsuite2.png)
+8. Open Authorization Section - Authorization Tokens from NetSuite
    1. Application ID Tokens
       1. OAuthAccessToken
       2. OAuthAccessTokenSecret
    2. Login Tokens
       1. OAuthClientId
       2. OAuthClientSecret
-8. Click Test
-<img src="../images/netsuite3.png" width="1000">
+9.  Click Test
+![SQL Window](../images/netsuite3.png)
 
 * If you see “Connection Test Successful”, click SQL.
 * Copy the following into the query window: `select * from account`
 * Click run
 * If data is returned, click Save and Close.
 
-[Back to Datasource Guide](README.md)
+[![Back to Datasource Guide](../images/Left_Arrow_Datasource.png)](README.md)

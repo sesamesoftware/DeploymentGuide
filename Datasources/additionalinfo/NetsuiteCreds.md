@@ -6,12 +6,13 @@
 [![Pre-Installation](../../images/Button_PreInstall.png)](guides/installguide.md)[![Installation](../../images/Button_Installation.png)](guides/installguide.md)[![Registration](../../images/Button_Registration.png)](guides/RegistrationGuide.md)[![Configuration](../../images/Button_Configuration.png)](guides/configurationGuide.md)[![Datasource](../../images/Button_Datasource.png)](Datasources/README.md)
 
 ---
-{graphic for getting account id}
-
-expand for account id
 
 
-In NetSuite, log in as an administrator role and navigate to **Setup&rarr;Company&rarr;Enable Features&rarr;SuiteCloud&rarr;Manage Authentication**. 
+In NetSuite, log in as an administrator role and navigate to **Setup&rarr;Company&rarr;Company Information**. save account id to a document.
+
+![account id](../../images/NetsuiteAccountId.png)
+
+Navigate to **Setup&rarr;Company&rarr;Enable Features&rarr;SuiteCloud&rarr;Manage Authentication**. 
 Make sure Token-Based Authentication and TBA: Authorization Flow are checked and save changes.
 ![Manage Authentication](../../images/NetsuiteManageAuthentication.png)
 
@@ -37,3 +38,5 @@ After creating the access token, a connection can now be made using the values o
 **OAuthClientSecret** the Consumer Secret displayed when the application was created.
 **OAuthAccessToken** the Token Id when the access token was created.
 **OAuthAccessTokenSecret** the Token Secret when the access token was created.
+
+[Previous](../netsuite.md)
