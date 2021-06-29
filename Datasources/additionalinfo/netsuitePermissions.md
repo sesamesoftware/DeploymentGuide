@@ -28,6 +28,7 @@ Note: Most of the following permissions fall under the Permissions --> Setup sec
 |User Access Token|	Allows a user to have tokens created for them via ether Token Based Authentication or Using OAuth Authentication.|
 
 Other Permissions
+
 |Section|Permission|Used For|
 |---|---|---|---|
 |Permissions &rarr; Custom Record|	[Custom Record Name]|	Access to the given custom record table|
