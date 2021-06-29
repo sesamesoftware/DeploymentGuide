@@ -2,7 +2,8 @@
 
 # Relational Junction Configuration Guide
 
-[![Pre-Installation](../images/Button_PreInstall.png)](guides/installguide.md)[![Installation](../images/Button_Installation.png)](guides/installguide.md)[![Registration](../images/Button_Registration.png)](guides/RegistrationGuide.md)[![Configuration](../images/Button_Configuration.png)](guides/configurationGuide.md)[![Datasource](../images/Button_Datasource.png)](Datasources/README.md)
+[![Pre-Installation](../images/Button_PreInstall.png)](../README.md)[![Installation](../images/Button_Installation.png)](installguide.md)[![Registration](../images/Button_Registration.png)](RegistrationGuide.md)[![Configuration](../images/Button_Configuration.png)](configurationGuide.md)[![Datasource](../images/Button_Datasource.png)](../Datasources/README.md)
+
 
 ---
 
@@ -48,25 +49,25 @@ Repeat above for source and Target. If you are using Columnar based systems like
 3. Click Save.
 4. On the following screen you will see 3 tabs. Details, Job Steps and History.
 5. {image of details tab}
-6. **Details tab**
-   1. Schedule Id
-      1. This ID is the unique identifier for this job and will be important if you run any ETL jobs through the terminal.
-   2. Log
-   3. no email to unless they have the smtp
-   4. For Scheduling see [schedule guide](Schedule.md)
-7. {image of job steps tab}
-8. **Job Steps tab**
-   1. Replication Type (select in drop down **RJ Warehouse**) 
-Replication Config (select in dropdown the config - step 4.1)
-Click Add New button
-Replication Step Label (Customer Choice - Suggest getGlobal)
-Replication Step Type (select in dropdown **RJ Warehouse**)
-Replication Step Config (select in dropdown config from step 4.1)
-Replication Step Command
-Field should now contain 'RJWarehouse -config [ConfigFrom4.1]'
-At the end of the string, hit space and type '-getGlobal'
-Tick Add to current steps box
-Click Save or Save and Run
+   1. **Details tab**
+      1. Schedule Id
+         1. This ID is the unique identifier for this job and will be important if you run any ETL jobs through the terminal.
+      2. Log
+      3. no email to unless they have the smtp
+      4. For Scheduling see [schedule guide](Schedule.md)
+   2. {image of job steps tab}
+   3. **Job Steps tab**
+      1. Replication Type (select in drop down **RJ Warehouse**)
+      2. Replication Config (select in dropdown the config - step 4.1)
+      3. Click Add New button
+         1. Replication Step Label (Customer Choice - Suggest getGlobal)
+         2. Replication Step Type (select in dropdown **RJ Warehouse**)
+         3. Replication Step Config (select in dropdown config from step 4.1)
+         4. Replication Step Command
+            1. Field should now contain 'RJWarehouse -config [ConfigFrom4.1]'
+            2. At the end of the string, hit space and type '-getGlobal'
+      4. Tick Add to current steps box
+6. Click Save or Save and Run
 If running a job, return to the main Jobs tab to verify the job is running.
 
 [Back to Install](../guides/configurationGuide.md)
