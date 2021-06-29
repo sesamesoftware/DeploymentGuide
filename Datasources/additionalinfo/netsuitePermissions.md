@@ -30,7 +30,7 @@ Note: Most of the following permissions fall under the Permissions --> Setup sec
 Other Permissions
 
 |Section|Permission|Used For|
-|---|---|---|---|
+|---|---|---|
 |Permissions &rarr; Custom Record|	[Custom Record Name]|	Access to the given custom record table|
 |Permissions &rarr; Lists|	Accounts|	Access to the Account table	|
 |Permissions &rarr; Lists|	Bins|	Access to the Bin table	|
