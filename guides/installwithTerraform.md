@@ -6,7 +6,8 @@
 
 ---
 
-##Pre-requisites
+## Pre-requisites
+
 * git is installed
 * ssh client is installed
 * [Terraform 0.12.16+ is installed](Supporting/OCI-Prerequisites.md)
@@ -14,6 +15,7 @@
 Provisioning using this git repo
 
 Clone the repo:
+
 ```bash
 git clone https://github.com/sesamesoftware/Terraform-OCI-RelationalJunction.git RelationalJunction
 
@@ -21,9 +23,7 @@ cd RelationalJunction
 cp terraform.tfvars.example terraform.tfvars
 ```
 
-Set Values in terraform.tfvars
-
-Mandatory parameters:
+Mandatory parameters: env-vars file
 
 |parameter|description|example|
 |---|---|---|
@@ -34,6 +34,8 @@ Mandatory parameters:
 |compartment_ocid|
 |ssh_public_key_path|
 |ssh_private_key_path|
+
+Set Values in terraform.tfvars
 
 Override other parameters:
 
@@ -48,17 +50,34 @@ Override other parameters:
 |obs_enabled|Create OBJECT Storage instance|false|
 |vcn_use_existing|use an already created VCN|false|
 
-
-
 vcn_existing
 subnet_public_existing
 subnet_private_existing
+
 * Optional parameters to override:
 
 Run Terraform:
 
-```hcl
-terraform init
-terraform plan
-terraform apply
-```
+* this first init get the source Module form Github
+
+    ```hcl
+    terraform get -update
+    ```
+
+* this init initializes the modules
+  
+    ```hcl
+    terraform init
+    ```
+
+* check that everything is there
+
+    ```hcl
+    terraform plan
+    ```
+
+* builds the infrastructure
+
+    ```hcl
+    terraform apply
+    ```
