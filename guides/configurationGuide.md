@@ -28,13 +28,16 @@ Repeat above for source and Target. If you are using Columnar based systems like
 1. From the front page of the RJ UI, go to the left hand side menu and click **Warehouse &rarr; New Config**
 2. Provide a name for the new configuration
    1. The name should be meaningful
-   2. contains no spaces
+   2. Cannot contain spaces.
 3. Click Create New Config
 4. { Image of database connection section}
 5. Database Connection Section
-   1. Source Datasource (select in drop down DS from 17.3.3)
-   2. Target Datasource (select in drop down DS from 17.2.1)
-   3. Metadata Datasource (select in drop down DS from 17.2.1)
+   1. Source Datasource
+      * The datasource you created for your Source.
+   2. Target Datasource
+      * The datasource you created for your Target.
+   3. Metadata Datasource
+      * Same as Target unless indicated otherwise.
 6. { Image of database connection section}
 7. Database Design Section
    1. Verify Objects Downloaded is set to Restricted.
@@ -48,27 +51,40 @@ Repeat above for source and Target. If you are using Columnar based systems like
 2. The “ETL Job Label” will be the name of the job.
 3. Click Save.
 4. On the following screen you will see 3 tabs. Details, Job Steps and History.
-5. {image of details tab}
+{image of details tab}
    1. **Details tab**
-      1. Schedule Id
-         1. This ID is the unique identifier for this job and will be important if you run any ETL jobs through the terminal.
-      2. Log
-      3. no email to unless they have the smtp
-      4. For Scheduling see [schedule guide](Schedule.md)
-   2. {image of job steps tab}
-   3. **Job Steps tab**
-      1. Replication Type (select in drop down **RJ Warehouse**)
-      2. Replication Config (select in dropdown the config - step 4.1)
-      3. Click Add New button
-         1. Replication Step Label (Customer Choice - Suggest getGlobal)
-         2. Replication Step Type (select in dropdown **RJ Warehouse**)
-         3. Replication Step Config (select in dropdown config from step 4.1)
-         4. Replication Step Command
-            1. Field should now contain 'RJWarehouse -config [ConfigFrom4.1]'
-            2. At the end of the string, hit space and type '-getGlobal'
-      4. Tick Add to current steps box
-6. Click Save or Save and Run
-If running a job, return to the main Jobs tab to verify the job is running.
+      1. Job Label
+      2. Schedule Id
+         * This ID is the unique identifier for this job and will be important if you run any ETL jobs through the terminal.
+      1. Schedule Job
+         * [Schedule Guide](Schedule.md)
+      2. Global Email Settings
+         * Insert Link to Global Settings Doc.
+      3. Error Notifications To
+         * Email where error logs should be sent if using the Global Email Settings.
+   1. {img of job steps tab}
+   2. **Job Steps tab**
+      1. Source Datasource
+         * Select the Source Datasource you created.
+      2. Target Datasource
+         *  Select the Target Datasource you created.
+      3. Replication Type 
+         * Select in drop down **RJ Warehouse**.
+      1. Replication Config 
+         * Select in dropdown the config you created.
+      2. Click Add New button
+      3. Replication Step Label 
+         * Give the step a name. Suggested: getGlobal
+      1. Replication Step Type 
+         * Select in dropdown **RJ Warehouse**.
+      1. Replication Step Config 
+         * Select in dropdown config you created.
+      1.  Replication Step Command
+          * Field should now contain 'RJWarehouse -config [configfromstep8]'
+          * At the end of the string, hit space and type ```-getGlobal```
+      1.  Tick Add to current steps box
+1. Click Save or Save and Run
+   * If running a job, return to the main Jobs tab to verify the job is running.
 
 [Back to Install](../guides/configurationGuide.md)
 [Back to Main](../README.md)

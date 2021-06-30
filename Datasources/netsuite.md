@@ -20,7 +20,7 @@
    2. [Set Permissions](additionalinfo/netsuitePermissions.md)
 2. From the frontpage of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
 3. On the next screen, choose a label for your Datasource.
-   1. Recommended: Source NetSuite or something similar.
+   1. Recommended: ```Source NetSuite``` or something similar.
 4. Select the Netsuite Template
 5. ![Datasource](../images/netsuite1.png)
 6. Logon Information Section
