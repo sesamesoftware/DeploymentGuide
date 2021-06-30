@@ -8,7 +8,7 @@
 
 ## Pre-Install
 
-data Gathering
+Data Gathering
 
 * Datasource Credentials
   * Target Database [see Datasource Guide for specifics](Datasources/README.md)
