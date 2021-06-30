@@ -13,19 +13,19 @@ Use these instructions to set up email notifications if desired. Go to Connectio
 
 ## RJ Warehouse Oracle Datasource Setup
 
-1. From the front page of the RJ UI, go to the left hand side menu and click **Datasources &rarr; New Datasource**
+1. From the front page of the RJ UI, go to the menu on the left and click **Datasources &rarr; New Datasource**
 2. On the next screen, choose a label for your Datasource.
-   1. *Recommendation: it should be meaningful like ‘Oracle Target for Netsuite’ or 'source Netsuite'. Setting your naming Convention from the start will save time in the future and making it quick and easy to find elements later*
+   1. *Recommendation: it should be meaningful like ‘Oracle Target for Netsuite’ or 'Source Netsuite'. Setting your naming Convention from the start will save time in the future and making it quick and easy to find elements later*
 3. Select Template for the Technology you are connecting too
 4. Click Save
 
 *Use [Datasource Guide](../Datasources/README.md) for specific guides to datasource templates*
 
-Repeat above for source and Target. If you are using Columnar based systems like Snowflake, Redshift as your target we recommend having a metadata datasource for the transactional tables our product creates. This would need to be a row based system but can be a small db  like mysql or sql express.
+Repeat above for source and target. If you are using Columnar based systems like Snowflake, Redshift as your target we recommend having a metadata datasource for the transactional tables our product creates. This would need to be a row based system but can be a small database like mySQL or SQL express.
 
 ## RJ Warehouse Datasource Connection Configuration
 
-1. From the front page of the RJ UI, go to the left hand side menu and click **Warehouse &rarr; New Config**
+1. From the front page of the RJ UI, go to the menu on the left and click **Warehouse &rarr; New Config**
 2. Provide a name for the new configuration
    1. The name should be meaningful
    2. Cannot contain spaces.
@@ -47,7 +47,7 @@ Repeat above for source and Target. If you are using Columnar based systems like
 
 ## RJWarehouse Job Setup
 
-1. From the front page of the RJ UI, go to the left hand side menu and click **Jobs &rarr; New Job**
+1. From the front page of the RJ UI, go to the menu on the left and click **Jobs &rarr; New Job**
 2. The “ETL Job Label” will be the name of the job.
 3. Click Save.
 4. On the following screen you will see 3 tabs. Details, Job Steps and History.

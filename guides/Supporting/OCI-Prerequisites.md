@@ -1,5 +1,5 @@
 
-<img  src="../images/SesameSoftwareLogo-2020Final.png" width="100"><img align=right src="../images/RJOrbitLogo-2021Final.png" width="100">
+<img  src="../../images/SesameSoftwareLogo-2020Final.png" width="100"><img align=right src="../../images/RJOrbitLogo-2021Final.png" width="100">
 
 # RJ-OCI-Prerequisites
 
@@ -138,13 +138,13 @@ Open a web browser to the console [here](https://console.us-phoenix-1.oracleclou
 ## Setup Environment Variables
 Now, let's take a look at the [env-vars.sh](env-vars.sh) file for macOS and [env-vars.ps1](env-vars.ps1) for Windows. You don't have to clone this repo to get the file, you can just run either:
 ```
-curl -o ~/env-vars.sh https://raw.githubusercontent.com/oracle-quickstart/oci-prerequisites/master/env-vars.sh
+curl -o ~/env-vars.sh https://raw.githubusercontent.com/DeploymentGuide/guides/Supporting/env-vars.sh
 # or
-curl -o ~/env-vars.ps1 https://raw.githubusercontent.com/oracle-quickstart/oci-prerequisites/master/env-vars.ps1
+curl -o ~/env-vars.ps1 https://raw.githubusercontent.com/DeploymentGuide/guides/Supporting/env-vars.ps1
 
 ```
 
-![](../../images/env-vars.png)
+![env-vars](../../images/env-vars.png)
 
 The script pulls values from the keys you created in the earlier steps.  You'll need to update three fields with values you can find in the [console](https://console.us-phoenix-1.oraclecloud.com/):
 
@@ -158,6 +158,7 @@ source ~/env-vars.sh
 ```
 
 Use the command `env | grep TF` to see the variables set by the environment file. It should look something like the following:
+
 ```
 env | grep TF
 TF_VAR_tenancy_ocid=ocid1.tenancy....zhi3q
@@ -197,3 +198,5 @@ Now you can SSH to your OEL machines on OCI with the command:
 ```bash
     ssh <ip_address>
 ```
+
+[![Previous](../../images/Left_Arrow_Previous.png)](../installwithTerraform.md)
