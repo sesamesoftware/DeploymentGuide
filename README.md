@@ -8,33 +8,33 @@
 
 ## Pre-Install
 
-data Gathering
+Data Gathering
 
 * Datasource Credentials
   * Target Database [see Datasource Guide for specifics](Datasources/README.md)
   * Source Data [see Datasource Guide for specifics](Datasources/README.md)
-* Smtp Information
+* SMTP Information
   * Information needed
     * SMTP Server: ip/named server 
-    * Port: port to connect on default is 25
-    * mail from : who is the from on the email being sent *(ie rj@sesamesoftware.com)*
-    * Username: login for mail server (optional, server dependant rules)
-    * Password: password to the server (optional, server dependant rules)
-    * Use tls: true/false if server uses TLS
+    * Port: Port to connect on default is 25
+    * Mail from : Who is the from on the email being sent *(ie rj@sesamesoftware.com)*
+    * Username: Login for mail server (optional, server dependant rules)
+    * Password: Password to the server (optional, server dependant rules)
+    * Use TLS: True/False if server uses TLS
   * Cloud email accounts
     * Gmail 
       * SMTP Server: `smtp.gmail.com`
       * Port: `587`
-      * mail from : must be an actual account *(ie rj@sesamesoftware.com)*
-      * Username: login for mail server (Required)
-      * Password: password to the server (Required)
-      * Use tls: `true`
+      * Mail from : Must be an actual account *(ie rj@sesamesoftware.com)*
+      * Username: Login for mail server (Required)
+      * Password: Password to the server (Required)
+      * Use TLS: `True`
     * office 365
       * SMTP Server: `smtp.office365.com`
       * Port: `587`
-      * mail from : must be an actual account *(ie rj@sesamesoftware.com)*
-      * Username: login for mail server (Required)
-      * Password: password to the server (Required)
-      * Use tls: true
+      * Mail from : Must be an actual account *(ie rj@sesamesoftware.com)*
+      * Username: Login for mail server (Required)
+      * Password: Password to the server (Required)
+      * Use TLS: True
 
 [Pre-Installation](guides/installguide.md)
