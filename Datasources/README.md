@@ -6,7 +6,7 @@
 
 ---
 
-### Suported Datasources
+### Supported Datasources
 
 * [Netsuite](netsuite.md)
 * [Oracle Service Thin](OraceleServiceThin.md)
