@@ -27,8 +27,7 @@ To get your Registration Code [click here](https://licensemanager.sesamesoftware
    2. Once you click the Save button, you will be automatically taken to the login page
 5. Use the Username and Password saved in step 1.ii
 
-If you do not receive the email within 5 minutes, please contact technical support
-Support: +1 (408) 550-7999  |  support@sesamesoftware.com
+If you do not receive an email within 5 minutes, please contact technical support at +1 (408) 550-7999  |  support@sesamesoftware.com
 
 [Configuration Guide](../guides/configurationGuide.md)
 
