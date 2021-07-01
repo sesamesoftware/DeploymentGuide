@@ -8,7 +8,7 @@
 
 ### Supported Datasources
 
-* [Netsuite](netsuite.md)
+* [NetSuite](netsuite.md)
 * [Oracle Service Thin](OraceleServiceThin.md)
 
 [Configuration Guide](../guides/configurationGuide.md)
