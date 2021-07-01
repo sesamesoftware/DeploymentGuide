@@ -31,7 +31,7 @@
    1. Recommended: ‘Source ADW’ or 'Target ADW' something similar.
    2. Select OracleADW Template
    3. Click Save
-3. ![Oracle adw Datasource](../images/ADWDS.png)
+3. ![Oracle adw Datasource](../images/ADWDS.PNG)
 4. Logon Information Section
    1. DB Service Name: *should be db name _high, medium or low for example demosys_high this comes from the tns file in the wallet*
    2. Schema: *Usually the same as database Username typically uppercase*
