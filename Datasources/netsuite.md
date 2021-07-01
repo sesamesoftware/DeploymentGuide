@@ -44,4 +44,4 @@
 * Click run
 * If data is returned, click Save and Close.
 
-[![Back to Datasource Guide](../images/Left_Arrow_Datasource.png)](README.md)
+[![Previous](../images/Left_Arrow_Previous.png)](README.md)

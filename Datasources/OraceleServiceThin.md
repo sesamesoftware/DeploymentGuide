@@ -44,3 +44,4 @@
    2. First Record Date
       1. the oldest date found in the schema for the fields in the date field list. This helps to avoid slow startup of initial load will it queries empty time.
 7. click Save and Close.
+[![Previous](../images/Left_Arrow_Previous.png)](README.md)
