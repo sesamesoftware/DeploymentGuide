@@ -23,7 +23,7 @@
    1. Recommended: ```Source NetSuite``` or something similar.
 4. Select the Netsuite Template
 5. ![Datasource](../images/netsuite1.png)
-6. Logon Information Section
+6. Logon Information Section 
    1. RoleID
    2. AccountID
    3. Date of First Record

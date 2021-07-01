@@ -7,27 +7,28 @@
 
 ---
 
-In NetSuite there are many permissions that may be used by Relational Junction. Permissions may be configured for a role in NetSuite under **Setup &rarr; Users/Roles &rarr; Mange Roles**. This page contains two lists of permissions, first the most commonly required, and then other permissions for fuller support. Please be aware that it is not possible for us to provide an exhaustive list of permissions as NetSuite adds support for new entities and permissions with each version.
+Permissions may be configured for a role in NetSuite under **Setup &rarr; Users/Roles &rarr; Mange Roles**. This page contains three lists of permissions, first the required permissions, then other permissions for fuller support and finally, permissions that may block log in or the download of data. Make sure you add all permissions from the required section, choose which permissions you want from the second and remove all permissions from the role that are listed in the third. 
 
-## Most Commonly Required
-Note: Most of the following permissions fall under the Permissions --> Setup section for a role.
+Please be aware that it is not possible for us to provide an exhaustive list of permissions as NetSuite adds support for new entities and permissions with each version.
+
+## Required Permissions
+Note: Most of the following permissions fall under the Permissions &rarr; Setup section for a role. All of the following permissions are required for RJWarehouse.
 
 |Permission | Used For|
-|---|---
-|Access Token Management|Allows users to create access tokens for Token Based Authentication.|
+|---|---|
+|Log in Using Access Tokens|	Allows the user to log in to REST / SOAP services with a token.|
+|REST Web Services|	All REST requests including when Schema is set to SuiteQL, and support for RESTlets.|
+|SOAP Web Services|	All SOAP requests including when Schema is set to SuiteTalk (default), test connection, and some requests for custom fields.|
 |Custom <type> Fields (VIEW)|	Allows users to see custom fields of the given type. Used with IncludeCustomFieldColumns.|
 |Custom Lists (VIEW)|	Allows displaying metadata for custom list tables. Used with IncludeCustomListTables.|
 |Custom Record Types (VIEW)|	Allows displaying metadata for custom record tables. Used with IncludeCustomRecordTables.|
 |Customer (VIEW)|	This specific permission is under Permissions &rarr; Lists. It is used for testing the connection in RESTlets.|
 |Deleted Records (VIEW)|	Used for retrieving information on deleted records.|
-|Log in Using Access Tokens|	Allows the user to log in to REST / SOAP services with a token.|
-|REST Web Services|	All REST requests including when Schema is set to SuiteQL, and support for RESTlets.|
-|SOAP Web Services|	All SOAP requests including when Schema is set to SuiteTalk (default), test connection, and some requests for custom fields.|
 |SuiteAnalytics Workbook (VIEW)|	Found under Permissions -> Reports. Required for SuiteQL access.|
 |Other Custom Fields (VIEW)|	Allows users to see custom fields of the "other" type. Used with IncludeCustomFieldColumns.|
 |User Access Token|	Allows a user to have tokens created for them via ether Token Based Authentication or Using OAuth Authentication.|
 
-Other Permissions
+## Permissions for Fuller Support
 
 |Section|Permission|Used For|
 |---|---|---|
@@ -69,4 +70,18 @@ Other Permissions
 |Permissions &rarr; Transactions|	Vendor| Return Authorization	Access to the VendorReturnAuthorization tableTransaction table|
 |Permissions &rarr; Transactions|	Work Order|	Access to the WorkOrder table|
 
+## Permission Access Violations
+
+|Section|Permission|Note|
+|---|---|---|
+|Permissions &rarr; Setup|Access Token Management|While required during setup of the tokens, this can cause violations and prevent access to NetSuite once role is being used.|
+|Permissions &rarr; Setup|	OAuth 2.0 Authorized Applications Management| Possible permission violation.|
+|Permissions &rarr; Setup|Core Administration Permissions|This is a Two Factor Authorization trigger which can cause a permission violation. However 2FA is being deprecated by NetSuite. Current ETA is unknown but removing this permission is best practice.|
+|Permissions &rarr; Setup|	Two-Factor Authentication base| 2FA Trigger, see above.|
+|Permissions &rarr; Setup|Set Up OpenID Connect (OIDC) Single Sign-on|	 Possible permission violation.|
+|Permissions &rarr; Setup|Set Up OpenID Single Sign-on|	 Possible permission violation.|
+|Permissions &rarr; Setup|Set Up SAML Single Sign-on|	 Possible permission violation.|
+|Permissions &rarr; Setup|Integration Application|2FA Trigger, see above.|
+|Permissions &rarr; Setup|Device ID Management|	2FA Trigger, see above.|
+|Permissions &rarr; Setup|View Unencrypted Credit Cards|2FA Trigger, see above.|
 [Previous](../netsuite.md)
