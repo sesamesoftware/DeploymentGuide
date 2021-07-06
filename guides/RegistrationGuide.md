@@ -7,7 +7,7 @@
 
 ---
 
-To get your Registration Code [click here](https://licensemanager.sesamesoftware.com:8443/rjlm/registration/register)
+To Get Your Registration Code [Click Here](https://licensemanager.sesamesoftware.com:8443/rjlm/registration/register)
 
 ![Registration Form](../images/registrationPage.PNG)
 
