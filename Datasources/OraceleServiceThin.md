@@ -2,8 +2,7 @@
 
 ## Datasource Guide for Oracle Service Thin
 
-[![Pre-Installation](../images/Button_PreInstall.png)](../README.md)[![Installation](../images/Button_Installation.png)](guides/installguide.md)[![Registration](../images/Button_Registration.png)](guides/RegistrationGuide.md)[![Configuration](../images/Button_Configuration.png)](guides/configurationGuide.md)[![Datasource](../images/Button_Datasource.png)](README.md)
-
+[![Pre-Installation](../images/Button_PreInstall.png)](../guides/installguide.md)[![Installation](../images/Button_Installation.png)](../guides/installguide.md)[![Registration](../images/Button_Registration.png)](../guides/RegistrationGuide.md)[![Configuration](../images/Button_Configuration.png)](../guides/configurationGuide.md)[![Datasource](../images/Button_Datasource.png)](README.md)
 ---
 
 #### *Required Information*
@@ -22,7 +21,7 @@
    1. Recommended: ‘Source NetSuite’ or something similar.
    2. Select OracleServiceThin Template
    3. Click Save
-3. <img src="../images/oracleservicethin.png" width="1000">
+3. ![Oracle Service Thin](../images/oracleservicethin.png)
 4. Logon Information Section
    1. Host: *ip or dns of database server*
    2. Database: *ServiceName*
@@ -44,3 +43,4 @@
    2. First Record Date
       1. the oldest date found in the schema for the fields in the date field list. This helps to avoid slow startup of initial load will it queries empty time.
 7. click Save and Close.
+[![Previous](../images/Left_Arrow_Previous.png)](README.md)

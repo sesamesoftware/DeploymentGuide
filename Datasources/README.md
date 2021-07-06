@@ -2,7 +2,7 @@
 
 ## Relational Junction Datasource Guide
 
-[![Pre-Installation](../images/Button_PreInstall.png)](guides/installguide.md)[![Installation](../images/Button_Installation.png)](guides/installguide.md)[![Registration](../images/Button_Registration.png)](guides/RegistrationGuide.md)[![Configuration](../images/Button_Configuration.png)](guides/configurationGuide.md)[![Datasource](../images/Button_Datasource.png)](README.md)
+[![Pre-Installation](../images/Button_PreInstall.png)](../guides/installguide.md)[![Installation](../images/Button_Installation.png)](../guides/installguide.md)[![Registration](../images/Button_Registration.png)](../guides/RegistrationGuide.md)[![Configuration](../images/Button_Configuration.png)](../guides/configurationGuide.md)[![Datasource](../images/Button_Datasource.png)](README.md)
 
 ---
 
@@ -10,5 +10,10 @@
 
 * [NetSuite](netsuite.md)
 * [Oracle Service Thin](OraceleServiceThin.md)
+* [Oracle Autonomous Data Warehouse](OracelADW.md)
+* [Oracle Autonomous Transaction Processing](OracelATP.md)
+* [Oracle Autonomous JSON Database](OracelAJD.md)
+* [MySql](MySQL.md)
+* [Microsoft Sql Server](MySQL.md)
 
 [Configuration Guide](../guides/configurationGuide.md)

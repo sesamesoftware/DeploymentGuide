@@ -1,16 +1,11 @@
 <img  src="../images/SesameSoftwareLogo-2020Final.png" width="100"><img align=right src="../images/RJOrbitLogo-2021Final.png" width="100">
 
-[comment]: # (Change Heading to reflect Datasource)
-
-## Datasource Guide for Oracle Service Thin
-
-[comment]: # (Leave Nav BAR untouched)
+## Datasource Guide for Oracle Sid Thin
 
 [![Pre-Installation](../images/Button_PreInstall.png)](../guides/installguide.md)[![Installation](../images/Button_Installation.png)](../guides/installguide.md)[![Registration](../images/Button_Registration.png)](../guides/RegistrationGuide.md)[![Configuration](../images/Button_Configuration.png)](../guides/configurationGuide.md)[![Datasource](../images/Button_Datasource.png)](README.md)
 ---
-[comment]: # (Leave Or Alter Required info as needed)
 
-### *Required Information*
+#### *Required Information*
 
 * **Host**
 * **Service Name**
@@ -19,19 +14,14 @@
 * **Schema**
 * **Port**
 
-### Steps
-
-[comment]: # (step 1 is common to all Datasources)
-[comment]: # (Step 2.1and 2.2 should be adjusted for Data Source specific)
-[comment]: # (Step 3 should be Image of the datasource you can add the screenshot to the images folder or create a placeholder like {image of datasource screen})
-[comment]: # (adjust step 4 and below as needed)
+#### Steps
 
 1. From the front page of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
-2. On the next screen, choose a label for your Datasource.
+2. On the next screen, choose a label for your Datasource. 
    1. Recommended: ‘Source NetSuite’ or something similar.
    2. Select OracleServiceThin Template
    3. Click Save
-3. ![Oracle Service Thin Datasource](../images/oracleservicethin.png)
+3. ![Oracle Service Thin](../images/oracleservicethin.png)
 4. Logon Information Section
    1. Host: *ip or dns of database server*
    2. Database: *ServiceName*
