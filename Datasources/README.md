@@ -8,7 +8,7 @@
 
 ### Supported Datasources
 
-* [Netsuite](netsuite.md)
+* [NetSuite](netsuite.md)
 * [Oracle Service Thin](OraceleServiceThin.md)
 * [Oracle Autonomous Data Warehouse](OracelADW.md)
 * [Oracle Autonomous Transaction Processing](OracelATP.md)
