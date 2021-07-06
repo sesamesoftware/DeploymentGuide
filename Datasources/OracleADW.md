@@ -40,7 +40,7 @@
    4. Port: *Default port for oracle is 1521*
    5. Username: *login name for database user*
    6. Password: *Password for database user*
-   7. tablespace: If applicable
+   7. Tablespace: If applicable
       1. Data Tablespace
       2. Index Tablespace
       3. LOB Tablespace
