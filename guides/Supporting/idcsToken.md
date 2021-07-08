@@ -7,9 +7,13 @@ Navigate to "Applications" tab
 ![apps tab](../../images/IDCS1.png)
 
  Click "Add" button and Choose "Confidential Application"
+
 ![add](../../images/IDCS2.png)
+
 Enter a name e.g.: "Analytics_Token_App", Click Next
+
 ![name](../../images/IDCS3.png)
+
 Click "Configure this application as a client
 
 * Select allowed grant types:

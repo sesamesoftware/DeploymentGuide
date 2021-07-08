@@ -126,7 +126,7 @@ Make any changes to the defaults  such as names and or cider blocks
 
 1. set instance name
 2. insert IDCS Token
-   [click here](Supporting/idcsToken.md) for instruction on generating an IDCS token
+   1. [click here](Supporting/idcsToken.md) for instruction on generating an IDCS token
 
 ### Reviewing
 
