@@ -10,10 +10,13 @@
 
 * [NetSuite](netsuite.md)
 * [Oracle Service Thin](OraceleServiceThin.md)
+* [Oracel Sid Thin](OraceleSidThin.md)
 * [Oracle Autonomous Data Warehouse](OracelADW.md)
 * [Oracle Autonomous Transaction Processing](OracelATP.md)
 * [Oracle Autonomous JSON Database](OracelAJD.md)
 * [MySql](MySQL.md)
 * [Microsoft Sql Server](MySQL.md)
+* [Marketo](Marketo.md)
+* [MS Dynamics CRM](MSDynamicsCRM.md)
 
 [Configuration Guide](../guides/configurationGuide.md)

@@ -12,7 +12,7 @@
     * [MarketPlace](guides/installWithMarketPlace.md)
     * [Oracle Resource Manager](guides/installwithORM.md)
     * [Terraform](guides/installwithTerraform.md)
-* [Reregistration](guides/RegistrationGuide.md)
+* [Registration](guides/RegistrationGuide.md)
 * [Configuration](guides/configurationGuide.md)
   * [setup email](guides/configurationGuide.md#Relational-Junction-Global-Settings)
   * [Datasource Setup](guides/configurationGuide.md#RJ-Warehouse-Oracle-Datasource-Setup)
