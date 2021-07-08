@@ -11,8 +11,8 @@
 Data Gathering
 
 * Datasource Credentials
-  * Target Database [see Datasource Guide for specifics](Datasources/README.md)
-  * Source Data [see Datasource Guide for specifics](Datasources/README.md)
+  * Target Database [see Datasource Guide for specifics](../Datasources/README.md)
+  * Source Data [see Datasource Guide for specifics](../Datasources/README.mdDatasources/README.md)
 * SMTP Information
   * Information needed
     * SMTP Server: ip/named server 
