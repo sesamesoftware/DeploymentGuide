@@ -9,11 +9,11 @@
 ### *Required Information*
 
 * **RESTEndpoint** The url to the marketo rest api. 
-* **Access Tokens** The oauth token, client id, and client secret generated in Marketo
+* **Access Tokens** The OAuth Token, Client ID, and client secret generated in Marketo
 
 ### *Steps*
 
-1. Before you begin, set up api access and obtain oauth tokens:
+1. Before you begin, set up API access and obtain OAuth tokens:
    2. [OAuth Credentials](additionalinfo/MarketoCreds.md)
 2. From the frontpage of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
 3. On the next screen, choose a label for your Datasource.
