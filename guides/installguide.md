@@ -39,6 +39,6 @@ Data Gathering
 
 ## Install
 
-The install using Market Place [click here](installwithTerraform.md)
-The install using Oracle Resource Manager [click here](installwithTerraform.md)
-The install using Terraform guide [click here](installwithTerraform.md)
+* The install using Market Place [click here](installWithMarketPlace.md)
+* The install using Oracle Resource Manager [click here](installwithORM.md)
+* The install using Terraform guide [click here](installwithTerraform.md)
