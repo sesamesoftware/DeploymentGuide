@@ -4,7 +4,6 @@
 
 [![Pre-Installation](../images/Button_PreInstall.png)](../README.md)[![Installation](../images/Button_Installation.png)](installguide.md)[![Registration](../images/Button_Registration.png)](RegistrationGuide.md)[![Configuration](../images/Button_Configuration.png)](configurationGuide.md)[![Datasource](../images/Button_Datasource.png)](../Datasources/README.md)
 
-
 ---
 
 ## Relational Junction Global Settings
@@ -67,22 +66,22 @@ Repeat above for source and target. If you are using Columnar based systems like
       1. Source Datasource
          * Select the Source Datasource you created.
       2. Target Datasource
-         *  Select the Target Datasource you created.
-      3. Replication Type 
+         * Select the Target Datasource you created.
+      3. Replication Type
          * Select in drop down **RJ Warehouse**.
-      1. Replication Config 
+      4. Replication Config
          * Select in dropdown the config you created.
       2. Click Add New button
-      3. Replication Step Label 
+      3. Replication Step Label
          * Give the step a name. Suggested: getGlobal
-      1. Replication Step Type 
+      1. Replication Step Type
          * Select in dropdown **RJ Warehouse**.
-      1. Replication Step Config 
+      1. Replication Step Config
          * Select in dropdown config you created.
-      1.  Replication Step Command
+      1. Replication Step Command
           * Field should now contain 'RJWarehouse -config [configfromstep8]'
           * At the end of the string, hit space and type ```-getGlobal```
-      1.  Tick Add to current steps box
+      1. Tick Add to current steps box
 1. Click Save or Save and Run
    * If running a job, return to the main Jobs tab to verify the job is running.
 

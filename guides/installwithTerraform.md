@@ -10,7 +10,7 @@
 
 * git is installed
 * ssh client is installed
-* [Terraform 0.12.16+ is installed](Supporting/OCI-Prerequisites.md)
+* [Terraform 0.12.16+ is installed](Supporting/OCI-Prerequisites.md#Install-Terraform)
 
 Provisioning using this git repo
 
