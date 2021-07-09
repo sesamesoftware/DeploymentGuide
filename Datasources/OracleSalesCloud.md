@@ -60,6 +60,6 @@
 	7. **Page Size**: Number of records to return from each REST request (defaults to 100).
 	8. **First Record Date**: When doing date range queries this tells the the Job all records are after this date.
 
-7. click Save and Close.
+7. Click Save and Close.
 
 [![Previous](../images/Left_Arrow_Previous.png)](README.md)
