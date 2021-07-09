@@ -136,7 +136,6 @@ Get-Content (Resolve-Path ".\.oci\oci_api_key_public.pem") -Raw -Encoding ASCII 
 
 Open a web browser to the console [here](https://console.us-phoenix-1.oraclecloud.com/a/identity/users).  Then select your user, click "Add Public Key" and paste it into the dialog.
 
-![console](../../images/console.png)
 
 ## Setup Environment Variables
 
