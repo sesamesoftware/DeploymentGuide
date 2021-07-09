@@ -31,4 +31,4 @@
 9. Click Test
 10. Save and Close.
 
-[![Previous](../images/Left_Arrow_Previous.png)](README.md)
+[Datasource Guide](../guides/DatasourceGuide.md)
