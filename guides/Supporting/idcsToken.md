@@ -40,7 +40,7 @@ Click Finish
 
 ![next](../../images/IDCS7.png)
 
-Copy and save the Client IDand Client SecretStep
+Copy and save the Client ID and Client SecretStep
 
 ![next](../../images/IDCS8.png)
 

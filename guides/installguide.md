@@ -15,14 +15,14 @@ Data Gathering
   * Source Data [see Datasource Guide for specifics](../Datasources/README.md)
 * SMTP Information
   * Information needed
-    * SMTP Server: ip/named server 
+    * SMTP Server: ip/named server
     * Port: Port to connect on default is 25
     * Mail from : Who is the from on the email being sent *(ie rj@sesamesoftware.com)*
     * Username: Login for mail server (optional, server dependant rules)
     * Password: Password to the server (optional, server dependant rules)
     * Use TLS: True/False if server uses TLS
   * Cloud email accounts
-    * Gmail 
+    * Gmail
       * SMTP Server: `smtp.gmail.com`
       * Port: `587`
       * Mail from : Must be an actual account *(ie rj@sesamesoftware.com)*

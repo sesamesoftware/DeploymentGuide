@@ -2,7 +2,7 @@
 
 # Install with Oracle Resource Manager
 
-[![Pre-Installation](../images/Button_PreInstall.png)](../README.md)[![Installation](../images/Button_Installation.png)](installguide.md)[![Registration](../images/Button_Registration.png)](RegistrationGuide.md)[![Configuration](../images/Button_Configuration.png)](configurationGuide.md)[![Datasource](../images/Button_Datasource.png)](../Datasources/README.md)
+[![Installation](../images/Button_Installation.png)](installguide.md)[![Registration](../images/Button_Registration.png)](RegistrationGuide.md)[![Configuration](../images/Button_Configuration.png)](configurationGuide.md)[![Datasource](../images/Button_Datasource.png)](../Datasources/README.md)
 
 ---
 
@@ -51,8 +51,6 @@ First step is to download The ORM compressed file [here](../release/RelationalJu
 5. upload you public ssh key
 6. you can create one following these [directions](Supporting/OCI-Prerequisites.md##setup-keys)
 7. Chose Availability Domain. values are 1-3
-
-
 
 #### Virtual Cloud Network Configuration Existing
 
