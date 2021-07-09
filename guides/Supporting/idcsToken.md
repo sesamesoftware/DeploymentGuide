@@ -1,3 +1,11 @@
+<img  src="../../images/SesameSoftwareLogo-2020Final.png" width="100"><img align=right src="../../images/RJOrbitLogo-2021Final.png" width="100">
+
+# Getting IDCS Token
+
+[![Installation](../../images/Button_Installation.png)](../installguide.md)[![Registration](../../images/Button_Registration.png)](../RegistrationGuide.md)[![Configuration](../../images/Button_Configuration.png)](../configurationGuide.md) [![Datasource](../../images/Button_Datasource.png)](../DatasourceGuide.md)
+
+---
+
 Get Login URL from **&#9776; &rarr; Identity & Security &rarr; Federation &rarr; OracleIdentityCloudService &rarr; Oracle Identity Cloud Service Console**
 
 `https://<idcs-url>/ui/v1/adminconsole`
@@ -67,3 +75,6 @@ Open tokens.tok file. it will look something like
 ```
 
 extract the value from the Key access_token. This is what you will need to create an OAC instance
+
+[[ORM Guide](../guides/)]
+[[Terraform Guide](../guides/DatasourceGuide.md)]

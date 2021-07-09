@@ -2,8 +2,7 @@
 
 ## Relational Junction Datasource Guide
 
-[![Installation](../images/Button_Installation.png)](../guides/installguide.md)[![Registration](../images/Button_Registration.png)](../guides/RegistrationGuide.md)[![Configuration](../images/Button_Configuration.png)](../guides/configurationGuide.md)[![Datasource](../images/Button_Datasource.png)](README.md)
-
+[![Installation](../images/Button_Installation.png)](installguide.md)[![Registration](../images/Button_Registration.png)](RegistrationGuide.md)[![Configuration](../images/Button_Configuration.png)](configurationGuide.md)[![Datasource](../images/Button_Datasource.png)](DatasourceGuide.md)
 ---
 
 ## RJ Warehouse Oracle Datasource Setup
@@ -31,4 +30,4 @@ Repeat above for source and target. If you are using Columnar based systems like
 * [Marketo](../Datasources/Marketo.md)
 * [MS Dynamics CRM](../Datasources/MSDynamicsCRM.md)
 
-[Configuration Guide](configurationGuide.md)
+[[Configure Notification](notification.md)] [[Create Warehouse Config](rjwarehouseconfig.md)]

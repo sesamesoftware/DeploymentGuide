@@ -2,12 +2,13 @@
 
 ## Datasource Guide for Marketo
 
-[![Installation](../images/Button_Installation.png)](../guides/installguide.md)[![Registration](../images/Button_Registration.png)](../guides/RegistrationGuide.md)[![Configuration](../images/Button_Configuration.png)](../guides/configurationGuide.md)[![Datasource](../images/Button_Datasource.png)](README.md)
+[![Installation](../images/Button_Installation.png)](../guides/installguide.md)[![Registration](../images/Button_Registration.png)](../guides/RegistrationGuide.md)[![Configuration](../images/Button_Configuration.png)](../guides/configurationGuide.md)[![Datasource](../images/Button_Datasource.png)](../guides/DatasourceGuide.md)
+
 ---
 
 ### *Required Information*
 
-* **RESTEndpoint** The url to the marketo rest api. 
+* **RESTEndpoint** The url to the marketo rest api.
 * **Access Tokens** The OAuth Token, Client ID, and client secret generated in Marketo
 
 ### *Steps*
@@ -19,7 +20,7 @@
    1. Recommended: ```Source Marketo``` or something similar.
 4. Select the Marketo Template
 5. ![Datasource](../images/marketo1.png)
-6. Logon Information Section 
+6. Logon Information Section
    1. RESTEndpoint
 7. ![tokens](../images/marketo2.png)
 8. Open Authorization Section - Authorization Tokens from Marketo

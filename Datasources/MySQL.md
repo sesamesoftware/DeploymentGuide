@@ -6,9 +6,10 @@
 
 [comment]: # (Leave Nav BAR untouched)
 
-[![Installation](../images/Button_Installation.png)](../guides/installguide.md)[![Registration](../images/Button_Registration.png)](../guides/RegistrationGuide.md)[![Configuration](../images/Button_Configuration.png)](../guides/configurationGuide.md)[![Datasource](../images/Button_Datasource.png)](README.md)
+[![Installation](../images/Button_Installation.png)](../guides/installguide.md)[![Registration](../images/Button_Registration.png)](../guides/RegistrationGuide.md)[![Configuration](../images/Button_Configuration.png)](../guides/configurationGuide.md)[![Datasource](../images/Button_Datasource.png)](../guides/DatasourceGuide.md)
 
 ---
+
 [comment]: # (Leave Or Alter Required info as needed)
 
 ### *Required Information*
@@ -27,7 +28,7 @@
 [comment]: # (adjust step 4 and below as needed)
 
 1. From the front page of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
-2. On the next screen, choose a label for your Datasource. 
+2. On the next screen, choose a label for your Datasource.
    1. Recommended: ‘Source MySQL’ or something similar.
    2. Select MySQL Template
    3. Click Save

@@ -2,7 +2,7 @@
 
 ## Datasource Guide for NetSuite
 
-[![Installation](../images/Button_Installation.png)](../guides/installguide.md)[![Registration](../images/Button_Registration.png)](../guides/RegistrationGuide.md)[![Configuration](../images/Button_Configuration.png)](../guides/configurationGuide.md)[![Datasource](../images/Button_Datasource.png)](README.md)
+[![Installation](../images/Button_Installation.png)](../guides/installguide.md)[![Registration](../images/Button_Registration.png)](../guides/RegistrationGuide.md)[![Configuration](../images/Button_Configuration.png)](../guides/configurationGuide.md)[![Datasource](../images/Button_Datasource.png)](../guides/DatasourceGuide.md)
 
 ---
 
@@ -23,7 +23,7 @@
    1. Recommended: ```Source NetSuite``` or something similar.
 4. Select the Netsuite Template
 5. ![Datasource](../images/netsuite1.png)
-6. Logon Information Section 
+6. Logon Information Section
    1. RoleID
    2. AccountID
    3. Date of First Record
@@ -36,7 +36,7 @@
    2. Login Tokens
       1. OAuthClientId
       2. OAuthClientSecret
-9.  Click Test
+9. Click Test
 ![SQL Window](../images/netsuite3.png)
 
 * If you see “Connection Test Successful”, click SQL.
@@ -45,4 +45,3 @@
 * If data is returned, click Save and Close.
 
 [Datasource Guide](../guides/DatasourceGuide.md)
-

@@ -2,7 +2,7 @@
 
 # Credentials for NetSuite
 
-[![Installation](../../images/Button_Installation.png)](../../guides/installguide.md)[![Registration](../../images/Button_Registration.png)](../../guides/RegistrationGuide.md)[![Configuration](../../images/Button_Configuration.png)](../../guides/configurationGuide.md)[![Datasource](../../images/Button_Datasource.png)](../README.md)
+[![Installation](../../images/Button_Installation.png)](../../guides/installguide.md)[![Registration](../../images/Button_Registration.png)](../../guides/RegistrationGuide.md)[![Configuration](../../images/Button_Configuration.png)](../../guides/configurationGuide.md)[![Datasource](../../images/Button_Datasource.png)](../../guides/DatasourceGuide.md)
 
 ---
 
@@ -38,4 +38,4 @@ After creating the access token, a connection can now be made using the values o
 **OAuthAccessToken** the Token Id when the access token was created.
 **OAuthAccessTokenSecret** the Token Secret when the access token was created.
 
-[Previous](../netsuite.md)
+[[Previous](../netsuite.md)]

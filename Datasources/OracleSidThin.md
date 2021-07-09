@@ -2,10 +2,11 @@
 
 ## Datasource Guide for Oracle Sid Thin
 
-[![Installation](../images/Button_Installation.png)](../guides/installguide.md)[![Registration](../images/Button_Registration.png)](../guides/RegistrationGuide.md)[![Configuration](../images/Button_Configuration.png)](../guides/configurationGuide.md)[![Datasource](../images/Button_Datasource.png)](README.md)
+[![Installation](../images/Button_Installation.png)](../guides/installguide.md)[![Registration](../images/Button_Registration.png)](../guides/RegistrationGuide.md)[![Configuration](../images/Button_Configuration.png)](../guides/configurationGuide.md)[![Datasource](../images/Button_Datasource.png)](../guides/DatasourceGuide.md)
+
 ---
 
-#### *Required Information*
+### *Required Information*
 
 * **Host**
 * **Service Name**
@@ -14,10 +15,10 @@
 * **Schema**
 * **Port**
 
-#### Steps
+### Steps
 
 1. From the front page of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
-2. On the next screen, choose a label for your Datasource. 
+2. On the next screen, choose a label for your Datasource.
    1. Recommended: ‘Source NetSuite’ or something similar.
    2. Select OracleServiceThin Template
    3. Click Save

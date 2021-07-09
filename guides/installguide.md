@@ -2,7 +2,7 @@
 
 # Relational Junction install Guide
 
-[![Pre-Installation](../images/Button_PreInstall.png)](../README.md)[![Installation](../images/Button_Installation.png)](installguide.md)[![Registration](../images/Button_Registration.png)](RegistrationGuide.md)[![Configuration](../images/Button_Configuration.png)](configurationGuide.md)[![Datasource](../images/Button_Datasource.png)](../Datasources/README.md)
+[![Installation](../images/Button_Installation.png)](installguide.md)[![Registration](../images/Button_Registration.png)](RegistrationGuide.md)[![Configuration](../images/Button_Configuration.png)](configurationGuide.md)[![Datasource](../images/Button_Datasource.png)](DatasourceGuide.md)
 
 ---
 
@@ -21,21 +21,6 @@ Data Gathering
     * Username: Login for mail server (optional, server dependant rules)
     * Password: Password to the server (optional, server dependant rules)
     * Use TLS: True/False if server uses TLS
-  * Cloud email accounts
-    * Gmail
-      * SMTP Server: `smtp.gmail.com`
-      * Port: `587`
-      * Mail from : Must be an actual account *(ie rj@sesamesoftware.com)*
-      * Username: Login for mail server (Required)
-      * Password: Password to the server (Required)
-      * Use TLS: `True`
-    * office 365
-      * SMTP Server: `smtp.office365.com`
-      * Port: `587`
-      * Mail from : Must be an actual account *(ie rj@sesamesoftware.com)*
-      * Username: Login for mail server (Required)
-      * Password: Password to the server (Required)
-      * Use TLS: True
 
 ## Install
 

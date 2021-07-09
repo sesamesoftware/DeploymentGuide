@@ -1,9 +1,8 @@
-
 <img  src="../images/SesameSoftwareLogo-2020Final.png" width="100"><img align=right src="../images/RJOrbitLogo-2021Final.png" width="100">
 
 ## RJWarehouse Job Setup
 
-[![Installation](../images/Button_Installation.png)](installguide.md)[![Registration](../images/Button_Registration.png)](RegistrationGuide.md)[![Configuration](../images/Button_Configuration.png)](configurationGuide.md)[![Datasource](../images/Button_Datasource.png)](../Datasources/README.md)
+[![Installation](../images/Button_Installation.png)](installguide.md)[![Registration](../images/Button_Registration.png)](RegistrationGuide.md)[![Configuration](../images/Button_Configuration.png)](configurationGuide.md)[![Datasource](../images/Button_Datasource.png)](DatasourceGuide.md)
 
 ---
 
@@ -47,3 +46,5 @@
       10. Tick Add to current steps box
    1. Click Save or Save and Run
    1. If running a job, return to the main Jobs tab to verify the job is running.
+
+ [[Create Warehouse Config](rjwarehouseconfig.md)] [[Back to Main](../README.md)]

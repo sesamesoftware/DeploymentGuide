@@ -2,7 +2,7 @@
 
 ## RJ Warehouse Datasource Connection Configuration
 
-[![Installation](../images/Button_Installation.png)](installguide.md)[![Registration](../images/Button_Registration.png)](RegistrationGuide.md)[![Configuration](../images/Button_Configuration.png)](configurationGuide.md)[![Datasource](../images/Button_Datasource.png)](../Datasources/README.md)
+[![Installation](../images/Button_Installation.png)](installguide.md)[![Registration](../images/Button_Registration.png)](RegistrationGuide.md)[![Configuration](../images/Button_Configuration.png)](configurationGuide.md)[![Datasource](../images/Button_Datasource.png)](DatasourceGuide.md)
 
 ---
 
@@ -26,3 +26,4 @@ From the front page of the RJ UI, go to the menu on the left and click **Warehou
       * Same as Target unless indicated otherwise.
 2. Click Save
 3. Close tab.
+[[Create Datasources](DatasourceGuide.md)] [[create and Run Job](JobSetup.md)]

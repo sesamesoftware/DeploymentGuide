@@ -2,7 +2,7 @@
 
 # Permission Configurations
 
-[![Installation](../../images/Button_Installation.png)](../../guides/installguide.md)[![Registration](../../images/Button_Registration.png)](../../guides/RegistrationGuide.md)[![Configuration](../../images/Button_Configuration.png)](../../guides/configurationGuide.md)[![Datasource](../../images/Button_Datasource.png)](../README.md)
+[![Installation](../../images/Button_Installation.png)](../../guides/installguide.md)[![Registration](../../images/Button_Registration.png)](../../guides/RegistrationGuide.md)[![Configuration](../../images/Button_Configuration.png)](../../guides/configurationGuide.md)[![Datasource](../../images/Button_Datasource.png)](../../guides/DatasourceGuide.md)
 
 ---
 
@@ -84,4 +84,5 @@ Note: Most of the following permissions fall under the Permissions &rarr; Setup 
 |Permissions &rarr; Setup|Integration Application|2FA Trigger, see above.|
 |Permissions &rarr; Setup|Device ID Management| 2FA Trigger, see above.|
 |Permissions &rarr; Setup|View Decrypted Credit Cards|2FA Trigger, see above.|
-[Previous](../netsuite.md)
+
+[[Previous](../netsuite.md)]
