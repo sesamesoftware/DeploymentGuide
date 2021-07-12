@@ -17,6 +17,6 @@
 
 ---
 
-[[&#9664; install with ORM](../installwithORM.md)]
+[[&#9664; Configuring the Stack Variables](../configuringStackVarables.md#other-options)]
 
 <p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../../images/poweredBy.png" height="80px"></img></a> </p>
