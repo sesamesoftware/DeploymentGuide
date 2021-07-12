@@ -1,6 +1,10 @@
-<img  src="images/SesameSoftwareLogo-2020Final.png" width="100"><img align=right src="images/RJOrbitLogo-2021Final.png" width="100">
+[![Logo](images/SesameLogo110x110.png)](http://www.sesamesoftware.com) <img align=right src="images/RJOrbit110x110.png">
 
 # Deployment Guide
+
+
+
+
 
 [![Installation](images/Button_Installation.png)](guides/installguide.md)[![Registration](images/Button_Registration.png)](guides/RegistrationGuide.md)[![Configuration](images/Button_Configuration.png)](guides/configurationGuide.md)[![Datasource](images/Button_Datasource.png)](Datasources/README.md)
 
