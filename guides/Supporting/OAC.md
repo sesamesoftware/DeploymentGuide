@@ -11,3 +11,5 @@
 1. set instance name
 2. insert IDCS Token
    1. [click here](Supporting/idcsToken.md) for instruction on generating an IDCS token
+
+[[install with ORM](../installwithORM.md)]

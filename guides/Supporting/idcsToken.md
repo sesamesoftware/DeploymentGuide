@@ -76,5 +76,5 @@ Open tokens.tok file. it will look something like
 
 extract the value from the Key access_token. This is what you will need to create an OAC instance
 
-[[ORM Guide](../guides/)]
-[[Terraform Guide](../guides/DatasourceGuide.md)]
+[[ORM Guide](../installwithORM.md)]
+[[Terraform Guide](../installwithTerraform.md)]

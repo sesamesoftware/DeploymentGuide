@@ -12,3 +12,5 @@
 2. Namespace Can be found &#9776; &rarr; Governance & Administration &rarr; TenancyDetails &rarr; Object Storage namespace
 
 #### Oracle Analytics Cloud Configuration
+
+[[install with ORM](../installwithORM.md)]

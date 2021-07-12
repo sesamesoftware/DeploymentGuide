@@ -11,3 +11,5 @@
   * 2 Lowercase
   * 2 Special
 * other value changes are optional
+
+[[install with ORM](../installwithORM.md)]
