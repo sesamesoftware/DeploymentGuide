@@ -16,7 +16,6 @@
 * other value changes are optional
 
 ---
-https://github.com/sesamesoftware/DeploymentGuide/blob/main/guides/configuringStackVarables.md#other-options
 
 [[&#9664; Configuring the Stack Variables](../configuringStackVarables.md#other-options)]
 
