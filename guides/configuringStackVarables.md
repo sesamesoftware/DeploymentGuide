@@ -44,7 +44,7 @@
 
 Make any changes to the defaults  such as names and or cider blocks
 
-### Other Options
+### Other-Options
 
 * [Autonomous Data Warehouse Configuration](Supporting/ADW.md)
 * [Autonomous Transaction Processing Configuration](Supporting/ATP.md)
