@@ -38,11 +38,20 @@
 3. Select VCN
 4. Select Private and Public Subnets
 
-#### Virtual Cloud Network Configuration New
+### Virtual Cloud Network Configuration New
 
 ![Virtual Cloud Network Configuration New](../images/VirtualCloudNetworkConfigurationNew1.png)
 
 Make any changes to the defaults  such as names and or cider blocks
+
+### Other Options
+
+[Autonomous Data Warehouse Configuration](Supporting/ADW.md)
+[Autonomous Transaction Processing Configuration](Supporting/ATP.md)
+[Autonomous JSON Database Configuration](Supporting/AJD.md)
+[Database Systems Configuration](Supporting/dbas.md)
+[Oracle Analytics Cloud Configuration](Supporting/OAC.md)
+[Object Storage Configuration](Supporting/OBS.md)
 
 ---
 

@@ -1,6 +1,6 @@
 <a href="http://www.sesamesoftware.com"><img align=left src="../../images/RJOrbit110x110.png"></img></a>
 
-# ADW Configuration
+# Autonomous Data Warehouse Configuration
 
 [[Installation](../installguide.md)] [[Registration](../RegistrationGuide.md)] [[Configuration](../configurationGuide.md)] [[Datasource](../DatasourceGuide.md)]
 
