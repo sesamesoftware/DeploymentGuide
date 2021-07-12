@@ -6,6 +6,12 @@
 
 ---
 
+* [Relational Junction Configuratio](#relational-junction-configuratio)
+* [Virtual Cloud Network Configuration Existing](#virtual-cloud-network-configuration-existing)
+* [Virtual Cloud Network Configuration New](#virtual-cloud-network-configuration-new)
+* [Other Options](#other-options)
+
+
 ## The options
 
 ![Infrastructure Options](../images/Infrastructure_Options.png)
@@ -44,8 +50,7 @@
 
 Make any changes to the defaults  such as names and or cider blocks
 
-# bob
-
+# Other Options
 * [Autonomous Data Warehouse Configuration](Supporting/ADW.md)
 * [Autonomous Transaction Processing Configuration](Supporting/ATP.md)
 * [Autonomous JSON Database Configuration](Supporting/AJD.md)
