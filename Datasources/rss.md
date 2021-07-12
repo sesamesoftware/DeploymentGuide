@@ -1,25 +1,18 @@
- <a href="http://www.sesamesoftware.com"><img align=left src="../images/RJOrbit110x110.png"></img></a>
+<img  src="../images/SesameSoftwareLogo-2020Final.png" width="100"><img align=right src="../images/RJOrbitLogo-2021Final.png" width="100">
 
 [comment]: # (Change Heading to reflect Datasource)
 
-# Datasource Guide for Oracle Service Thin
+## Datasource Guide for RSS
 
 [comment]: # (Leave Nav BAR untouched)
 
-[[Installation](../guides/installguide.md)] [[Registration](../guides/RegistrationGuide.md)] [[Configuration](../guides/configurationGuide.md)] [[Datasource](../guides/DatasourceGuide.md)]
-
+[![Pre-Installation](../images/Button_PreInstall.png)](../guides/installguide.md)[![Installation](../images/Button_Installation.png)](../guides/installguide.md)[![Registration](../images/Button_Registration.png)](../guides/RegistrationGuide.md)[![Configuration](../images/Button_Configuration.png)](../guides/configurationGuide.md)[![Datasource](../images/Button_Datasource.png)](README.md)
 ---
-
 [comment]: # (Leave Or Alter Required info as needed)
 
 ### *Required Information*
 
-* **Host**
-* **Service Name**
-* **User Name**
-* **Password**
-* **Schema**
-* **Port**
+* **URI**
 
 ### Steps
 
@@ -30,21 +23,12 @@
 
 1. From the front page of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
 2. On the next screen, choose a label for your Datasource.
-   1. Recommended: ‘Source NetSuite’ or something similar.
-   2. Select OracleServiceThin Template
+   1. Recommended: ‘Source RSS' or something similar.
+   2. Select RSS Template
    3. Click Save
-3. ![Oracle Service Thin Datasource](../images/oracleservicethin.png)
+3. ![RSS Datasource](../images/rss.png)
 4. Logon Information Section
-   1. Host: *ip or dns of database server*
-   2. Database: *ServiceName*
-   3. Schema: *Usually the same as database Username typically uppercase*
-   4. Port: *default port for oracle is 1521*
-   5. Username: *login name for database user*
-   6. Password: *Password for database user*
-   7. tablespace: if applicable
-      1. Data Tablespace
-      2. Index Tablespace
-      3. LOB Tablespace
+   1. URI: The URI (Uniform Resource Identifier) of the feed.
 5. Click Test
    1. If you see Connection Test Successful
 6. If the Datasource is being use as a source
@@ -53,7 +37,6 @@
       2. Choose any and all date fields in the Schema that are altered during a create or update of the records.
       3. The order of precedence is from left to right in what date field is chosen. Given a date field list `LastModifiedDate, CreatedDate` when the tables is queried it will check first if `LastModifiedDate` exists if it does, it will use that for incremental. If it doesn't then it will use `CreateDate`. If neither exist it will do a full table pull.
    2. First Record Date
-      1. the oldest date found in the schema for the fields in the date field list. This helps to avoid slow startup of initial load will it queries empty time.
-7. click Save and Close.
-[Datasource Guide](../guides/DatasourceGuide.md)
-
+      1. The oldest date found in the schema for the fields in the date field list. This helps to avoid slow startup of initial load while it queries empty time.
+7. Click Save and Close.
+[![Previous](../images/Left_Arrow_Previous.png)](README.md)
