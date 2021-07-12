@@ -1,11 +1,12 @@
-<img  src="../images/SesameSoftwareLogo-2020Final.png" width="100"><img align=right src="../images/RJOrbitLogo-2021Final.png" width="100">
+[![Logo](../images/SesameLogo110x110.png)](http://www.sesamesoftware.com) <img align=right src="../images/RJOrbit110x110.png">
 
 ## Datasource Guide for Oracle Service Thin
 
-[![Pre-Installation](../images/Button_PreInstall.png)](../guides/installguide.md)[![Installation](../images/Button_Installation.png)](../guides/installguide.md)[![Registration](../images/Button_Registration.png)](../guides/RegistrationGuide.md)[![Configuration](../images/Button_Configuration.png)](../guides/configurationGuide.md)[![Datasource](../images/Button_Datasource.png)](README.md)
+[![Installation](../images/Button_Installation.png)](../guides/installguide.md)[![Registration](../images/Button_Registration.png)](../guides/RegistrationGuide.md)[![Configuration](../images/Button_Configuration.png)](../guides/configurationGuide.md)[![Datasource](../images/Button_Datasource.png)](../guides/DatasourceGuide.md)
+
 ---
 
-#### *Required Information*
+### *Required Information*
 
 * **Host**
 * **Service Name**
@@ -14,10 +15,10 @@
 * **Schema**
 * **Port**
 
-#### Steps
+### Steps
 
 1. From the front page of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
-2. On the next screen, choose a label for your Datasource. 
+2. On the next screen, choose a label for your Datasource.
    1. Recommended: ‘Source NetSuite’ or something similar.
    2. Select OracleServiceThin Template
    3. Click Save
@@ -43,4 +44,4 @@
    2. First Record Date
       1. the oldest date found in the schema for the fields in the date field list. This helps to avoid slow startup of initial load will it queries empty time.
 7. click Save and Close.
-[![Previous](../images/Left_Arrow_Previous.png)](README.md)
+[Datasource Guide](../guides/DatasourceGuide.md)

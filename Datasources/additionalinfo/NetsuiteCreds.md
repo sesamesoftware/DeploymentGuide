@@ -1,22 +1,20 @@
-<img  src="../../images/SesameSoftwareLogo-2020Final.png" width="100"><img align=right src="../../images/RJOrbitLogo-2021Final.png" width="100">
-
+[![Logo](../../images/SesameLogo110x110.png)](http://www.sesamesoftware.com) <img align=right src="../../images/RJOrbit110x110.png">
 
 # Credentials for NetSuite
 
-[![Pre-Installation](../../images/Button_PreInstall.png)](../../README.md)[![Installation](../../images/Button_Installation.png)](../../guides/installguide.md)[![Registration](../../images/Button_Registration.png)](../../guides/RegistrationGuide.md)[![Configuration](../../images/Button_Configuration.png)](../../guides/configurationGuide.md)[![Datasource](../../images/Button_Datasource.png)](../README.md)
+[![Installation](../../images/Button_Installation.png)](../../guides/installguide.md)[![Registration](../../images/Button_Registration.png)](../../guides/RegistrationGuide.md)[![Configuration](../../images/Button_Configuration.png)](../../guides/configurationGuide.md)[![Datasource](../../images/Button_Datasource.png)](../../guides/DatasourceGuide.md)
 
 ---
-
 
 1. In NetSuite, log in as an administrator role and navigate to **Setup&rarr;Company&rarr;Company Information**. Save the Account ID to a document.
 
 ![account id](../../images/NetsuiteAccountId.png)
 
-2. Navigate to **Setup&rarr;Company&rarr;Enable Features&rarr;SuiteCloud&rarr;Manage Authentication**. 
+2. Navigate to **Setup&rarr;Company&rarr;Enable Features&rarr;SuiteCloud&rarr;Manage Authentication**.
 3. Make sure Token-Based Authentication and TBA: Authorization Flow are checked and save changes.
 ![Manage Authentication](../../images/NetsuiteManageAuthentication.png)
 
-4. Navigate to **Setup&rarr;Integration&rarr;Manage Integrations**. 
+4. Navigate to **Setup&rarr;Integration&rarr;Manage Integrations**.
 5. Create a new integration and select Token-Based Authentication. When the integration is created, the Consumer Key and Consumer Secret displayed will map directly to the OAuthClientId and OAuthClientSecret connection properties in RJWarehouse. Save the Application ID and the keys to the document where you saved the Account ID.
 
 ![Manage Integrations](../../images/NetsuiteManageIntegrations.png)
@@ -40,4 +38,4 @@ After creating the access token, a connection can now be made using the values o
 **OAuthAccessToken** the Token Id when the access token was created.
 **OAuthAccessTokenSecret** the Token Secret when the access token was created.
 
-[Previous](../netsuite.md)
+[[Previous](../netsuite.md)]

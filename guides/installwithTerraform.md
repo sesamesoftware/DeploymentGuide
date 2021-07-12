@@ -1,8 +1,8 @@
-<img  src="../images/SesameSoftwareLogo-2020Final.png" width="100"><img align=right src="../images/RJOrbitLogo-2021Final.png" width="100">
+[![Logo](../images/SesameLogo110x110.png)](http://www.sesamesoftware.com) <img align=right src="../images/RJOrbit110x110.png">
 
 # Install with Terraform
 
-[![Pre-Installation](../images/Button_PreInstall.png)](../README.md)[![Installation](../images/Button_Installation.png)](installguide.md)[![Registration](../images/Button_Registration.png)](RegistrationGuide.md)[![Configuration](../images/Button_Configuration.png)](configurationGuide.md)[![Datasource](../images/Button_Datasource.png)](../Datasources/README.md)
+[![Installation](../images/Button_Installation.png)](installguide.md)[![Registration](../images/Button_Registration.png)](RegistrationGuide.md)[![Configuration](../images/Button_Configuration.png)](configurationGuide.md)[![Datasource](../images/Button_Datasource.png)](DatasourceGuide.md)
 
 ---
 
@@ -10,7 +10,7 @@
 
 * git is installed
 * ssh client is installed
-* [Terraform 0.12.16+ is installed](Supporting/OCI-Prerequisites.md)
+* [Terraform 0.12.16+ is installed](Supporting/OCI-Prerequisites.md#Install-Terraform)
 
 Provisioning using this git repo
 

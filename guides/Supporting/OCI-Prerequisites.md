@@ -1,9 +1,8 @@
-
-<img  src="../../images/SesameSoftwareLogo-2020Final.png" width="100"><img align=right src="../../images/RJOrbitLogo-2021Final.png" width="100">
+[![Logo](../../images/SesameLogo110x110.png)](http://www.sesamesoftware.com) <img align=right src="../../images/RJOrbit110x110.png">
 
 # RJ-OCI-Prerequisites
 
-[![Pre-Installation](../../images/Button_PreInstall.png)](../../README.md)[![Installation](../../images/Button_Installation.png)](../installguide.md)[![Registration](../../images/Button_Registration.png)](../RegistrationGuide.md)[![Configuration](../../images/Button_Configuration.png)](../configurationGuide.md)[![Datasource](../../images/Button_Datasource.png)](../../Datasources/README.md)
+[![Installation](../../images/Button_Installation.png)](../installguide.md)[![Registration](../../images/Button_Registration.png)](../RegistrationGuide.md)[![Configuration](../../images/Button_Configuration.png)](../configurationGuide.md) [![Datasource](../../images/Button_Datasource.png)](../DatasourceGuide.md)
 
 ---
 
@@ -63,10 +62,11 @@ After this completes close this powershell. These commands have installed Terraf
 
 </details>
 
-
 Regardless of the OS, you can test that the install was successful by running the command:
 
+```bash
     terraform
+```
 
 You should see something like:
 
@@ -110,6 +110,7 @@ The output of `openssl` can be slightly different between OS's when generating t
 openssl rsa -pubout -outform DER -in ~/.oci/oci_api_key.pem | openssl md5 -c > ~/.oci/oci_api_key.fingerprint
 cat ~/.oci/oci_api_key_public.pem | pbcopy
 ```
+
 </details>
 
 <details><summary>Linux</summary>
@@ -118,6 +119,7 @@ cat ~/.oci/oci_api_key_public.pem | pbcopy
 openssl rsa -pubout -outform DER -in ~/.oci/oci_api_key.pem | openssl md5 -c | awk '{print $2}' > ~/.oci/oci_api_key.fingerprint
 cat ~/.oci/oci_api_key_public.pem | xclip -selection clipboard
 ```
+
 </details>
 
 <details><summary>Windows</summary>
@@ -129,15 +131,17 @@ openssl md5 -c key.tmp | awk '{print $2}' | Out-File -Encoding ASCII -NoNewline 
 del key.tmp
 Get-Content (Resolve-Path ".\.oci\oci_api_key_public.pem") -Raw -Encoding ASCII | clip.exe
 ```
+
 </details>
 
 Open a web browser to the console [here](https://console.us-phoenix-1.oraclecloud.com/a/identity/users).  Then select your user, click "Add Public Key" and paste it into the dialog.
 
-![](../../images/console.png)
 
 ## Setup Environment Variables
+
 Now, let's take a look at the [env-vars.sh](env-vars.sh) file for macOS and [env-vars.ps1](env-vars.ps1) for Windows. You don't have to clone this repo to get the file, you can just run either:
-```
+
+```bash
 curl -o ~/env-vars.sh https://raw.githubusercontent.com/DeploymentGuide/guides/Supporting/env-vars.sh
 # or
 curl -o ~/env-vars.ps1 https://raw.githubusercontent.com/DeploymentGuide/guides/Supporting/env-vars.ps1
@@ -153,13 +157,14 @@ The script pulls values from the keys you created in the earlier steps.  You'll 
 * TF_VAR_user_ocid
 
 When you've set all the variables, on macOs/Linux you can source the file with the command `source ~/env-vars.sh` or you could stick the contents of the file in `~/.bash_profile`:
-```
+
+```bash
 source ~/env-vars.sh
 ```
 
 Use the command `env | grep TF` to see the variables set by the environment file. It should look something like the following:
 
-```
+```bash
 env | grep TF
 TF_VAR_tenancy_ocid=ocid1.tenancy....zhi3q
 TF_VAR_compartment_ocid=ocid1.compartment....e7e5q
@@ -170,7 +175,6 @@ TF_VAR_private_key_path=~/.oci/oci_api_key.pem
 TF_VAR_ssh_public_key=ssh-rsa AAAAB....kQzpF user@hostname
 TF_VAR_user_ocid=ocid1.user....ewc5a
 ```
-
 
 On Windows run `Set-ExecutionPolicy Bypass -Scope Process -Force; ~\env-vars.ps1`. Note, for every new powershell terminal you open these environment variables need to be created by running the above for Terraform commands to work.
 
@@ -199,4 +203,4 @@ Now you can SSH to your OEL machines on OCI with the command:
     ssh <ip_address>
 ```
 
-[![Previous](../../images/Left_Arrow_Previous.png)](../installwithTerraform.md)
+[[Terraform Guide](../installwithTerraform.md)]

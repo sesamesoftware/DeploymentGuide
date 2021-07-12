@@ -1,9 +1,8 @@
-
-<img  src="../images/SesameSoftwareLogo-2020Final.png" width="100"><img align=right src="../images/RJOrbitLogo-2021Final.png" width="100">
+[![Logo](../images/SesameLogo110x110.png)](http://www.sesamesoftware.com) <img align=right src="../images/RJOrbit110x110.png">
 
 ## Relational Junction Product Registration
 
-[![Pre-Installation](../images/Button_PreInstall.png)](../README.md)[![Installation](../images/Button_Installation.png)](installguide.md)[![Registration](../images/Button_Registration.png)](RegistrationGuide.md)[![Configuration](../images/Button_Configuration.png)](configurationGuide.md)[![Datasource](../images/Button_Datasource.png)](../Datasources/README.md)
+[![Installation](../images/Button_Installation.png)](installguide.md)[![Registration](../images/Button_Registration.png)](RegistrationGuide.md)[![Configuration](../images/Button_Configuration.png)](configurationGuide.md)[![Datasource](../images/Button_Datasource.png)](DatasourceGuide.md)
 
 ---
 
@@ -28,5 +27,4 @@ To Get Your Registration Code [Click Here](https://licensemanager.sesamesoftware
 
 If you do not receive an email within 5 minutes, please contact technical support at +1 (408) 550-7999  |  support@sesamesoftware.com
 
-[Configuration Guide](../guides/configurationGuide.md)
-
+[[Main Menu](../README.md)] [Configuration Guide](../guides/configurationGuide.md)

@@ -1,40 +1,25 @@
-<img  src="images/SesameSoftwareLogo-2020Final.png" width="100"><img align=right src="images/RJOrbitLogo-2021Final.png" width="100">
+[![Logo](images/SesameLogo110x110.png)](http://www.sesamesoftware.com) <img align=right src="images/RJOrbit110x110.png">
 
-# Deployment Guide 
+# Deployment Guide
 
-[![Pre-Installation](images/Button_PreInstall.png)](README.md)[![Installation](images/Button_Installation.png)](guides/installguide.md)[![Registration](images/Button_Registration.png)](guides/RegistrationGuide.md)[![Configuration](images/Button_Configuration.png)](guides/configurationGuide.md)[![Datasource](images/Button_Datasource.png)](Datasources/README.md)
+
+
+
+
+[![Installation](images/Button_Installation.png)](guides/installguide.md)[![Registration](images/Button_Registration.png)](guides/RegistrationGuide.md)[![Configuration](images/Button_Configuration.png)](guides/configurationGuide.md)[![Datasource](images/Button_Datasource.png)](Datasources/README.md)
 
 ---
 
-## Pre-Install
-
-Data Gathering
-
-* Datasource Credentials
-  * Target Database [see Datasource Guide for specifics](Datasources/README.md)
-  * Source Data [see Datasource Guide for specifics](Datasources/README.md)
-* SMTP Information
-  * Information needed
-    * SMTP Server: ip/named server 
-    * Port: Port to connect on default is 25
-    * Mail from : Who is the from on the email being sent *(ie rj@sesamesoftware.com)*
-    * Username: Login for mail server (optional, server dependant rules)
-    * Password: Password to the server (optional, server dependant rules)
-    * Use TLS: True/False if server uses TLS
-  * Cloud email accounts
-    * Gmail 
-      * SMTP Server: `smtp.gmail.com`
-      * Port: `587`
-      * Mail from : Must be an actual account *(ie rj@sesamesoftware.com)*
-      * Username: Login for mail server (Required)
-      * Password: Password to the server (Required)
-      * Use TLS: `True`
-    * office 365
-      * SMTP Server: `smtp.office365.com`
-      * Port: `587`
-      * Mail from : Must be an actual account *(ie rj@sesamesoftware.com)*
-      * Username: Login for mail server (Required)
-      * Password: Password to the server (Required)
-      * Use TLS: True
-
-[Pre-Installation](guides/installguide.md)
+* [Installation](guides/installguide.md)
+  * [Pre-install Information](guides/installguide.md##Pre-Install)
+  * [Three ways to install](guides/installguide.md##Install)
+    * [MarketPlace](guides/installWithMarketPlace.md)
+    * [Oracle Resource Manager](guides/installwithORM.md)
+    * [Terraform](guides/installwithTerraform.md)
+* [Registration](guides/RegistrationGuide.md)
+* [Configuration](guides/configurationGuide.md)
+  * [setup email](guides/configurationGuide.md#Relational-Junction-Global-Settings)
+  * [Datasource Setup](guides/configurationGuide.md#RJ-Warehouse-Oracle-Datasource-Setup)
+    * [Datasources](Datasources/README.md)
+  * [Source to Target connection Configuration](guides/configurationGuide.md#RJ-Warehouse-Datasource-Connection-Configuration)
+* [Job Setup](guides/configurationGuide.md#RJWarehouse-Job-Setup)
