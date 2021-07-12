@@ -27,4 +27,8 @@ To Get Your Registration Code [Click Here](https://licensemanager.sesamesoftware
 
 If you do not receive an email within 5 minutes, please contact technical support at +1 (408) 550-7999  |  support@sesamesoftware.com
 
-[[Main Menu](../README.md)] [Configuration Guide](../guides/configurationGuide.md)
+---
+
+[[&#9664; Main Menu](../README.md)] [[Configuration Guide &#9654;](../guides/configurationGuide.md)]
+
+<p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../images/poweredBy.png" height="80px"></img></a> </p>

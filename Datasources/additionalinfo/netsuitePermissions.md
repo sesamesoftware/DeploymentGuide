@@ -85,4 +85,8 @@ Note: Most of the following permissions fall under the Permissions &rarr; Setup 
 |Permissions &rarr; Setup|Device ID Management| 2FA Trigger, see above.|
 |Permissions &rarr; Setup|View Decrypted Credit Cards|2FA Trigger, see above.|
 
-[[Previous](../netsuite.md)]
+---
+
+[[&#9664; Previous](../netsuite.md)]
+
+<p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../../images/poweredBy.png" height="80px"></img></a> </p>

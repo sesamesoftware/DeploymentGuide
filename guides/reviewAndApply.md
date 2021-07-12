@@ -12,4 +12,8 @@
 
 once the apply is successful make note of the RJ_URL under outputs should look something like `RJ_URL = "http://129.213.26.247:8080/rj"`
 
-[[Configure Variables](configuringStackVarables.md)] [[Upgrade to Latest Release](upgrade.md)]
+---
+
+[[&#9664; Configure Variables](configuringStackVarables.md)] [[Upgrade to Latest Release &#9654;](upgrade.md)]
+
+<p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../images/poweredBy.png" height="80px"></img></a> </p>

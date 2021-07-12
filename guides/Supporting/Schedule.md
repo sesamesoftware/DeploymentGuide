@@ -1,4 +1,4 @@
- <a href="http://www.sesamesoftware.com"><img align=left src="../images/RJOrbit110x110.png"></img></a>
+ <a href="http://www.sesamesoftware.com"><img align=left src="../../images/RJOrbit110x110.png"></img></a>
 
 ## Relational Junction Scheduler Guide
 
@@ -30,3 +30,8 @@ To schedule a job that runs on the first second, of the first minute, every 2 ho
 
 Useful Website for generating expressions (add a * for the first character, then input the generated expression):
 https://crontab.guru/
+
+---
+[[&#9664; Job Setup](../JobSetup.md)]
+
+<p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../../images/poweredBy.png" height="80px"></img></a> </p>

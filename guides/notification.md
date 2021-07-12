@@ -43,4 +43,8 @@ Use these instructions to set up email notifications if desired. This Step is op
 * Mail Exception To: a single email address, distribution list or a comma separated list of address that will receive an email when jobs fail should be at least one address. the Job will determine the rule on when emails are sent.
 * Log Retention: 7 days
 
-[[Configuration](guides/configurationGuide.md)] [[Create Datasources](DatasourceGuide.md)]
+---
+
+[[&#9664; Configuration](guides/configurationGuide.md)] [[Create Datasources &#9654;](DatasourceGuide.md)]
+
+<p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../images/poweredBy.png" height="80px"></img></a> </p>

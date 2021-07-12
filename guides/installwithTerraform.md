@@ -81,3 +81,9 @@ Run Terraform:
     ```hcl
     terraform apply
     ```
+
+---
+
+[[&#9664; Installation](installguide.md)] [[Upgrade &#9654;](upgrade.md)]
+
+<p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../images/poweredBy.png" height="80px"></img></a> </p>

@@ -16,4 +16,8 @@
 3. [Create Warehouse Config](rjwarehouseconfig.md)
 4. [create and Run Job](JobSetup.md)
 
-[[Back to Main](../README.md)] [[Configure Notification](notification.md)]
+---
+
+[[&#9664; Back to Main](../README.md)] [[Configure Notification &#9654;](notification.md)]
+
+<p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../images/poweredBy.png" height="80px"></img></a> </p>

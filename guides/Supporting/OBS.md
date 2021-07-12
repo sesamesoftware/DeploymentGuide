@@ -11,4 +11,8 @@
 1. Bucket name
 2. Namespace Can be found &#9776; &rarr; Governance & Administration &rarr; TenancyDetails &rarr; Object Storage namespace
 
-[[install with ORM](../installwithORM.md)]
+---
+
+[[&#9664; install with ORM](../installwithORM.md)]
+
+<p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../../images/poweredBy.png" height="80px"></img></a> </p>

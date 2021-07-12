@@ -27,4 +27,8 @@ First step is to download The ORM compressed file [here](../pkg/RelationalJuncti
 7. and add tags
 8. clickNext
 
-[[Installation](installguide.md)] [[Configure Variables](configuringStackVarables.md)]
+---
+
+[[&#9664; Installation](installguide.md)] [[Configure Variables &#9654;](configuringStackVarables.md)]
+
+<p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../images/poweredBy.png" height="80px"></img></a> </p>

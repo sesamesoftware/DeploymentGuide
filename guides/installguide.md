@@ -28,4 +28,8 @@ Data Gathering
 * The install using Oracle Resource Manager [click here](installwithORM.md)
 * The install using Terraform guide [click here](installwithTerraform.md)
 
-[[Main Menu](../README.md)]
+---
+
+[[&#9664; Main Menu](../README.md)] [[Registration &#9654;](RegistrationGuide.md)]
+
+<p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../images/poweredBy.png" height="80px"></img></a> </p>

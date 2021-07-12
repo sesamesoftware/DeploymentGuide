@@ -1,4 +1,4 @@
-<img  src="../images/SesameSoftwareLogo-2020Final.png" width="100"><img align=right src="../images/RJOrbitLogo-2021Final.png" width="100">
+ <a href="http://www.sesamesoftware.com"><img align=left src="../images/RJOrbit110x110.png"></img></a>
 
 [comment]: # (Change Heading to reflect Datasource)
 
@@ -6,7 +6,8 @@
 
 [comment]: # (Leave Nav BAR untouched)
 
-[![Pre-Installation](../images/Button_PreInstall.png)](../guides/installguide.md)[![Installation](../images/Button_Installation.png)](../guides/installguide.md)[![Registration](../images/Button_Registration.png)](../guides/RegistrationGuide.md)[![Configuration](../images/Button_Configuration.png)](../guides/configurationGuide.md)[![Datasource](../images/Button_Datasource.png)](README.md)
+[[Installation](../guides/installguide.md)] [[Registration](../guides/RegistrationGuide.md)] [[Configuration](../guides/configurationGuide.md)] [[Datasource](../guides/DatasourceGuide.md)]
+
 ---
 [comment]: # (Leave Or Alter Required info as needed)
 
@@ -39,4 +40,9 @@
    2. First Record Date
       1. The oldest date found in the schema for the fields in the date field list. This helps to avoid slow startup of initial load while it queries empty time.
 7. Click Save and Close.
-[![Previous](../images/Left_Arrow_Previous.png)](README.md)
+
+---
+
+[[&#9664; Datasource Guide](../guides/DatasourceGuide.md)]
+
+<p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../images/poweredBy.png" height="80px"></img></a> </p>

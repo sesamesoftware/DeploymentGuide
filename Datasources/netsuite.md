@@ -44,4 +44,8 @@
 * Click run
 * If data is returned, click Save and Close.
 
-[Datasource Guide](../guides/DatasourceGuide.md)
+---
+
+[[&#9664; Datasource Guide](../guides/DatasourceGuide.md)]
+
+<p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../images/poweredBy.png" height="80px"></img></a> </p>

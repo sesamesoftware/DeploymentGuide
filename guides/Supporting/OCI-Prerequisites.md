@@ -203,4 +203,8 @@ Now you can SSH to your OEL machines on OCI with the command:
     ssh <ip_address>
 ```
 
-[[Terraform Guide](../installwithTerraform.md)]
+---
+
+[[&#9664; Terraform Guide](../installwithTerraform.md)]
+
+<p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../../images/poweredBy.png" height="80px"></img></a> </p>

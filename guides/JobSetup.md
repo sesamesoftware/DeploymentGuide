@@ -16,7 +16,7 @@
       2. Schedule Id
          * This ID is the unique identifier for this job and will be important if you run any ETL jobs through the terminal.
       3. Schedule Job
-         * [Schedule Guide](Schedule.md)
+         * [Schedule Guide](./Supporting/Schedule.md)
       4. Global Email Settings
          * Insert Link to Global Settings Doc.
       5. Error Notifications To
@@ -47,4 +47,8 @@
    1. Click Save or Save and Run
    1. If running a job, return to the main Jobs tab to verify the job is running.
 
- [[Create Warehouse Config](rjwarehouseconfig.md)] [[Back to Main](../README.md)]
+---
+
+ [[&#9664; Create Warehouse Config](rjwarehouseconfig.md)] [[Back to Main &#9654;](../README.md)]
+
+ <p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../images/poweredBy.png" height="80px"></img></a> </p>

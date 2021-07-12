@@ -27,4 +27,8 @@ From the front page of the RJ UI, go to the menu on the left and click **Warehou
 2. Click Save
 3. Close tab.
 
-[[Create Datasources](DatasourceGuide.md)] [[create and Run Job](JobSetup.md)]
+---
+
+[[&#9664; Create Datasources](DatasourceGuide.md)] [[create and Run Job &#9654;](JobSetup.md)]
+
+<p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../images/poweredBy.png" height="80px"></img></a> </p>

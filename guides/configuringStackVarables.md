@@ -44,4 +44,8 @@
 
 Make any changes to the defaults  such as names and or cider blocks
 
-[[Create Stack](installwithORM.md)] [[Review and Apply](reviewAndApply.md)]
+---
+
+[[&#9664; Create Stack](installwithORM.md)] [[Review and Apply &#9654;](reviewAndApply.md)]
+
+<p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../images/poweredBy.png" height="80px"></img></a> </p>

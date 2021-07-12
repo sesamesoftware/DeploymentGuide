@@ -31,4 +31,8 @@ Repeat above for source and target. If you are using Columnar based systems like
 * [Marketo](../Datasources/Marketo.md)
 * [MS Dynamics CRM](../Datasources/MSDynamicsCRM.md)
 
-[[Configure Notification](notification.md)] [[Create Warehouse Config](rjwarehouseconfig.md)]
+---
+
+[[&#9664; Configure Notification](notification.md)] [[Create Warehouse Config &#9654;](rjwarehouseconfig.md)]
+
+<p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../images/poweredBy.png" height="80px"></img></a> </p>

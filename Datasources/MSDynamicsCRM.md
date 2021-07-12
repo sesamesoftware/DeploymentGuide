@@ -47,4 +47,9 @@
    2. First Record Date
       1. The oldest date found in the schema for the fields in the date field list. This helps to avoid slow startup of initial load while it queries empty time.
 6. Click Save and Close.
-[Datasource Guide](../guides/DatasourceGuide.md)
+
+---
+
+[[&#9664; Datasource Guide](../guides/DatasourceGuide.md)]
+
+<p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../images/poweredBy.png" height="80px"></img></a> </p>

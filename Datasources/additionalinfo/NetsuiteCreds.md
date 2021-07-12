@@ -38,4 +38,8 @@ After creating the access token, a connection can now be made using the values o
 **OAuthAccessToken** the Token Id when the access token was created.
 **OAuthAccessTokenSecret** the Token Secret when the access token was created.
 
-[[Previous](../netsuite.md)]
+---
+
+[[&#9664; Previous](../netsuite.md)]
+
+<p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../../images/poweredBy.png" height="80px"></img></a> </p>

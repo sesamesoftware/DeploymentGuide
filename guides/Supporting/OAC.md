@@ -12,4 +12,8 @@
 2. insert IDCS Token
    1. [click here](Supporting/idcsToken.md) for instruction on generating an IDCS token
 
-[[install with ORM](../installwithORM.md)]
+---
+
+[[&#9664; install with ORM](../installwithORM.md)]
+
+<p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../../images/poweredBy.png" height="80px"></img></a> </p>

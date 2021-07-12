@@ -76,5 +76,9 @@ Open tokens.tok file. it will look something like
 
 extract the value from the Key access_token. This is what you will need to create an OAC instance
 
-[[ORM Guide](../installwithORM.md)]
-[[Terraform Guide](../installwithTerraform.md)]
+---
+
+[[&#9664; ORM Guide](../installwithORM.md)] 
+[[&#9664; Terraform Guide](../installwithTerraform.md)]
+
+<p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../../images/poweredBy.png" height="80px"></img></a> </p>

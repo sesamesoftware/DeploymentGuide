@@ -18,6 +18,8 @@ ssh -i ~/.ssh/oci opc@129.213.26.247 upgrade
 
 once this is complete open a browser tab and navigate to the URL provided in the RJ_URL output.
 
-[[Review and Apply](reviewAndApply.md)] [[Registration](RegistrationGuide.md)]
-
 ---
+
+[[&#9664; Review and Apply](reviewAndApply.md)] [[Registration &#9654;](RegistrationGuide.md)]
+
+<p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../images/poweredBy.png" height="80px"></img></a> </p>

@@ -26,4 +26,8 @@ After creating the access token, a connection can now be made using the values o
 - **OAuthClientId** the Consumer Key displayed when the application was created.
 - **OAuthClientSecret** the Consumer Secret displayed when the application was created.
 
-[[Previous](../marketo.md)]
+---
+
+[[&#9664; Previous](../marketo.md)]
+
+<p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../../images/poweredBy.png" height="80px"></img></a> </p>
