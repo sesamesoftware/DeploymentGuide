@@ -1,9 +1,12 @@
-
-[![Logo](../../images/SesameLogo110x110.png)](http://www.sesamesoftware.com) <img align=right src="../../images/RJOrbit110x110.png">
+<a href="http://www.sesamesoftware.com"><img align=left src="../../images/RJOrbit110x110.png"></img></a>
 
 # Autonomous Database Warehouse Configuration
 
-![Autonomous Database Warehouse Configuration](../images/AutonomousDatabaseWarehouseConfiguration.png)
+[[Installation](../installguide.md)] [[Registration](../RegistrationGuide.md)] [[Configuration](../configurationGuide.md)] [[Datasource](../DatasourceGuide.md)]
+
+---
+
+![Autonomous Database Warehouse Configuration](../../images/AutonomousDatabaseWarehouseConfiguration.png)
 
 * Password is required
   * Min length 12

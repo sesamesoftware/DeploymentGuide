@@ -1,17 +1,17 @@
-[![Logo](../images/SesameLogo110x110.png)](http://www.sesamesoftware.com) <img align=right src="../images/RJOrbit110x110.png">
+ <a href="http://www.sesamesoftware.com"><img align=left src="../images/RJOrbit110x110.png"></img></a>
 
-## Datasource Guide for Marketo
+# Datasource Guide for Marketo
 
-[![Installation](../images/Button_Installation.png)](../guides/installguide.md)[![Registration](../images/Button_Registration.png)](../guides/RegistrationGuide.md)[![Configuration](../images/Button_Configuration.png)](../guides/configurationGuide.md)[![Datasource](../images/Button_Datasource.png)](../guides/DatasourceGuide.md)
+[[Installation](../guides/installguide.md)] [[Registration](../guides/RegistrationGuide.md)] [[Configuration](../guides/configurationGuide.md)] [[Datasource](../guides/DatasourceGuide.md)]
 
 ---
 
-### *Required Information*
+## *Required Information*
 
 * **RESTEndpoint** The url to the marketo rest api.
 * **Access Tokens** The OAuth Token, Client ID, and client secret generated in Marketo
 
-### *Steps*
+## *Steps*
 
 1. Before you begin, set up API access and obtain OAuth tokens:
    2. [OAuth Credentials](additionalinfo/MarketoCreds.md)

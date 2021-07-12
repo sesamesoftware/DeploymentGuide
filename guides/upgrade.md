@@ -1,8 +1,8 @@
-[![Logo](../images/SesameLogo110x110.png)](http://www.sesamesoftware.com) <img align=right src="../images/RJOrbit110x110.png">
+ <a href="http://www.sesamesoftware.com"><img align=left src="../images/RJOrbit110x110.png"></img></a>
 
-# upgrading to Latest version
+# Upgrading to Latest version
 
-[![Installation](../images/Button_Installation.png)](installguide.md)[![Registration](../images/Button_Registration.png)](RegistrationGuide.md)[![Configuration](../images/Button_Configuration.png)](configurationGuide.md)[![Datasource](../images/Button_Datasource.png)](DatasourceGuide.md)
+[[Installation](installguide.md)] [[Registration](RegistrationGuide.md)] [[Configuration](configurationGuide.md)] [[Datasource](DatasourceGuide.md)]
 
 ---
 
@@ -18,4 +18,6 @@ ssh -i ~/.ssh/oci opc@129.213.26.247 upgrade
 
 once this is complete open a browser tab and navigate to the URL provided in the RJ_URL output.
 
-[[Review and Apply](reviewAndApply.md)] [registration](RegistrationGuide.md)
+[[Review and Apply](reviewAndApply.md)] [[Registration](RegistrationGuide.md)]
+
+---

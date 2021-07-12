@@ -1,8 +1,12 @@
-[![Logo](../../images/SesameLogo110x110.png)](http://www.sesamesoftware.com) <img align=right src="../../images/RJOrbit110x110.png">
+ <a href="http://www.sesamesoftware.com"><img align=left src="../../images/RJOrbit110x110.png"></img></a>
 
-#### Database Systems Configuration
+# Database Systems Configuration
 
-![Database Systems Configuration](../images/DatabaseSystemsConfiguration.png)
+[[Installation](../installguide.md)] [[Registration](../RegistrationGuide.md)] [[Configuration](../configurationGuide.md)] [[Datasource](../DatasourceGuide.md)]
+
+---
+
+![Database Systems Configuration](../../images/DatabaseSystemsConfiguration.png)
 
 * Password is required
   * Min length 12

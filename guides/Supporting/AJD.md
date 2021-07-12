@@ -1,9 +1,13 @@
 
-[![Logo](../../images/SesameLogo110x110.png)](http://www.sesamesoftware.com) <img align=right src="../../images/RJOrbit110x110.png">
+ <a href="http://www.sesamesoftware.com"><img align=left src="../../images/RJOrbit110x110.png"></img></a>
 
-#### Autonomous JSON Database Configuration
+# Autonomous JSON Database Configuration
 
-![Autonomous JSON Database Configuration](../images/AutonomousJSONDatabaseConfiguration.png)
+[[Installation](../installguide.md)] [[Registration](../RegistrationGuide.md)] [[Configuration](../configurationGuide.md)] [[Datasource](../DatasourceGuide.md)]
+
+---
+
+![Autonomous JSON Database Configuration](../../images/AutonomousJSONDatabaseConfiguration.png)
 
 * Password is required
   * Min length 12

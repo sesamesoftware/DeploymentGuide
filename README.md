@@ -2,11 +2,7 @@
 
 # Deployment Guide
 
-
-
-
-
-[![Installation](images/Button_Installation.png)](guides/installguide.md)[![Registration](images/Button_Registration.png)](guides/RegistrationGuide.md)[![Configuration](images/Button_Configuration.png)](guides/configurationGuide.md)[![Datasource](images/Button_Datasource.png)](Datasources/README.md)
+[![Installation](images/Button_Installation.png)](guides/installguide.md) [![Registration](images/Button_Registration.png)](guides/RegistrationGuide.md) [![Configuration](images/Button_Configuration.png)](guides/configurationGuide.md) [![Datasource](images/Button_Datasource.png)](guides/DataasourceGuide.md)
 
 ---
 
