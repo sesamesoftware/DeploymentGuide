@@ -1,16 +1,10 @@
  <a href="http://www.sesamesoftware.com"><img align=left src="../images/RJOrbit110x110.png"></img></a>
 
-[comment]: # (Change Heading to reflect Datasource)
-
-# Datasource Guide for MySQL
-
-[comment]: # (Leave Nav BAR untouched)
+# MySQL
 
 [[Installation](../guides/installguide.md)] [[Registration](../guides/RegistrationGuide.md)] [[Configuration](../guides/configurationGuide.md)] [[Datasource](../guides/DatasourceGuide.md)]
 
 ---
-
-[comment]: # (Leave Or Alter Required info as needed)
 
 ### *Required Information*
 
@@ -21,11 +15,6 @@
 * **Port**
 
 ### Steps
-
-[comment]: # (step 1 is common to all Datasources)
-[comment]: # (Step 2.1 and 2.2 should be adjusted for Data Source specific)
-[comment]: # (Step 3 should be Image of the datasource you can add the screenshot to the images folder or create a placeholder like {image of datasource screen})
-[comment]: # (adjust step 4 and below as needed)
 
 1. From the front page of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
 2. On the next screen, choose a label for your Datasource.
