@@ -60,6 +60,41 @@
 	7. **Page Size**: Number of records to return from each REST request (defaults to 100).
 	8. **First Record Date**: When doing date range queries this tells the the Job all records are after this date.
 
-7. Click Save and Close.
+7. Getting a Child Object Example
+
+	Example JSON
+	```JSON
+	{
+		"items": [
+			{
+				"HeaderId": 300000069352360,
+				"OrderKey": "6232",
+				...
+				"lines": [
+					{
+						"HeaderId": 300000069352360,
+						"LineId": 300000069352361,
+	```
+
+	When getting child objects you use the dot syntax (i.e. -get parent.child)
+	For example, let's say we want the line items of the salesOrdersForOrderHub object (-get salesOrdersForOrderHub.lines)
+	
+	1. Expand the child lines by adding to the Query String like such:
+		- &expand=lines
+
+	2. Add the Primary Keys Mapping with format ***childObjectName:childObjectKey;parentKey***
+	
+	A semi-colon is used to delimit the child key and the parent key and also that the parent key is in the format ***parentName_keyFieldName***
+		- salesOrdersForOrderHub.lines:LineId;salesOrdersForOrderHub_OrderKey
+
+	3. Parent Id Mapping:
+	
+	Format is childObjectName:ParentKeyField;childKeyField
+		- salesOrdersForOrderHub.lines:OrderKey;LineId
+
+	4. Query Date Fields:
+		- salesOrdersForOrderHub.lines=LastUpdateDate
+
+8. Click Save and Close.
 
 [![Previous](../images/Left_Arrow_Previous.png)](README.md)
