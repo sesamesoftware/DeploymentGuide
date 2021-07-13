@@ -24,7 +24,6 @@
 4. you can choose License Type
    1. Relational Junction Standard *default*
    2. Relational Junction Enterprise
-   3. Relational Junction BYOL
 5. upload you public ssh key
 6. you can create one following these [directions](Supporting/OCI-Prerequisites.md##setup-keys)
 7. Chose Availability Domain. values are 1-3
