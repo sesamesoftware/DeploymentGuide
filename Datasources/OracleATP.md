@@ -1,15 +1,10 @@
  <a href="http://www.sesamesoftware.com"><img align=left src="../images/RJOrbit110x110.png"></img></a>
 
-[comment]: # (Change Heading to reflect Datasource)
-
-# Datasource Guide for Oracle Autonomous Transaction Processing
-
-[comment]: # (Leave Nav BAR untouched)
+# Autonomous Transaction Processing
 
 [[Installation](../guides/installguide.md)] [[Registration](../guides/RegistrationGuide.md)] [[Configuration](../guides/configurationGuide.md)] [[Datasource](../guides/DatasourceGuide.md)]
 
 ---
-[comment]: # (Leave Or Alter Required info as needed)
 
 ### *Required Information*
 
@@ -20,11 +15,6 @@
 * **Schema**
 
 ### Steps
-
-[comment]: # (step 1 is common to all Datasources)
-[comment]: # (Step 2.1and 2.2 should be adjusted for Data Source specific)
-[comment]: # (Step 3 should be Image of the datasource you can add the screenshot to the images folder or create a placeholder like {image of datasource screen})
-[comment]: # (adjust step 4 and below as needed)
 
 1. From the front page of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
 2. On the next screen, choose a label for your Datasource.
@@ -55,4 +45,8 @@
       1. the oldest date found in the schema for the fields in the date field list. This helps to avoid slow startup of initial load will it queries empty time.
 9. click Save and Close.
 
-[Datasource Guide](../guides/DatasourceGuide.md)
+---
+
+[[&#9664; Datasource Guide](../guides/DatasourceGuide.md)]
+
+<p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../images/poweredBy.png" height="80px"></img></a> </p>

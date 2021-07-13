@@ -30,6 +30,13 @@ Repeat above for source and target. If you are using Columnar based systems like
 * [Microsoft Sql Server](../Datasources/MySQL.md)
 * [Marketo](../Datasources/Marketo.md)
 * [MS Dynamics CRM](../Datasources/MSDynamicsCRM.md)
+* [Oracle CX Sales and B2B Service](../Datasources/OracleCXB2B.md)
+* [Oracle ERP](../Datasources/OracleERP.md)
+* [Oracle Essbase](../Datasources/OracleEssbase.md)
+* [Oracle Human Resources Cloud](../Datasources/OracleHCM.md)
+* [Oracle Product Lifecycle Management](../Datasources/OraclePLM.md)
+* [Oracle Sales Cloud](../Datasources/OracleSalesCloud.md)
+* [Oracle Supply Chain Management](../Datasources/OracleSCM.md)
 
 ---
 

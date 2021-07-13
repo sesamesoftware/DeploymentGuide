@@ -1,6 +1,6 @@
  <a href="http://www.sesamesoftware.com"><img align=left src="../images/RJOrbit110x110.png"></img></a>
 
-# Datasource Guide for Marketo
+# Marketo
 
 [[Installation](../guides/installguide.md)] [[Registration](../guides/RegistrationGuide.md)] [[Configuration](../guides/configurationGuide.md)] [[Datasource](../guides/DatasourceGuide.md)]
 
@@ -21,7 +21,7 @@
 4. Select the Marketo Template
 5. ![Datasource](../images/marketo1.png)
 6. Logon Information Section
-   1. RESTEndpoint
+   1. REST Endpoint
 7. ![tokens](../images/marketo2.png)
 8. Open Authorization Section - Authorization Tokens from Marketo
    1. Application ID Tokens

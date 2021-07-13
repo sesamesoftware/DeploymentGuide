@@ -1,6 +1,6 @@
 <a href="http://www.sesamesoftware.com"><img align=left src="../../images/RJOrbit110x110.png"></img></a>
 
-# ADW Configuration
+# Autonomous Data Warehouse Configuration
 
 [[Installation](../installguide.md)] [[Registration](../RegistrationGuide.md)] [[Configuration](../configurationGuide.md)] [[Datasource](../DatasourceGuide.md)]
 
@@ -17,6 +17,6 @@
 
 ---
 
-[[&#9664; install with ORM](../installwithORM.md)]
+[[&#9664; Configuring the Stack Variables](../configuringStackVarables.md#bob)]
 
 <p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../../images/poweredBy.png" height="80px"></img></a> </p>

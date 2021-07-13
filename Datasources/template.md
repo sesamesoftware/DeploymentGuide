@@ -2,7 +2,7 @@
 
 [comment]: # (Change Heading to reflect Datasource)
 
-# Datasource Guide for Oracle Service Thin
+#  Oracle Service Thin
 
 [comment]: # (Leave Nav BAR untouched)
 
