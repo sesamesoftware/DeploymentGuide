@@ -41,10 +41,10 @@
    *Note: If this is a new datasource you will be presented with a Bullhorn login screen in order to complete the authentication process.*
 5. If Datasource is being use as a source
    1. Date fields
-      1. This is a comma separated list of fields tht contain dates for use in incremental downloads
+      1. This is a comma separated list of fields that contain dates for use in incremental downloads
       2. Choose any and all date fields in the Schema that are altered during a create or update of the records
       3. The order of precedence is from left to right in what date field is chosen. given a date field list `LastModifiedDate, CreatedDate` when the tables is queried it will see first if `LastModifiedDate` exists if it does use that for incremental. If it doesn't then it will use `CreateDate` if neither exist it will do a full table pull.
    2. First Record Date
-      1. the oldest date found in the schema for the fields in the date field list. This helps to avoid slow startup of initial load will it queries empty time.
-6. click Save and Close.
+      1. The oldest date found in the schema for the fields in the date field list. This helps to avoid slow startup of initial load will it queries empty time.
+6. Click Save and Close.
 <img src="../images/Left_Arrow_Configuration.png" height=75px>
