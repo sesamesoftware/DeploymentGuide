@@ -1,6 +1,6 @@
- <a href="http://www.sesamesoftware.com"><img align=left src="../images/RJOrbit110x110.png"></img></a>
+<a href="http://www.sesamesoftware.com"><img align=left src="../images/RJOrbit110x110.png"></img></a>
 
-# MySQL
+# Siebel
 
 [[Installation](../guides/installguide.md)] [[Registration](../guides/RegistrationGuide.md)] [[Configuration](../guides/configurationGuide.md)] [[Datasource](../guides/DatasourceGuide.md)]
 
@@ -9,6 +9,7 @@
 ### *Required Information*
 
 * **Host**
+* **Service Name**
 * **User Name**
 * **Password**
 * **Schema**
@@ -18,15 +19,16 @@
 
 1. From the front page of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
 2. On the next screen, choose a label for your Datasource.
-   1. Recommended: ‘Source MySQL’ or something similar.
-   2. Select MySQL Template
+   1. Recommended: ‘Source Siebel’ or something similar.
+   2. Select OracleServiceThin Template
+      1. *Siebel Connections are made directly to the underlying Oracle Database*
    3. Click Save
-3. ![MySQL Datasource](../images/MySQL.png)
+3. ![Oracle Service Thin](../images/oracleservicethin.png)
 4. Logon Information Section
    1. Host: *ip or dns of database server*
    2. Database: *ServiceName*
-   3. Schema: *Usually the same as database typically uppercase*
-   4. Port: *default port for mysql is 3306*
+   3. Schema: *Usually the same as database Username typically uppercase*
+   4. Port: *default port for oracle is 1521*
    5. Username: *login name for database user*
    6. Password: *Password for database user*
    7. tablespace: if applicable
