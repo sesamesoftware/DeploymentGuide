@@ -22,7 +22,7 @@ To Get Your Registration Code [Click Here](https://licensemanager.sesamesoftware
 5. Navigate to your installed RJ instance: `http://{public IP Address}:8080/rj`
 6. Click “Register New Account”
    1. Paste the emailed key into the field on the “Register New Account” screen.
-7. Once you click the Save button, you will be automatically taken to  the login page
+7. Once you click the 'Save' button, you will be automatically taken to  the login page
 8. Login using the username and password from Step 1.
 
 If you do not receive an email within 5 minutes, please contact technical support at +1 (408) 550-7999  |  support@sesamesoftware.com
