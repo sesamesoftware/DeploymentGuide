@@ -16,9 +16,9 @@ Relational Junction Enterprise Edition includes Unlimited Junctions.
 
 For setup within OCI You will need to open Port 8080 in the VCN. 
 
-Use ```ssh -i ~/.ssh/oci  opc@{publicIP} setup``` for installation.
+Use ```ssh -i ~/.ssh/oci  opc@{publicIP} setup``` for installation. The public IP is the IP of your OCI.
 
-After it is installed, exit. Open a web browser (Chrome recommended) and connect to ```http://{publicIP}:8080/rj```.
+After it is installed, exit. Open a web browser (Chrome recommended) and type in the address bar: ```http://{publicIP}:8080/rj```.
 
 Click registration. For help with registration please see the [Registration Guide](RegistrationGuide.md). 
 
