@@ -4,14 +4,23 @@
 
 ---
 
-From the menu go to marketplace -> All Applications
+You can find Relational Junction from the [Oracle Marketplace](https://cloudmarketplace.oracle.com/marketplace/en_US/homePage.jspx) at the following links:
 
 [Standard](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/63628618)
 
-Relational Junction Standard Edition: Includes up to 4 Junctions (Connection Types, i.e., ADW, NetSuite, SQL Server, HCM, etc.)
+Relational Junction Standard Edition includes up to 4 Junctions (Connection Types, i.e., ADW, NetSuite, SQL Server, HCM, etc.) 
 
 [Enterprise](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/84537680)
 
+Relational Junction Enterprise Edition includes Unlimited Junctions.
+
+For setup within OCI You will need to open Port 8080 in the VCN. 
+
+Use ```ssh -i ~/.ssh/oci  opc@{publicIP} setup``` for installation. The public IP is the IP of your OCI.
+
+After it is installed, exit. Open a web browser (Chrome recommended) and type in the address bar: ```http://{publicIP}:8080/rj```.
+
+Click registration. For help with registration please see the [Registration Guide](RegistrationGuide.md). 
 
 ---
 
