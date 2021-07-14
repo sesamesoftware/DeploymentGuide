@@ -8,7 +8,7 @@
 
 The built-in scheduler on each job allows you to run on an automated schedule without additional setup using a 6 character cron expressions.
 
-![scheduler](../images/rjscheduler.PNG)
+![scheduler](../../images/rjscheduler.PNG)
 
 The time values increase from left to right in the following order: Seconds, Minutes, Hours, Days, Months, Years.
 

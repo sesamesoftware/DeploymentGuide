@@ -27,6 +27,8 @@ From the front page of the RJ UI, go to the menu on the left and click **Warehou
 2. Click Save
 3. Close tab.
 
+*Note this is for a full unrestricted download of all source data*
+
 ---
 
 [[&#9664; Create Datasources](DatasourceGuide.md)] [[create and Run Job &#9654;](JobSetup.md)]
