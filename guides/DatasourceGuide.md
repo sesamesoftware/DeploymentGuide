@@ -25,6 +25,7 @@ Repeat above for source and target. If you are using Columnar based systems like
 * [Microsoft Sql Server](../Datasources/MySQL.md)
 * [Marketo](../Datasources/Marketo.md)
 * [MS Dynamics CRM](../Datasources/MSDynamicsCRM.md)
+* [MS Teams](../Datasources/MSTeams.md)
 * [NetSuite](../Datasources/netsuite.md)
 * [Oracle Service Thin](../Datasources/OracleServiceThin.md)
 * [Oracle Sid Thin](../Datasources/OracleSidThin.md)
