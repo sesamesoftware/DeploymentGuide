@@ -7,9 +7,11 @@
 
 ---
 
-Permissions may be configured for a role in NetSuite under **Setup &rarr; Users/Roles &rarr; Mange Roles**. This page contains three lists of permissions, first the required permissions, then other permissions for fuller support and finally, permissions that may block log in or the download of data. Make sure you add all permissions from the required section, choose which permissions you want from Other Permissions and remove all permissions from the role that are listed in the Access Violations. 
+Permissions may be configured for a role in NetSuite under **Setup &rarr; Users/Roles &rarr; Mange Roles**. This page contains three lists of permissions, first the required permissions, then other permissions for fuller support and finally, permissions that may block log in or the download of data. Make sure you add all permissions from the required section, select any other permissions for the data replication you want and remove all permissions from the role that are listed in the Access Violations. 
 
 Please be aware that it is not possible for us to provide an exhaustive list of permissions as NetSuite adds support for new entities and permissions with each version.
+
+Please see this Oracle Document: [NetSuite Users & Roles](https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/chapter_N284861.html) for more information on permissions.
 
 ## Required Permissions
 Note: Most of the following permissions fall under the Permissions &rarr; Setup section for a role. All of the following permissions are required for RJWarehouse.
