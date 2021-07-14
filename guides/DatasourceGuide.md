@@ -21,6 +21,7 @@ Repeat above for source and target. If you are using Columnar based systems like
 ### Supported Datasources
 
 * [DB2](../Datasources/db2.md)
+* [DB2AS400](../Datasources/db2AS400.md)
 * [MySql](../Datasources/MySQL.md)
 * [Microsoft Sql Server](../Datasources/MySQL.md)
 * [Marketo](../Datasources/Marketo.md)
