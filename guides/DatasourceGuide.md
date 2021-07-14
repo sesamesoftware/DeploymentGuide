@@ -20,16 +20,17 @@ Repeat above for source and target. If you are using Columnar based systems like
 
 ### Supported Datasources
 
+* [DB2](../Datasources/db2.md)
+* [MySql](../Datasources/MySQL.md)
+* [Microsoft Sql Server](../Datasources/MySQL.md)
+* [Marketo](../Datasources/Marketo.md)
+* [MS Dynamics CRM](../Datasources/MSDynamicsCRM.md)
 * [NetSuite](../Datasources/netsuite.md)
 * [Oracle Service Thin](../Datasources/OracleServiceThin.md)
 * [Oracle Sid Thin](../Datasources/OracleSidThin.md)
 * [Oracle Autonomous Data Warehouse](../Datasources/OracleADW.md)
 * [Oracle Autonomous Transaction Processing](../Datasources/OracleATP.md)
 * [Oracle Autonomous JSON Database](../Datasources/OracleAJD.md)
-* [MySql](../Datasources/MySQL.md)
-* [Microsoft Sql Server](../Datasources/MySQL.md)
-* [Marketo](../Datasources/Marketo.md)
-* [MS Dynamics CRM](../Datasources/MSDynamicsCRM.md)
 * [Oracle CX Sales and B2B Service](../Datasources/OracleCXB2B.md)
 * [Oracle ERP](../Datasources/OracleERP.md)
 * [Oracle Essbase](../Datasources/OracleEssbase.md)
