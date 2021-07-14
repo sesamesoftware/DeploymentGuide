@@ -2,7 +2,7 @@
 
 [comment]: # (Change Heading to reflect Datasource)
 
-#  Vertica
+#  Sybase
 
 [comment]: # (Leave Nav BAR untouched)
 
@@ -14,10 +14,11 @@
 
 ### *Required Information*
 
-* **Host**
+* **HOSTNAME**
 * **Database**
+* **Port**
 * **User**
-* **Password** 
+* **Password**
 
 ### Steps
 
@@ -28,32 +29,26 @@
 
 1. From the front page of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
 2. On the next screen, choose a label for your Datasource.
-   1. Recommended: ‘Source Vertica' or something similar.
-   2. Select Vertica Template
+   1. Recommended: ‘Source Sybase' or something similar.
+   2. Select Sybase Template
    3. Click Save
 3. {img goes here}
 4. Logon Information Section
-   1. Host: *IP or DNS of database server*
+   1. HOSTNAME: *IP or DNS of database server*
    2. Database:
    3. Schema: *Usually the same as database Username typically uppercase*
    4. Port:
    5. User: *login name for database user*
    6. Password: *Password for database user*
-   7. SSH User Name 	
-   8. SSH Password 	
-   9. pem Key File Location: *Location of the .pem private key file.*
-   10. pem Key Pass Phrase: Password 
-   11. Compression
-       1.  TAR
-       2.  GunZip
-   12. Utility Host: *Host where the file will be loaded*
-   13. Remote Directory Help	
-   14. SSH Port: *Default 22*
-   15. Batch Size *Default 500*
-   16. First Record Date *Default 1970-01-01*
-   17. Date Fields *See below*
-   18. Schema Prefix *Default UPPER*
-   19. Tablename Case *Default UPPER*
+   7. Batch Mode 	
+   8. Batch Size 	 	
+   9. First Record Date *Default 1970-01-01*
+   10. Date Fields *See below* 
+   11. Schema Prefix Case
+   12. Tablename Case
+   13. Select Fields
+       1.  FIELD_List
+       2.  STAR
 5. Click Test
    1. If you see Connection Test Successful
 6. If the Datasource is being use as a source
