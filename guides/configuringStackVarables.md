@@ -49,7 +49,7 @@
 
 ![Virtual Cloud Network Configuration New](../images/VirtualCloudNetworkConfigurationNew1.png)
 
-Make any changes to the defaults required, such as names and or CIDR blocks.
+Make any changes to the defaults required, such as names and/or CIDR blocks.
 
 ### Other Options
 * [Autonomous Data Warehouse Configuration](Supporting/ADW.md)

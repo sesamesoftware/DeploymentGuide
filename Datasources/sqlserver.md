@@ -24,10 +24,10 @@
    ![Microsoft Sql Server Datasource](../images/sqlserver.png)
 3. Required Logon Information Fields
    1. Host: *IP or DNS of database server*
-   2. Database name: *name of the database*
+   2. Database name: *Name of the database*
    3. Schema: *Usually the DBO*
    4. Port: *Default port for SQL server is 1433*
-   5. Username: *login name for database user*
+   5. Username: *Login name for database user*
    6. Password: *Password for database user*
    7. Instance Name: *Name of instance being used - if applicable*
 4. Click Test

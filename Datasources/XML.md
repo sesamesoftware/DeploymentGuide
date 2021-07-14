@@ -28,7 +28,7 @@
    1. Recommended: ‘Source XML or something similar.
    2. Select XML Template
    3. Click Save
-3. {img goes here}
+3. {XML DS img goes here}
 4. Logon Information Section
    1. Username: *login name for database user*
    2. Password: *Password for database user*

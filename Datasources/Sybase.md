@@ -32,7 +32,7 @@
    1. Recommended: ‘Source Sybase' or something similar.
    2. Select Sybase Template
    3. Click Save
-3. {img goes here}
+3. {Sybase img goes here}
 4. Logon Information Section
    1. HOSTNAME: *IP or DNS of database server*
    2. Database:

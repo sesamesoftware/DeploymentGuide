@@ -31,7 +31,7 @@
    1. Recommended: ‘Source Vertica' or something similar.
    2. Select Vertica Template
    3. Click Save
-3. {img goes here}
+3. {Vertica DS img goes here}
 4. Logon Information Section
    1. Host: *IP or DNS of database server*
    2. Database:
