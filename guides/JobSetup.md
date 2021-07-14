@@ -35,13 +35,14 @@
          * Select in dropdown the config you created.
       5. Click Add New button
       6. Replication Step Label
-         * Give the step a name. Suggested: getGlobal
+         * Give the step a name. 
+         * Suggested: getGlobal
       7. Replication Step Type
          * Select in dropdown **RJ Warehouse**.
       8. Replication Step Config
          * Select in dropdown config you created.
       9. Replication Step Command
-          * Field should now contain 'RJWarehouse -config [configfromstep8]'
+          * Field should now contain 'RJWarehouse -config [configfromStep8]'
           * At the end of the string, hit space and type ```-getGlobal```
       10. Tick Add to current steps box
    1. Click Save or Save and Run

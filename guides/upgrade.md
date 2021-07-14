@@ -6,17 +6,21 @@
 
 ---
 
+Upgrading Relational Junction
+
+If you have any questions before you upgrade, please contact support@sesamesoftware.com.
+
 Open command line terminal and run the following:
 
 ```ssh -i {path to privatekey} opc@{ip address from RJ_URL} upgrade```
 
-This will bring you  install up to the latest available GA code for example
+This will install up to the latest available GA code. For example:
 
 ```bash
 ssh -i ~/.ssh/oci opc@129.213.26.247 upgrade
 ```
 
-once this is complete open a browser tab and navigate to the URL provided in the RJ_URL output.
+once this is complete, open a browser tab and navigate to the URL provided in the RJ_URL output.
 
 ---
 

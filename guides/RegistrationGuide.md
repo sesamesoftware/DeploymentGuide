@@ -17,7 +17,7 @@ To Get Your Registration Code [Click Here](https://licensemanager.sesamesoftware
 3. Click the "Register" button.
    1. You will receive an email with the Registration Key.
       * Key will be series of numbers surrounded by square bracket.
-      * [21 32 58 ..... 36 98 11]
+      * Example: [21 32 58 ..... 36 98 11]
 4. Copy entire key string including the square brackets.
 5. Navigate to your installed RJ instance: `http://{public IP Address}:8080/rj`
 6. Click “Register New Account”
