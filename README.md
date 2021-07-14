@@ -16,7 +16,7 @@
 * [Configuration](guides/configurationGuide.md)
   * [setup email](guides/configurationGuide.md#Relational-Junction-Global-Settings)
   * [Datasource Setup](guides/configurationGuide.md#RJ-Warehouse-Oracle-Datasource-Setup)
-    * [Datasources](Datasources/README.md)
+    * [Datasources](guides/DatasourceGuide.md)
   * [Source to Target connection Configuration](guides/configurationGuide.md#RJ-Warehouse-Datasource-Connection-Configuration)
 * [Job Setup](guides/configurationGuide.md#RJWarehouse-Job-Setup)
 
