@@ -49,11 +49,11 @@
 		1. Examples (All Primary Key Mappings are Case Sensitive):
 			1. With Wilcard: *.lines:LineId
 			2. One to one: expenses:ExpenseId
-	5. **Parent Id Mapping**: How to identify the Parent Id of an expanded child. \*NOTE that if the parent is already mapped in the Primary Keys Mapping this can be skipped.
-		In the child object table the Parent Id will be mapped to a column named "PARENTID"
+	5. **Parent ID Mapping**: How to identify the Parent Id of an expanded child. \*NOTE that if the parent is already mapped in the Primary Keys Mapping this can be skipped.
+		In the child object table the Parent ID will be mapped to a column named "PARENTID"
 		1. Examples of getting the Invoice Lines children from the Invoice object and then mapping the Parent Id.
 			1. **Query String**: &expand=invoices.invoiceLines
-			2. **Parent Id Mapping**: invoices.invoiceLines:InvoiceId
+			2. **Parent ID Mapping**: invoices.invoiceLines:InvoiceId
 	6. **JSONPath**: Path the JSON Array of records. Defaults to "items" as seen in this sample JSON. Most likely will not need to modify.
 		![OracleERP Sample JSON](../images/oraclescmjson.png)
 	7. **Page Size**: Number of records to return from each REST request (defaults to 100).
@@ -86,7 +86,7 @@
 	A semi-colon is used to delimit the child key and the parent key and also that the parent key is in the format ***parentName_keyFieldName***
 		- salesOrdersForOrderHub.lines:LineId;salesOrdersForOrderHub_OrderKey
 
-	3. Parent Id Mapping:
+	3. Parent ID Mapping:
 	
 	Format is childObjectName:ParentKeyField;childKeyField
 		- salesOrdersForOrderHub.lines:OrderKey;LineId
