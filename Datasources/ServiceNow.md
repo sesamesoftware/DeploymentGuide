@@ -45,4 +45,4 @@
    2. If you see Connection Test Failed
       2. Check your User, Password, and Instance name and try again.
 6. click Save and Close.
-7. Proceed to ![Table Selection for ServiceNow](/ServiceNowTables.md)
+7. Proceed to [Table Selection for ServiceNow](../ServiceNowTables.md) 
