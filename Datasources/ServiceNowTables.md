@@ -5,6 +5,9 @@
 ## Table Selection for ServiceNow
 
 1. From the front page of the RJ UI, go to the left hand side and click **Warehouse --> SELECT TABLES TO LOAD**
+
+![SelectTablesToLoad](../images/selecttablestoload.png)
+
 2. Select the Warehouse Configuration setup for your ServiceNow Datasource or select any other Configuration to setup the Warehouse Configuration later.
 3. Leave the Object List set to -- Select --
 4. For each table to be used, enter the API name of the table as presented in ServiceNow into the input box at the bottom of the Selected Objects section and then click the ADD OBJECT button.
