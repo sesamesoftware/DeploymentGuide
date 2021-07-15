@@ -16,7 +16,7 @@ You can find Relational Junction from the following links:
 The second way would be to go thought the console to the marketplace:
 **&#9776; &rarr; Marketplace &rarr; All Applications**
 
-search for `Relational Junction` and choose the appropriate license type
+Search for `Relational Junction` and choose the appropriate license type
 
 ![License type](../images/marketplace.png)
 
@@ -28,33 +28,33 @@ This will open up the acceptance dialog in this example we will be using the sta
 * Accept Terms of usage
 * Launce
 
-once you launch it will bring up the create compute screen
+Once you launch it will bring up the create compute screen
 
 ![Instal name](../images/marketplaceinstallname.png)
 
-* create a meaningful name
-* verify the compartment
-* and choose which availability domain you want to use
+* Create a meaningful name
+* Verify the compartment
+* Choose which availability domain you want to use
 
 ![shape](../images/marketplaceimageandshape.png)
 
-* verify image is correct
-* minimum shape is a 2.4 you can increase this here but most use cases are met in a 2.4 shape
+* Verify image is correct
+* Minimum shape is a 2.4 you can increase this here but most use cases are met in a 2.4 shape
 
 ![networking](../images/marketplaceNetworking.png)
 
-* choose your VCN
-* Chose your subnet
+* Choose your VCN
+* Choose your subnet
 
 ![ssh](../images/marketplacessh.png)
 
-* you will ned to generate and save keys to local system our use existing keys
+* You will need to generate and save keys to local system our use existing keys
 
 ![boot volume](../images/marketplaceBootvolumn.png)
 
-* specify boot volume size min recommendation is 200 gb
+* Specify boot volume size min recommendation is 200 gb
 
-click Create
+Click Create
 
 ---
 
