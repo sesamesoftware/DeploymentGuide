@@ -13,13 +13,13 @@ While the Server is being provisioned
 
 ![Ingress Rule](../images/addIngressRule.png)
 
-once it is running
+Once it is running
 
 ![running](../images/computinfo.png)
 
-* copy the public ip address
-* in a txt file create a url with the following pattern `http://{ip address}:8080/rj`
-  * replace {ip address} with the public ip address
+* Copy the public IP address
+* In a txt file create a URL with the following pattern `http://{ip address}:8080/rj`
+  * Replace {IP address} with the public IP address
 
 
 ---
