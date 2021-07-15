@@ -8,7 +8,7 @@
 
 The built-in scheduler on each job allows you to run on an automated schedule without additional setup using a 6 character cron expressions.
 
-![scheduler](../images/rjscheduler.PNG)
+![scheduler](../../images/rjscheduler.PNG)
 
 The time values increase from left to right in the following order: Seconds, Minutes, Hours, Days, Months, Years.
 
@@ -32,6 +32,7 @@ Useful Website for generating expressions (add a * for the first character, then
 https://crontab.guru/
 
 ---
+
 [[&#9664; Job Setup](../JobSetup.md)]
 
 <p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../../images/poweredBy.png" height="80px"></img></a> </p>
