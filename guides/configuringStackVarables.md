@@ -45,6 +45,10 @@
 3. Select existing VCN
 4. Select Private and Public Subnets
 
+When using an existing VCN you will need to add port 8080 to you ingress rules
+
+![Ingress Rule](../images/addIngressRule.png)
+
 ### Virtual Cloud Network Configuration New
 
 ![Virtual Cloud Network Configuration New](../images/VirtualCloudNetworkConfigurationNew1.png)

@@ -4,23 +4,57 @@
 
 ---
 
-You can find Relational Junction from the [Oracle Marketplace](https://cloudmarketplace.oracle.com/marketplace/en_US/homePage.jspx) at the following links:
+There are two ways to start installing from the market place
 
-[Standard](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/63628618)
+* *License Type depends on the number of Junctions you will need (MS SQL Server,ADW,CSV,JSON,Netsuite,Salesforce,etc) Standard is 4 and under, Enterprise is 5 and above*
 
-Relational Junction Standard Edition includes up to 4 Junctions (Connection Types, i.e., ADW, NetSuite, SQL Server, HCM, etc.) 
+You can find Relational Junction from the following links:
 
-[Enterprise](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/84537680)
+* [Standard License](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/63628618)
+* [Enterprise License](https://cloudmarketplace.oracle.com/marketplace/en_US/listing/84537680)
 
-Relational Junction Enterprise Edition includes Unlimited Junctions.
+The second way would be to go thought the console to the marketplace:
+**&#9776; &rarr; Marketplace &rarr; All Applications**
 
-For setup within OCI You will need to open Port 8080 in the VCN. 
+Search for `Relational Junction` and choose the appropriate license type
 
-Use ```ssh -i ~/.ssh/oci  opc@{publicIP} setup``` for installation. The public IP is the IP of your OCI.
+![License type](../images/marketplace.png)
 
-After it is installed, exit. Open a web browser (Chrome recommended) and type in the address bar: ```http://{publicIP}:8080/rj```.
+This will open up the acceptance dialog in this example we will be using the standard version. 
 
-Click registration. For help with registration please see the [Registration Guide](RegistrationGuide.md). 
+![Standard license](../images/marketplaceStandard.png)
+
+* Select Compartment you wish the install in
+* Accept Terms of usage
+* Launce
+
+Once you launch it will bring up the create compute screen
+
+![Instal name](../images/marketplaceinstallname.png)
+
+* Create a meaningful name
+* Verify the compartment
+* Choose which availability domain you want to use
+
+![shape](../images/marketplaceimageandshape.png)
+
+* Verify image is correct
+* Minimum shape is a 2.4 you can increase this here but most use cases are met in a 2.4 shape
+
+![networking](../images/marketplaceNetworking.png)
+
+* Choose your VCN
+* Choose your subnet
+
+![ssh](../images/marketplacessh.png)
+
+* You will need to generate and save keys to local system our use existing keys
+
+![boot volume](../images/marketplaceBootvolumn.png)
+
+* Specify boot volume size min recommendation is 200 gb
+
+Click Create
 
 ---
 
