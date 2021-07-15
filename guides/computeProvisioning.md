@@ -8,7 +8,7 @@ While the Server is being provisioned
 
 ![provisioning](../images/provisioning.png)
 
-* This would to add the ingress rule to the vcn
+* This would to add the ingress rule to the VCN
 * You will need to add port 8080 to you ingress rules
 
 ![Ingress Rule](../images/addIngressRule.png)
@@ -18,7 +18,7 @@ Once it is running
 ![running](../images/computinfo.png)
 
 * Copy the public IP address
-* In a txt file create a URL with the following pattern `http://{ip address}:8080/rj`
+* In a text file, create a URL with the following pattern `http://{ip address}:8080/rj`
   * Replace {IP address} with the public IP address
 
 
