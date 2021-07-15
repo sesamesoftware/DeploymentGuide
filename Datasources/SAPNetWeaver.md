@@ -2,7 +2,7 @@
 
 [comment]: # (Change Heading to reflect Datasource)
 
-#  Sugar CRM
+#  SAP NetWeaver
 
 [comment]: # (Leave Nav BAR untouched)
 
@@ -14,10 +14,9 @@
 
 ### *Required Information*
 
-* **URL**
 * **User**
 * **Password**
-* **First Record Date**
+* **URL**
 
 ### Steps
 
@@ -28,32 +27,35 @@
 
 1. From the front page of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
 2. On the next screen, choose a label for your Datasource.
-   1. Recommended: ‘Source SugarCRM' or something similar.
-   2. Select SugarCRM Template
+   1. Recommended: ‘Source SAP NetWeaver' or something similar.
+   2. Select SAPNetWeaver Template
    3. Click Save
 3. {img goes here}
 4. Logon Information Section
-   1. URL: ```https://YOUR_COMPANY_ID.sugarcrm.com```
-   6. Password: *Password for database user*
-   7. First Record Date *Default 1970-01-01*
+   1. Database: *Database name*
+   2. Schema: *Schema name* 
+   3. User: *Login name for database user*
+   4. Password: *Password for database user*
+   5. URL
+   6. InitiateOAuth
+   7. Batch
+   8. Batch Size *Default 200*
+   9. First Record Date *Default 1970-01-01*
+   10. Date Fields *See below*
    11. Schema Prefix Case: *UPPER/LOWER, if required.*
    12. Tablename Case: *UPPER/LOWER, if required.*
-   1.  Select Method 	
+   13. Select Method
        1.  FIELD_LIST
        2.  STAR
-   2.  Batch
-   3.  ConnectOnOpen: *Default FALSE*
-   4.  Readonly: *Default FALSE*
-   5.  SSLServerCert Prefix Case
-6. If the Datasource is being use as a source:
+5. If the Datasource is being use as a source:
       1. Date fields
          1. This is a comma separated list of fields that contain dates for use in incremental downloads.
          2. Choose any and all date fields in the Schema that are altered during a create or update of the records.
          3. The order of precedence is from left to right in what date field is chosen. Given a date field list `LastModifiedDate, CreatedDate` when the tables is queried it will check first if `LastModifiedDate` exists if it does, it will use that for incremental. If it doesn't then it will use `CreateDate`. If neither exist it will do a full table pull.
       2. First Record Date
          1. The oldest date found in the schema for the fields in the date field list. This helps to avoid slow startup of initial load where it will query empty time.
-7. Click Test
-8. Once you see Connection Test Successful, click Save and Close.
+6. Click Test
+7. Once you see Connection Test Successful, click Save and Close.
 
 ---
 

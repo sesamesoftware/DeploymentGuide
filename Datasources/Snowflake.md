@@ -2,7 +2,7 @@
 
 [comment]: # (Change Heading to reflect Datasource)
 
-#  Sugar CRM
+#  Snowflake
 
 [comment]: # (Leave Nav BAR untouched)
 
@@ -14,10 +14,14 @@
 
 ### *Required Information*
 
-* **URL**
-* **User**
+* **Host**
+* **Database**	
+* **Schema** 	
+* **Port**
+* **Username**
 * **Password**
-* **First Record Date**
+* **Warehouse**
+* **Snowflake Account**
 
 ### Steps
 
@@ -28,23 +32,25 @@
 
 1. From the front page of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
 2. On the next screen, choose a label for your Datasource.
-   1. Recommended: ‘Source SugarCRM' or something similar.
-   2. Select SugarCRM Template
+   1. Recommended: ‘Source Snowflake' or something similar.
+   2. Select Snowflake Template
    3. Click Save
 3. {img goes here}
 4. Logon Information Section
-   1. URL: ```https://YOUR_COMPANY_ID.sugarcrm.com```
+   1. Host: *IP or DNS of database server*
+   2. Database: *Database name*
+   3. Schema: *Schema name*
+   4. Port: *Default 5432*
+   5. Username: *Login name for database user*
    6. Password: *Password for database user*
-   7. First Record Date *Default 1970-01-01*
-   11. Schema Prefix Case: *UPPER/LOWER, if required.*
-   12. Tablename Case: *UPPER/LOWER, if required.*
-   1.  Select Method 	
+   7. Warehouse: *The snowflake warehouse you are connecting to.*
+   8. First Record Date *Default 1970-01-01*
+   9.  Date Fields *See below*
+   10. Schema Prefix Case: *UPPER/LOWER, if required.*
+   11. Tablename Case: *UPPER/LOWER, if required.*
+   12. Select Fields 	
        1.  FIELD_LIST
        2.  STAR
-   2.  Batch
-   3.  ConnectOnOpen: *Default FALSE*
-   4.  Readonly: *Default FALSE*
-   5.  SSLServerCert Prefix Case
 6. If the Datasource is being use as a source:
       1. Date fields
          1. This is a comma separated list of fields that contain dates for use in incremental downloads.
