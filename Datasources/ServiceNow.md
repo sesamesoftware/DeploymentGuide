@@ -2,7 +2,7 @@
 
 [comment]: # (Change Heading to reflect Datasource)
 
-## Datasource Guide for Oracle Service Thin
+## Datasource Guide for ServiceNow
 
 [comment]: # (Leave Nav BAR untouched)
 
@@ -13,12 +13,11 @@
 
 ### *Required Information*
 
-* **Host**
-* **Service Name**
-* **User Name**
+* **User**
 * **Password**
-* **Schema**
-* **Port**
+* **Instance Name**
+* **First Record Date**
+* **Date Fields**
 
 ### Steps
 
@@ -32,7 +31,7 @@
    1. Recommended: ‘Source ServiceNow’ or something similar.
    2. Select ServiceNow Template
    3. Click Save
-3. ![Oracle Service Thin Datasource](../images/servicenow_login.png)
+3. ![ServiceNow Datasource](../images/servicenow_login.png)
 4. Logon Information Section
    1. User: *ip or dns of database server*
    2. Password: *Password for database user*
@@ -41,9 +40,9 @@
    5. Date Fields: *These are the date fields that will be used in order of priority for incrementalism. This is in the form of a lowercase comma separated list.*
 5. Click Test
    1. If you see Connection Test Successful
-      1. Click the SQL Button and perform a simple query to confirm that data is visible to the User.
+      1. Click the SQL Button and perform a simple query to confirm that data is visible to the User. example `SELECT sys_created_on FROM system_dictionary`
       2. If no data is returned follow the instruction for a connection Test Failed below.
    2. If you see Connection Test Failed
       2. Check your User, Password, and Instance name and try again.
 6. click Save and Close.
-<img src="../images/Left_Arrow_Configuration.png" height=75px>
+7. Proceed to ![Table Selection for ServiceNow](../ServiceNowTables.md)
