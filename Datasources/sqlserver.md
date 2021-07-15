@@ -18,28 +18,27 @@
 
 1. From the front page of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
 2. On the next screen, choose a label for your Datasource.
-   1. Recommended: "Source Sql Server" or something similar.
+   1. Recommended: "Source SQL Server" or something similar.
    2. Select SQLServer Template
    3. Click Save
-3. ![Microsoft Sql Server Datasource](../images/sqlserver.png)
-4. Logon Information Section
-   1. Host: *ip or dns of database server*
-   2. Database name: *name of the database*
-   3. Schema: *Usually the dbo*
-   4. Port: *default port for SQL server is 1433*
-   5. Username: *login name for database user*
+   ![Microsoft Sql Server Datasource](../images/sqlserver.png)
+3. Required Logon Information Fields
+   1. Host: *IP or DNS of database server*
+   2. Database name: *Name of the database*
+   3. Schema: *Usually the DBO*
+   4. Port: *Default port for SQL server is 1433*
+   5. Username: *Login name for database user*
    6. Password: *Password for database user*
-   7. instance Name: *name of instance being use if applicable*
-5. Click Test
-   1. If you see Connection Test Successful
-6. if Datasource is being use as a source
-   1. Date fields
-      1. this is a comma separated list of fields tht contain dates for use in incremental downloads
-      2. choose any and all date fields in the Schema that are altered during a create or update of the records
-      3. The order of precedence is from left to right in what date field is chosen. given a date field list `LastModifiedDate, CreatedDate` when the tables is queried it will see first if `LastModifiedDate` exists if it does use that for incremental. If it doesn't then it will use `CreateDate` if neither exist it will do a full table pull.
-   2. First Record Date
-      1. the oldest date found in the schema for the fields in the date field list. This helps to avoid slow startup of initial load will it queries empty time.
-7. click Save and Close.
+   7. Instance Name: *Name of instance being used - if applicable*  
+6. If the Datasource is being use as a source:
+      1. Date fields
+         1. This is a comma separated list of fields that contain dates for use in incremental downloads.
+         2. Choose any and all date fields in the Schema that are altered during a create or update of the records.
+         3. The order of precedence is from left to right in what date field is chosen. Given a date field list `LastModifiedDate, CreatedDate` when the tables is queried it will check first if `LastModifiedDate` exists if it does, it will use that for incremental. If it doesn't then it will use `CreateDate`. If neither exist it will do a full table pull.
+      2. First Record Date
+         1. The oldest date found in the schema for the fields in the date field list. This helps to avoid slow startup of initial load where it will query empty time.
+7. Click Test
+8. Once you see Connection Test Successful, click Save and Close.
 
 ---
 

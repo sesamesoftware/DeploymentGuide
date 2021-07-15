@@ -6,13 +6,15 @@
 
 ---
 
-* [Relational Junction Configuration](#relational-junction-configuration)
-* [Virtual Cloud Network Configuration Existing](#virtual-cloud-network-configuration-existing)
-* [Virtual Cloud Network Configuration New](#virtual-cloud-network-configuration-new)
-* [Other Options](#other-options)
+- [Configuring the Stack Variables](#configuring-the-stack-variables)
+  - [Options](#options)
+    - [Relational Junction Configuration](#relational-junction-configuration)
+    - [Virtual Cloud Network Configuration Existing](#virtual-cloud-network-configuration-existing)
+    - [Virtual Cloud Network Configuration New](#virtual-cloud-network-configuration-new)
+    - [Other Options](#other-options)
 
 
-## The options
+## Options
 
 ![Infrastructure Options](../images/Infrastructure_Options.png)
 
@@ -20,34 +22,34 @@
 
 ![Relational Junction Configuration](../images/RelationalJunctionConfiguration.png)
 
-1. verify compartment
-2. you can optionally set server name
-3. select shape
-   1. VM.Standard2.4 *default*
+1. Verify Compartment
+   1. Defaults to Relational Junction but you can change the name if required.
+2. Select Shape
+   1. VM.Standard2.4 (*Default*)
    2. VM.Standard2.8
    3. VM.Standard2.16
    4. VM.Standard2.24
-4. you can choose License Type
-   1. Relational Junction Standard *default*
-   2. Relational Junction Enterprise
-5. upload you public ssh key
-6. you can create one following these [directions](Supporting/OCI-Prerequisites.md##setup-keys)
-7. Chose Availability Domain. values are 1-3
+3. Choose License Type
+   1. Relational Junction Standard (*Default - up to 4 Junctions*)
+   2. Relational Junction Enterprise (*Unlimited Junctions*)
+4. Upload your Public SSH Key
+   1. If you need assistance creating one, please see this article:  [OCI Prerequisites](Supporting/OCI-Prerequisites.md##setup-keys)
+5. Chose Availability Domain. Values are 1-3.
 
 ### Virtual Cloud Network Configuration Existing
 
 ![Virtual Cloud Network Configuration Existing](../images/VirtualCloudNetworkConfigurationExisting.png)
 
-1. check Use existing VCN
-2. Choose Compartment of existing VCN
-3. Select VCN
+1. Check - Use Existing VCN
+2. Select the compartment of the existing VCN
+3. Select existing VCN
 4. Select Private and Public Subnets
 
 ### Virtual Cloud Network Configuration New
 
 ![Virtual Cloud Network Configuration New](../images/VirtualCloudNetworkConfigurationNew1.png)
 
-Make any changes to the defaults  such as names and or cider blocks
+Make any changes to the defaults required, such as names and/or CIDR blocks.
 
 ### Other Options
 * [Autonomous Data Warehouse Configuration](Supporting/ADW.md)

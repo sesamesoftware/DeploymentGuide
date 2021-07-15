@@ -6,15 +6,11 @@
 
 ---
 
-1. (optional) [Configure Notification](notification.md)
-   1. Required information
-      1. Mail from: rj@customerdoamin.com for example
-      2. SMTP Server: name or ip of smtp server
-      3. port
-      4. Use tls or not
+
+1. [Configure Notifications](notification.md)
 2. [Create Datasources](DatasourceGuide.md)
 3. [Create Warehouse Config](rjwarehouseconfig.md)
-4. [create and Run Job](JobSetup.md)
+4. [Create and Run Job](JobSetup.md)
 
 ---
 

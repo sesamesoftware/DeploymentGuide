@@ -25,8 +25,16 @@ Data Gathering
 ## Install
 
 * The install using Market Place [click here](installWithMarketPlace.md)
+  * *Use this for established Tenancy and an rj only install*
 * The install using Oracle Resource Manager [click here](installwithORM.md)
+  * *Use this for install in most cases, has the ability to spin up the necessary infrastructure*
+    * *create or use existing VCN*
+    * *Create Rj server*
+    * *Create ADB servers*
+    * *Create OAC instance*
+    * *Create Object Storage Bucket*
 * The install using Terraform guide [click here](installwithTerraform.md)
+  * *Use this to further customize the ORM package*
 
 ---
 
