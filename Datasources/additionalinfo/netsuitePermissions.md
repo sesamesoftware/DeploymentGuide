@@ -1,20 +1,62 @@
 <img  src="../../images/SesameSoftwareLogo-2020Final.png" width="100"><img align=right src="../../images/RJOrbitLogo-2021Final.png" width="100">
 
 
-# Permission Configurations
+# Role Configuration
 
 [![Pre-Installation](../../images/Button_PreInstall.png)](../../README.md)[![Installation](../../images/Button_Installation.png)](guides/installguide.md)[![Registration](../../images/Button_Registration.png)](guides/RegistrationGuide.md)[![Configuration](../../images/Button_Configuration.png)](guides/configurationGuide.md)[![Datasource](../../images/Button_Datasource.png)](../README.md)
 
 ---
 
+## Create a Role vs Modifying an Existing Role
+
+Role Creation for RJ Warehouse Use
+
+![NetSuite Create A Role](../../images/netsuitepermissions.png)
+
+1. Using an Administrator level account, log into NetSuite Instance.
+2. Use global search for Manage Roles. 
+3. In the dropdown results, click Page: Manage Roles
+   1. Click New Role
+   2. General Section Required Fields
+      1. NAME (*Recommended Name: ```RJWarehouse Role```*)
+      2. ID suggest (*One string, use underscores instead of spaces; Recommended ID: ```rjwarehouse_customrole```*)
+      3. CENTER TYPE
+         1. REQUIRED - Classic Center
+      4. EMPLOYEE RESTRICTIONS
+         1. Set to (none - no default)
+      5. DO NOT RESTRICT EMPLOYEE FIELDS
+         1. Tick box 
+      6. Subsidiary Restrictions Section Required Fields
+         1. Accessible Subsidiaries
+            1. Click radial button for All
+      7. Authentication Section Required Fields
+         1. Verify TWO-FACTOR AUTHENTICATION REQUIRED is set to Not Required.
+
+An existing role must have the above Center Type, Employee Restrictions, Subsidiary Restriction and Authentication settings as above. Please note: the Center Type of a role cannot be changed.
+
+1. Permissions
+   1. Adding/Removing Permissions
+      1. Using an Admin level account, log into customer's NetSuite.
+      2. Use global search for Manage Roles
+      3. In the dropdown results, click Page: Manage Roles
+      4. Find the role you are altering in the list.
+      5. Click edit
+         1. Find the necessary permission in the Permissions section tabs in the dropdown at the bottom of the page.
+            1. *Note* - There are 5 tabs of permissions. Transactions, Reports, Lists, Setup, and Custom Record
+         2. Click add. 
+            1. *Suggestion* - If adding many permissions, save periodically.
+      6. Repeat steps 1 and 2 for any permissions you need.
+      7. Click save.
+
+Please see this Oracle Document: [NetSuite Users & Roles](https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/chapter_N284861.html) for more information on permissions.
+## NetSuite Permissions
+
 Permissions may be configured for a role in NetSuite under **Setup &rarr; Users/Roles &rarr; Mange Roles**. This page contains three lists of permissions, first the required permissions, then other permissions for fuller support and finally, permissions that may block log in or the download of data. Make sure you add all permissions from the required section, add any other permissions for the data replication you want and remove all permissions from the role that are listed in the Access Violations.
 
 Our Other Permissions section is a compilation of commonly used objects and useful data replications permissions. Please be aware that it is not possible for us to provide an exhaustive list of permissions as NetSuite adds support for new entities and permissions with each version.
 
-Please see this Oracle Document: [NetSuite Users & Roles](https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/chapter_N284861.html) for more information on permissions.
-
-## Required Permissions
 Note: Most of the following permissions fall under the Permissions &rarr; Setup section for a role. All of the following permissions are required for RJWarehouse.
+## Required Permissions
 
 |Permission | Used For|
 |---|---|
@@ -99,4 +141,5 @@ Permissions &rarr; Transactions|	Approve EFT|	Access to approvals of EFT|
 |Permissions &rarr; Setup|Integration Application|2FA Trigger, see above.|
 |Permissions &rarr; Setup|Device ID Management|	2FA Trigger, see above.|
 |Permissions &rarr; Setup|View Unencrypted Credit Cards|2FA Trigger, see above.|
-[Previous](../netsuite.md)
+
+[&#9664; Previous](NetsuiteCreds.md)

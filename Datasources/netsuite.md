@@ -15,9 +15,9 @@
 
 ### *Steps*
 
-1. Before you begin, obtain:
+1. Before you begin, please read and obtain the required connection information from the following documents:
    1. [Netsuite Credentials](additionalinfo/NetsuiteCreds.md)
-   2. [Set Permissions](additionalinfo/netsuitePermissions.md)
+   2. [Role Creation, Modification and Permissions](additionalinfo/netsuitePermissions.md)
 2. From the frontpage of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
 3. On the next screen, choose a label for your Datasource.
    1. Recommended: ```Source NetSuite``` or something similar.
