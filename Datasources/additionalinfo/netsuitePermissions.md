@@ -55,8 +55,9 @@ Permissions may be configured for a role in NetSuite under **Setup &rarr; Users/
 
 Our Other Permissions section is a compilation of commonly used objects and useful data replications permissions. Please be aware that it is not possible for us to provide an exhaustive list of permissions as NetSuite adds support for new entities and permissions with each version.
 
-Note: Most of the following permissions fall under the Permissions &rarr; Setup section for a role. All of the following permissions are required for RJWarehouse.
 ## Required Permissions
+Note: Most of the following permissions fall under the Permissions &rarr; Setup section for a role. All of the following permissions are required for RJWarehouse.
+
 
 |Permission | Used For|
 |---|---|
