@@ -10,22 +10,14 @@
 
 1. From the front page of the RJ UI, go to the menu on the left and click **Datasources &rarr; New Datasource**
 2. On the next screen, choose a label for your Datasource.
-
    1. *Recommendation: The name of each job should be clear and meaningful. Setting your naming convention from the start will save time in the future and make it quick and easy to find elements later. Example: ‘Oracle Target for Netsuite’ or 'Source Netsuite'.*
-3. Select Template for the Technology you are connecting to.
-=======
-   1. *Recommendation: It should be meaningful like ‘Oracle Target for Netsuite’ or 'Source Netsuite'. Setting your naming Convention from the start will save time in the future and making it quick and easy to find elements later*
 3. Select Template for the Technology you are connecting too
-
 4. Click Save
 
 *Use the [Datasource Guide](#supported-datasources) for specific guides to datasource templates.*
 
 
 Repeat above for your source and target. If you are using Columnar based systems like Snowflake or Redshift as your target Sesame recommends having a metadata datasource for the transactional tables our product creates. This would need to be a row based system but can be a small database like mySQL or SQL express.
-=======
-Repeat above for source and target. If you are using Columnar based systems like Snowflake and Redshift as your target, we recommend having a metadata datasource for the transactional tables our product creates. This would need to be a row based system but can be a small database like mySQL or SQL express.
-
 
 ### Supported Datasources
 
