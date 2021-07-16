@@ -35,11 +35,7 @@ FIELD_LIST
 
 ### *Required Information*
 
-* **Database**
-* **User**
-* **Password**
-* **URL**
-
+* **ProjectId**
 ### Steps
 
 [comment]: # (step 1 is common to all Datasources)
