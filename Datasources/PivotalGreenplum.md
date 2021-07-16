@@ -33,7 +33,7 @@
    1. Recommended: ‘Source Greenplum' or something similar.
    2. Select Greenplum Template
    3. Click Save
-3. {Sybase img goes here}
+3. ![Greenplum Datasource](../images/Greenplum.png)
 4. Logon Information Section
    1. Host Name: *IP or DNS of database server*
    2. Database Name:

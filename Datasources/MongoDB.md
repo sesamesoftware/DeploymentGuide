@@ -2,7 +2,7 @@
 
 [comment]: # (Change Heading to reflect Datasource)
 
-#  Odoo ERP
+#  MongoDB ERP
 
 [comment]: # (Leave Nav BAR untouched)
 
@@ -33,7 +33,7 @@
    1. Recommended: ‘Source MongoDB' or something similar.
    2. Select MongoDB Template
    3. Click Save
-3. {img goes here}
+3. ![MongoDB Datasource](../images/MongoDB.png)
 4. Logon Information Section
    1. Server
    2. Database: *MongoDB Name*

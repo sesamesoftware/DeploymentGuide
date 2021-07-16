@@ -30,7 +30,7 @@
    1. Recommended: ‘Source SFMarketingCloud' or something similar.
    2. Select SFMarketingCloud Template
    3. Click Save
-3. {img goes here}
+3. ![SFMarketingCloud Datasource](../images/SFMarketingCloud.png)
 4. Logon Information Section
    1. User: *Login name for database user*
    6. Password: *Password for database user*

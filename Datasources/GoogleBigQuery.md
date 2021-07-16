@@ -2,35 +2,13 @@
 
 [comment]: # (Change Heading to reflect Datasource)
 
-#  Odoo ERP
+#  Google Big Query 
 
 [comment]: # (Leave Nav BAR untouched)
 
 [[Installation](../guides/installguide.md)] [[Registration](../guides/RegistrationGuide.md)] [[Configuration](../guides/configurationGuide.md)] [[Datasource](../guides/DatasourceGuide.md)]
 
 ---
-OAuthAccessToken Help	
-ProjectId * Help	
-DatasetId Help	
-InitiateOAuth Help	
-OFF
-UseStreamingInserts Help	
-True
-Batch Help	
-Batch Size Help	
-200
-First Record Date Help	
-1970-01-01
-Date Fields Help	
-Schema Prefix Help	
-NONE
-Tablename Case Help	
-NONE
-Select Method Help	
-FIELD_LIST
-
-
-
 [comment]: # (Leave Or Alter Required info as needed)
 
 ### *Required Information*
@@ -45,28 +23,17 @@ FIELD_LIST
 
 1. From the front page of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
 2. On the next screen, choose a label for your Datasource.
-   1. Recommended: ‘Source MongoDB' or something similar.
-   2. Select MongoDB Template
+   1. Recommended: ‘Source Google Big Query' or something similar.
+   2. Select GoogleBigQuery Template
    3. Click Save
 3. {img goes here}
 4. Logon Information Section
-   1. Server
-   2. Database: *MongoDB Name*
-   3. Schema: *Database schema, use % if unknown.*
-   4. Port: *Default 27017*
-   5. User: *Login name for database user*
-   6. Password: *Password for database user*
-   7. AuthMechanism: *Auth mechanism that Mongo will use to authenticate the connection.*
-      1. SCRAM-SHA-1
-      2. SCRAM-SHA-256
-      3. PLAIN
-      4. GSSAPI
-   8. AuthDatabase *Name of Mongo database used for authentication.* 
-   9. RowScanDepth: *The maximum number of rows to scan to look for the columns available in a table. Set this property to  gain more control over how the provider applies data types to collections; default 100*
-   10. SlaveOK: *Whether provider is allowed to read from secondary servers; default FALSE.*
-   11. ReadPreference: *Accepted values are primary, primaryPreferred, secondary, secondaryPreferred, and nearest.*
-   12. ReplicaSet: *Specify multiple servers in addition to the one configured in Server and Port. Specify server name and port; separate servers with a comma.*
-   13. Batch Mode
+   1. OAuthAccessToken
+   2. ProjectId
+   3. DatasetId
+   4. InitiateOAuth
+   5. UseStreamingInserts
+   13. Batch
    14. Batch Size *Default 200*
    15. First Record Date *Default 1970-01-01*
    16. Date Fields *See below*

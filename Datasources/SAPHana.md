@@ -28,10 +28,10 @@
 
 1. From the front page of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
 2. On the next screen, choose a label for your Datasource.
-   1. Recommended: ‘Source SAP NetWeaver' or something similar.
-   2. Select SAPNetWeaver Template
+   1. Recommended: ‘Source SAP Hana' or something similar.
+   2. Select SAPHana Template
    3. Click Save
-3. {img goes here}
+3. ![SAPHana Datasource](../images/SAPHana.png)
 4. Logon Information Section
    1. Server *Server name*
    2. Database: *Database name*

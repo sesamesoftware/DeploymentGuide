@@ -29,7 +29,7 @@
    1. Recommended: ‘Source SAP BusinessOne' or something similar.
    2. Select SAPBusinessOne Template
    3. Click Save
-3. {img goes here}
+3. ![SAPBusinessOne Datasource](../images/SAPBusOne.png)
 4. Logon Information Section
    1. Database: *Database name*
    2. Schema: *Schema name* 
