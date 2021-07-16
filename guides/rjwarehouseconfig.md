@@ -26,6 +26,8 @@ From the front page of the RJ UI, go to the menu on the left and click **Warehou
       * Same as Target unless indicated otherwise.
 2. Click Save
 3. Close tab.
+   
+These instructions are for an unrestricted run to download all discoverable objects in a datasource. For a limited ist of objects i.e., creating a Restricted job and other configuration properties, please see: [Advanced Configuration Properties](../images/databaseConnection.png)
 
 ---
 
