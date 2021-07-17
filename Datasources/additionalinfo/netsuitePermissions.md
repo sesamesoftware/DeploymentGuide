@@ -45,8 +45,8 @@ An existing role must have the above Center Type, Employee Restrictions, Subsidi
             1. *Note* - There are 5 tabs of permissions. Transactions, Reports, Lists, Setup, and Custom Record
          2. Click add. 
             1. *Suggestion* - If adding many permissions, save periodically.
-      6. Repeat steps 1 and 2 for any permissions you need.
-      7. Click save.
+         3. Repeat steps 1 and 2 for any permissions you need.
+      6. Click save.
 
 Please see this Oracle Document: [NetSuite Users & Roles](https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/chapter_N284861.html) for more information on permissions.
 ## NetSuite Permissions
@@ -54,6 +54,8 @@ Please see this Oracle Document: [NetSuite Users & Roles](https://docs.oracle.co
 Permissions may be configured for a role in NetSuite under **Setup &rarr; Users/Roles &rarr; Mange Roles**. This page contains three lists of permissions, first the required permissions, then other permissions for fuller support and finally, permissions that may block log in or the download of data. Make sure you add all permissions from the required section, add any other permissions for the data replication you want and remove all permissions from the role that are listed in the Access Violations.
 
 Our Other Permissions section is a compilation of commonly used objects and useful data replications permissions. Please be aware that it is not possible for us to provide an exhaustive list of permissions as NetSuite adds support for new entities and permissions with each version.
+
+You can find information about removing objects from the RJWarehouse job that you don't have or don't wish to grant permission for in the [Advanced Configuration Properties](../rjwarehouseconfig2.md).
 
 ## Required Permissions
 Note: Most of the following permissions fall under the Permissions &rarr; Setup section for a role. All of the following permissions are required for RJWarehouse.
