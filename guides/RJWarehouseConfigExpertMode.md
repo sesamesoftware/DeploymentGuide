@@ -14,34 +14,39 @@ At the top of your configuration, select the radial button for Expert Mode.
 
 1. Maximum VARCHAR Size: *Parameter to override the default VARCHAR limit; default 1000.*
    1. This value is used to determine if a CLOB or TEXT data type will be used. If the length is greater than this value a CLOB or TEXT data type will be used.  This will affect the ability to store large rows in a given table, since CLOB or TEXT fields are typically not stored in the same physical record and do not count against the block size limit. If “use internationalization” is set to true, you cannot set this higher than 2000. If use internationalization is set to false, you cannot set this higher than 4000. If you are using a DBMS like MySQLor Maria DB you will not want to set this higher than 255 due to database limitations.
+   
 2. Database Partitioning: *Whether this is a DB2 partitioned database or not; default No*
+   
 3. Table Prefix: *Use a prefix of “T” or “SF” for all table names. This can be set to any legal value, or omitted to use non-prefixed names*
    1. Note: For readability it is recommended that with the use of the prefix and an underscore (_) to the end of the prefix for something like SF_ or T_ this will result in a bit of visual separation when looking at the tables. Also if you do not use a table prefix then tables that are DBMS reserved words will have an X appended to the end of the table name.
+   
 4. Custom Field Suffix: *Allow Table and column names for custom fields to retain the “__C” suffix (true) or not (false).*
+   
 5. DBMS-Independent Names: *With this set to true it will check database names against all supported DBMS reserved word lists. Use this option to improve cross-platform compatibility. With it set to false it will only check database names against the reserved words file for that database. For instance, NAME will become NAMEX. It is not recommended that you change this setting to false if you are transferring data across different database versions.*
+   
 6. Custom Formula Fields: *Most DBMS platforms will not accept insert or updates if the record does not fit into a single database block. This is not an issue for Oracle. DB2 will not even let you create the column if there is even a potential to exceed the block size. This option turns off creation and replication of all custom formula fields. This also ensures that reports do not represent out of date information if the formula is based on date-sensitive computations. Must be turned on to replicate custom formula fields.*
-7. Objects Downloaded: Restricted/Unrestricted
-8. 8. Auto Adjust Column Width: *Optional parameter to turn off the automatic size adjustment of VARCHAR/NVARCHAR columns. The default is true, which will adjust column widths. If the schema is modified and this option is false, a message will appear in the log indicating that the field is smaller than the datasource metadata indicates. This can cause records to be rejected if the data does not fit the column width.  RJ will only increase the size of a field it will not decrease the field size. You would have to drop the column and rebuild it to have it reduced in size.*
+   
+7. Objects Downloaded: Restricted | Unrestricted settings for upload and download. Unrestricted is the default setting.
+   
+8. Auto Adjust Column Width: *Optional parameter to turn off the automatic size adjustment of VARCHAR/NVARCHAR columns. The default is true, which will adjust column widths. If the schema is modified and this option is false, a message will appear in the log indicating that the field is smaller than the datasource metadata indicates. This can cause records to be rejected if the data does not fit the column width.  RJ will only increase the size of a field it will not decrease the field size. You would have to drop the column and rebuild it to have it reduced in size.*
+   
+9.  Objects Uploaded
+    
+10. System of Record: this is used to determine which source wins out on a download when a change has been made to records in the local database in preparation to upload to salesforce. Do the changes in Salesforce win or do the changes in the local DB win? 
+If set to Salesforce then when you change records in the database in preparation to send to Salesforce and a download happens first if the record has changed in salesforce it will overwrite the data in the database.
+If set to Local then when you change records in the database in preparation to send to Salesforce and a download happens first if the record has changed in salesforce the data in the database will not be overwritten as long as their delete_flag is set to any one of the action flags or action flag errors.
+The order of operation when it comes to the job steps can also be used to determine the system of record when the setting is set to Salesforce. Doing a -set then a -get (local db is system of record)  vs doing a -get then a -set (Salesforce is system of record).; default Salesforce
 
-Select Tables to Load
-Select tables to load is a tool that allows you to create/edit download, upload, and exclude files. This is most helpful when defining subsets for your use whether for a blacklist or white list. Refer to the database design tab and set objects downloaded to restricted and point to the new subset file i.e. download.config.small. If you are needing a net new table list an empty file on the backend in the %RJ_HOME%/<<AccountNumber>>/rjwarehouse/conf/ following the naming convention of download.config.<<name>> for downloads and upload.config.<<name>> for uploads. As a general rule <<name>> should be the same as the name of the configuration that is going to make use of the upload or download file.
-
-
-
-
-
-
-1.  System of Record: Salesforce
-2.  Download Config: download.config
-3.  Upload Config: upload.config
-4.  Exclude Config: exclude.config
-5.  Track History: 
-6.  Use Internationalization (Unicode): Yes
-7.  Database Genesis: 2005-01-01
-8.  Bulk Loader Error Limit: 	
-9.  Bulk Loader escape character: 	
-10. Truncate Error Table Objects: Yes
-11. Maximum Byte Count: 	
+11. Download Config: download.config
+1.  Upload Config: upload.config
+2.  Exclude Config: exclude.config
+3.  Track History: 
+4.  Use Internationalization (Unicode): Yes
+5.  Database Genesis: 2005-01-01
+6.  Bulk Loader Error Limit: 	
+7.  Bulk Loader escape character: 	
+8.  Truncate Error Table Objects: Yes
+9.  Maximum Byte Count: 	
 
 
 Restricted | Unrestricted settings for upload and download. Unrestricted is the default setting.
@@ -57,10 +62,7 @@ You can use the select tables to load tab to define what is in a download or exc
 Note: Even if your configuration file is set to restricted mode you can still download or upload a specific object using one of the single object commands.
 
 Auto Adjust Column Width: (true | false) An optional parameter to turn off the automatic size adjustment of VARCHAR/NVARCHAR columns. The default is true, which will adjust column widths. If the schema is modified and this option is false, a message will appear in the log indicating that the field is smaller than the Salesforce metadata indicates. This can cause records to be rejected if the data does not fit the column width.  RJ will only increase the size of a field it will not decrease the field size. You would have to drop the column and rebuild it to have it reduced in size.
-System of Record: This is used to determine which source wins out on a download when a change has been made to records in the local database in preparation to upload to salesforce. Do the changes in Salesforce win or do the changes in the local DB win? 
-If set to Salesforce then when you change records in the database in preparation to send to Salesforce and a download happens first if the record has changed in salesforce it will overwrite the data in the database.
-If set to Local then when you change records in the database in preparation to send to Salesforce and a download happens first if the record has changed in salesforce the data in the database will not be overwritten as long as their delete_flag is set to any one of the action flags or action flag errors.
-The order of operation when it comes to the job steps can also be used to determine the system of record when the setting is set to Salesforce. Doing a -set then a -get (local db is system of record)  vs doing a -get then a -set (Salesforce is system of record).
+System of Record: 
 Download Config:  The name of the file in the RJ_HOME\1000\rjwarehouse\conf directory containing the object names in order to be downloaded for download operations. The default config file is download.config. You can specify different user created config files and place them in this setting. If the salesforce config file is set to restricted mode then even if you run a single object command you still have to have the object listed in the download.config file that you are using.
 Upload Config The name of the file in the RJ_HOME\1000\rjwarehouse\conf directory containing the object names in order to be uploaded in upload operations. The default config file is upload.config.You can specify different user created config files and place them in this setting. If the salesforce config file is set to restricted mode then even if you run a single object command you still have to have the object listed in the upload.config file that you are using.
 
