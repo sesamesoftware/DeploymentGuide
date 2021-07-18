@@ -7,17 +7,25 @@
 
 ---
 
-## Create a Role vs Modifying an Existing Role
+## Role Creation and Modification in NetSuite
 
-Role Creation for RJ Warehouse Use
+Sesame Software recommends, where it is possible, to modify an existing NetSuite role vs. creation of a role for RJWarehouse use. The process of creating a role from scratch with the many permissions you may or may not need can be a time sink. Using an existing role and verifying/adding permissions required is a quicker way to get your data replication up and running.
 
-![NetSuite Create A Role](../../images/netsuitepermissions.png)
+With a few exceptions any existing role can be utilized, however the following must be true:
+   1. Not an Administrator-Level role.
+      1. Note: A user may be an Administrator in addition to a secondary role for RJWarehouse but that secondary role must not be an admin-based user.
+   2. Must have been created in the  **Center Type - Classic Center**. 
+      1. Note: If the role is anything other than the Classic Center, you must use a different base role as the Center Type is set at role creation and cannot be changed.
+
+![NetSuite Role Creation](../../images/netsuitepermissions.png)
+
+#### Role Creation ####
 
 1. Using an Administrator level account, log into NetSuite Instance.
 2. Use global search for Manage Roles. 
 3. In the dropdown results, click Page: Manage Roles
    1. Click New Role
-   2. General Section Required Fields
+   2. General Section
       1. NAME (*Recommended Name: ```RJWarehouse Role```*)
       2. ID suggest (*One string, use underscores instead of spaces; Recommended ID: ```rjwarehouse_customrole```*)
       3. CENTER TYPE
@@ -26,13 +34,20 @@ Role Creation for RJ Warehouse Use
          1. Set to (none - no default)
       5. DO NOT RESTRICT EMPLOYEE FIELDS
          1. Tick box 
-      6. Subsidiary Restrictions Section Required Fields
+      6. Subsidiary Restrictions Section
          1. Accessible Subsidiaries
             1. Click radial button for All
-      7. Authentication Section Required Fields
+      7. Authentication Section
          1. Verify TWO-FACTOR AUTHENTICATION REQUIRED is set to Not Required.
 
-An existing role must have the above Center Type, Employee Restrictions, Subsidiary Restriction and Authentication settings as above. Please note: the Center Type of a role cannot be changed.
+An existing role must have the Center Type, Employee Restrictions, Subsidiary Restriction and Authentication settings as above. Verify the following options are ***not*** checked: ```CORE ADMINISTRATION PERMISSIONS```, ```SINGLE SIGN-ON ONLY```, ```WEB SERVICES ONLY ROLE``` and ```RESTRICT THIS ROLE BY DEVICE ID```.
+
+Optional but recommended: Re-name the existing role to indicate that it is being utilized by RJWarehouse in addition to its other functions to locate it easily later, if necessary.
+
+Once your role is created or you have your existing role which conforms to the requirements set above, add the permissions for the data you need replicated.
+#### NetSuite Permissions
+
+Permissions may be configured for a role in NetSuite under **Setup &rarr; Users/Roles &rarr; Mange Roles**. add any other permissions for the data replication you want and remove all permissions from the role that are listed in the Access Violations.
 
 1. Permissions
    1. Adding/Removing Permissions
@@ -49,17 +64,11 @@ An existing role must have the above Center Type, Employee Restrictions, Subsidi
       6. Click save.
 
 Please see this Oracle Document: [NetSuite Users & Roles](https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/chapter_N284861.html) for more information on permissions.
-## NetSuite Permissions
-
-Permissions may be configured for a role in NetSuite under **Setup &rarr; Users/Roles &rarr; Mange Roles**. This page contains three lists of permissions, first the required permissions, then other permissions for fuller support and finally, permissions that may block log in or the download of data. Make sure you add all permissions from the required section, add any other permissions for the data replication you want and remove all permissions from the role that are listed in the Access Violations.
-
-Our Other Permissions section is a compilation of commonly used objects and useful data replications permissions. Please be aware that it is not possible for us to provide an exhaustive list of permissions as NetSuite adds support for new entities and permissions with each version.
 
 You can find information about removing objects from the RJWarehouse job that you don't have or don't wish to grant permission for in the [Advanced Configuration Properties](../rjwarehouseconfig2.md).
 
-## Required Permissions
-Note: Most of the following permissions fall under the Permissions &rarr; Setup section for a role. All of the following permissions are required for RJWarehouse.
-
+#### Required Permissions
+Note: Most of the following permissions fall under the Permissions &rarr; Setup section for a role. All permissions from the Required section are necessary for the function of RJWarehouse
 
 |Permission | Used For|
 |---|---|
@@ -75,7 +84,9 @@ Note: Most of the following permissions fall under the Permissions &rarr; Setup 
 |Other Custom Fields (VIEW)|	Allows users to see custom fields of the "other" type. Used with IncludeCustomFieldColumns.|
 |User Access Token|	Allows a user to have tokens created for them via ether Token Based Authentication or Using OAuth Authentication.|
 
-## Other Permissions
+#### Other Permissions
+
+Our Other Permissions section is a compilation of commonly used objects and useful data replications permissions. Please be aware that it is not possible for us to provide an exhaustive list of permissions as NetSuite adds support for new entities and permissions with each version.
 
 Note: Most of these permissions can be set for view-only to limit access if required.
 
@@ -130,7 +141,7 @@ Permissions &rarr; Transactions|	Approve EFT|	Access to approvals of EFT|
 |Permissions &rarr; Lists|	Vendors|	Access to the Vendor table|
 |Permissions &rarr; Transactions|	Vendor Return Authorization| 	Access to the VendorReturnAuthorization tableTransaction table|
 |Permissions &rarr; Transactions|	Work Order|	Access to the WorkOrder table|
-## Permission Access Violations
+#### Permission Access Violations
 
 |Section|Permission|Note|
 |---|---|---|
