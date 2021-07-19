@@ -13,7 +13,7 @@ Sesame Software recommends, where it is possible, to modify an existing NetSuite
 
 With a few exceptions any existing role can be utilized, however the following must be true:
    1. Not an Administrator-Level role.
-      1. Note: A user may be an Administrator in addition to a secondary role for RJWarehouse but that secondary role must not be an admin-based user.
+      1. Note: A user may be an Administrator in addition to a secondary role for RJWarehouse but that secondary role must not be an admin-based role.
    2. Must have been created in the  **Center Type - Classic Center**. 
       1. Note: If the role is anything other than the Classic Center, you must use a different base role as the Center Type is set at role creation and cannot be changed.
 
@@ -42,26 +42,25 @@ With a few exceptions any existing role can be utilized, however the following m
 
 An existing role must have the Center Type, Employee Restrictions, Subsidiary Restriction and Authentication settings as above. Verify the following options are ***not*** checked: ```CORE ADMINISTRATION PERMISSIONS```, ```SINGLE SIGN-ON ONLY```, ```WEB SERVICES ONLY ROLE``` and ```RESTRICT THIS ROLE BY DEVICE ID```.
 
-Optional but recommended: Re-name the existing role to indicate that it is being utilized by RJWarehouse in addition to its other functions to locate it easily later, if necessary.
+Optional but recommended: Re-name the existing role to indicate that it is being utilized by RJWarehouse in addition to its other functions to locate it in the future easily.
 
-Once your role is created or you have your existing role which conforms to the requirements set above, add the permissions for the data you need replicated.
+Once your role is created or you have your existing role which conforms to the requirements set above, save the role and then add the permissions for the data you need replicated.
 #### NetSuite Permissions
 
-Permissions may be configured for a role in NetSuite under **Setup &rarr; Users/Roles &rarr; Mange Roles**. add any other permissions for the data replication you want and remove all permissions from the role that are listed in the Access Violations.
+Permissions may be configured for a role in NetSuite under **Setup &rarr; Users/Roles &rarr; Mange Roles**. The only permission additions/removals required by RJWarehouse are in the following Required and Access Violation sections. All other permissions are technically optional but will be required to replicate the individual objects they are related to. For example, if you are attempting to replicate the object Sales Order, you will need the permission for Sales Order but you may also need permissions for any related lists and Sales Order-adjacent objects (i.e.; Customer Payment, Account, etc).
 
 1. Permissions
    1. Adding/Removing Permissions
-      1. Using an Admin level account, log into customer's NetSuite.
+      1. Using an Admin level account, log into the NetSuite instance.
       2. Use global search for Manage Roles
       3. In the dropdown results, click Page: Manage Roles
       4. Find the role you are altering in the list.
       5. Click edit
-         1. Find the necessary permission in the Permissions section tabs in the dropdown at the bottom of the page.
-            1. *Note* - There are 5 tabs of permissions. Transactions, Reports, Lists, Setup, and Custom Record
-         2. Click add. 
-            1. *Suggestion* - If adding many permissions, save periodically.
-         3. Repeat steps 1 and 2 for any permissions you need.
-      6. Click save.
+         1. Find the necessary permission in the Permissions section tabs in the dropdown at the bottom of the page. There are 5 tabs of permissions: Transactions, Reports, Lists, Setup, and Custom Record.
+         1. Click add. 
+            1. If you're adding a lot of permissions, save periodcally and navigate back to the 
+         2. Repeat steps 1 and 2 for any permissions you need.
+      1. Click save.
 
 Please see this Oracle Document: [NetSuite Users & Roles](https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/chapter_N284861.html) for more information on permissions.
 
@@ -88,7 +87,9 @@ Note: Most of the following permissions fall under the Permissions &rarr; Setup 
 
 Our Other Permissions section is a compilation of commonly used objects and useful data replications permissions. Please be aware that it is not possible for us to provide an exhaustive list of permissions as NetSuite adds support for new entities and permissions with each version.
 
-Note: Most of these permissions can be set for view-only to limit access if required.
+Note: Most permissions outside of the Setup tab (Transactions, Reports, Lists) can be set for view-only to limit access if required. 
+
+If you are receiving permission errors during a run for objects you know you have the permission for, setting to FULL or EDIT can sometimes be the issue.
 
 |Section|Permission|Used For|
 |---|---|---|
@@ -143,11 +144,13 @@ Permissions &rarr; Transactions|	Approve EFT|	Access to approvals of EFT|
 |Permissions &rarr; Transactions|	Work Order|	Access to the WorkOrder table|
 #### Permission Access Violations
 
+For the function of RJWarehouse, all of these permissions must be removed from the role.
+
 |Section|Permission|Note|
 |---|---|---|
 |Permissions &rarr; Setup|Access Token Management|While required during setup of the tokens, this can cause violations and prevent access to NetSuite once role is being used.|
 |Permissions &rarr; Setup|	OAuth 2.0 Authorized Applications Management| Possible permission violation.|
-|Permissions &rarr; Setup|Core Administration Permissions|This is a Two Factor Authorization trigger which can cause a permission violation. However 2FA is being deprecated by NetSuite. Current ETA is unknown but removing this permission is best practice.|
+|Permissions &rarr; Setup|Core Administration Permissions|This is a Two Factor Authorization trigger which can cause a permission violation. 2FA is being deprecated by NetSuite however, the current ETA for full deprecation is unknown. Removing this permission is best practice.|
 |Permissions &rarr; Setup|	Two-Factor Authentication base| 2FA Trigger, see above.|
 |Permissions &rarr; Setup|Set Up OpenID Connect (OIDC) Single Sign-on|	 Possible permission violation.|
 |Permissions &rarr; Setup|Set Up OpenID Single Sign-on|	 Possible permission violation.|
@@ -155,5 +158,7 @@ Permissions &rarr; Transactions|	Approve EFT|	Access to approvals of EFT|
 |Permissions &rarr; Setup|Integration Application|2FA Trigger, see above.|
 |Permissions &rarr; Setup|Device ID Management|	2FA Trigger, see above.|
 |Permissions &rarr; Setup|View Unencrypted Credit Cards|2FA Trigger, see above.|
+
+If you are having issues with permission violations in your runs and you believe you have set your role up correctly, please contact [support](support@sesamesoftware.com) for assistance.
 
 [&#9664; Previous](NetsuiteCreds.md)
