@@ -45,7 +45,7 @@
       1. Data Tablespace
       2. Index Tablespace
       3. LOB Tablespace
-6. If the Datasource is being use as a source:
+6. If the Datasource is being used as a source:
       1. Date fields
          1. This is a comma separated list of fields that contain dates for use in incremental downloads.
          2. Choose any and all date fields in the Schema that are altered during a create or update of the records.

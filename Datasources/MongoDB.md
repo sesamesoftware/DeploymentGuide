@@ -2,7 +2,7 @@
 
 [comment]: # (Change Heading to reflect Datasource)
 
-#  SAP NetWeaver
+#  MongoDB ERP
 
 [comment]: # (Leave Nav BAR untouched)
 
@@ -14,9 +14,12 @@
 
 ### *Required Information*
 
+* **Server**
+* **Database**
+* **Schema**
+* **Port**
 * **User**
 * **Password**
-* **URL**
 
 ### Steps
 
@@ -27,24 +30,34 @@
 
 1. From the front page of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
 2. On the next screen, choose a label for your Datasource.
-   1. Recommended: ‘Source SAP NetWeaver' or something similar.
-   2. Select SAPNetWeaver Template
+   1. Recommended: ‘Source MongoDB' or something similar.
+   2. Select MongoDB Template
    3. Click Save
-3. ![SAPNetWeaver Datasource](../images/SAPNetWeaver.png)
+3. ![MongoDB Datasource](../images/MongoDB.png)
 4. Logon Information Section
-   1. Database: *Database name*
-   2. Schema: *Schema name* 
-   3. User: *Login name for database user*
-   4. Password: *Password for database user*
-   5. URL
-   6. InitiateOAuth
-   7. Batch
-   8. Batch Size *Default 200*
-   9. First Record Date *Default 1970-01-01*
-   10. Date Fields *See below*
-   11. Schema Prefix Case: *UPPER/LOWER, if required.*
-   12. Tablename Case: *UPPER/LOWER, if required.*
-   13. Select Method
+   1. Server
+   2. Database: *MongoDB Name*
+   3. Schema: *Database schema, use % if unknown.*
+   4. Port: *Default 27017*
+   5. User: *Login name for database user*
+   6. Password: *Password for database user*
+   7. AuthMechanism: *Auth mechanism that Mongo will use to authenticate the connection.*
+      1. SCRAM-SHA-1
+      2. SCRAM-SHA-256
+      3. PLAIN
+      4. GSSAPI
+   8. AuthDatabase *Name of Mongo database used for authentication.* 
+   9. RowScanDepth: *The maximum number of rows to scan to look for the columns available in a table. Set this property to  gain more control over how the provider applies data types to collections; default 100*
+   10. SlaveOK: *Whether provider is allowed to read from secondary servers; default FALSE.*
+   11. ReadPreference: *Accepted values are primary, primaryPreferred, secondary, secondaryPreferred, and nearest.*
+   12. ReplicaSet: *Specify multiple servers in addition to the one configured in Server and Port. Specify server name and port; separate servers with a comma.*
+   13. Batch Mode
+   14. Batch Size *Default 200*
+   15. First Record Date *Default 1970-01-01*
+   16. Date Fields *See below*
+   17. Schema Prefix Case: *UPPER/LOWER, if required.*
+   18. Tablename Case: *UPPER/LOWER, if required.*
+   19. Select Fields
        1.  FIELD_LIST
        2.  STAR
 5. If the Datasource is being use as a source:

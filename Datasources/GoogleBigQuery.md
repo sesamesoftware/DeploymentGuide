@@ -2,22 +2,18 @@
 
 [comment]: # (Change Heading to reflect Datasource)
 
-#  SAP NetWeaver
+#  Google Big Query 
 
 [comment]: # (Leave Nav BAR untouched)
 
 [[Installation](../guides/installguide.md)] [[Registration](../guides/RegistrationGuide.md)] [[Configuration](../guides/configurationGuide.md)] [[Datasource](../guides/DatasourceGuide.md)]
 
 ---
-
 [comment]: # (Leave Or Alter Required info as needed)
 
 ### *Required Information*
 
-* **User**
-* **Password**
-* **URL**
-
+* **ProjectId**
 ### Steps
 
 [comment]: # (step 1 is common to all Datasources)
@@ -27,24 +23,23 @@
 
 1. From the front page of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
 2. On the next screen, choose a label for your Datasource.
-   1. Recommended: ‘Source SAP NetWeaver' or something similar.
-   2. Select SAPNetWeaver Template
+   1. Recommended: ‘Source Google Big Query' or something similar.
+   2. Select GoogleBigQuery Template
    3. Click Save
-3. ![SAPNetWeaver Datasource](../images/SAPNetWeaver.png)
+3. ![GoogleBigQuery Datasource](../images/GoogleBigQuery.png)
 4. Logon Information Section
-   1. Database: *Database name*
-   2. Schema: *Schema name* 
-   3. User: *Login name for database user*
-   4. Password: *Password for database user*
-   5. URL
-   6. InitiateOAuth
-   7. Batch
-   8. Batch Size *Default 200*
-   9. First Record Date *Default 1970-01-01*
-   10. Date Fields *See below*
-   11. Schema Prefix Case: *UPPER/LOWER, if required.*
-   12. Tablename Case: *UPPER/LOWER, if required.*
-   13. Select Method
+   1. OAuthAccessToken
+   2. ProjectId
+   3. DatasetId
+   4. InitiateOAuth
+   5. UseStreamingInserts
+   13. Batch
+   14. Batch Size *Default 200*
+   15. First Record Date *Default 1970-01-01*
+   16. Date Fields *See below*
+   17. Schema Prefix Case: *UPPER/LOWER, if required.*
+   18. Tablename Case: *UPPER/LOWER, if required.*
+   19. Select Fields
        1.  FIELD_LIST
        2.  STAR
 5. If the Datasource is being use as a source:

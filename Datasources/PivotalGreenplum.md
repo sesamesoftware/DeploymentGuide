@@ -2,7 +2,7 @@
 
 [comment]: # (Change Heading to reflect Datasource)
 
-#  SAP NetWeaver
+#  Greenplum
 
 [comment]: # (Leave Nav BAR untouched)
 
@@ -14,9 +14,12 @@
 
 ### *Required Information*
 
+* **Host Name**
+* **Database Name**
+* **Schema**
+* **Port**
 * **User**
 * **Password**
-* **URL**
 
 ### Steps
 
@@ -27,26 +30,38 @@
 
 1. From the front page of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
 2. On the next screen, choose a label for your Datasource.
-   1. Recommended: ‘Source SAP NetWeaver' or something similar.
-   2. Select SAPNetWeaver Template
+   1. Recommended: ‘Source Greenplum' or something similar.
+   2. Select Greenplum Template
    3. Click Save
-3. ![SAPNetWeaver Datasource](../images/SAPNetWeaver.png)
+3. ![Greenplum Datasource](../images/Greenplum.png)
 4. Logon Information Section
-   1. Database: *Database name*
-   2. Schema: *Schema name* 
-   3. User: *Login name for database user*
-   4. Password: *Password for database user*
-   5. URL
-   6. InitiateOAuth
-   7. Batch
-   8. Batch Size *Default 200*
-   9. First Record Date *Default 1970-01-01*
-   10. Date Fields *See below*
-   11. Schema Prefix Case: *UPPER/LOWER, if required.*
-   12. Tablename Case: *UPPER/LOWER, if required.*
-   13. Select Method
+   1. Host Name: *IP or DNS of database server*
+   2. Database Name:
+   3. Schema: *Usually the same as database username typically uppercase*
+   4. Port: *Default 5432*
+   5. User: *Login name for database user*
+   6. Password: *Password for database user*
+   7. SSH User Name 	
+   8. SSH Password 	
+   9. pem Key File Location: *Location of the .pem private key file.*
+   10. pem Key Pass Phrase: *Password of the pem Key file*
+   11. Compression
+       1.  TAR
+       2.  GunZip
+   12. Path to Greenplum Utilities *Location of Greenplum file.*
+   13. Command list to execute
+   14. Utility Host: *Host where the gpload command will be executed.*
+   15. SSH Port: *Default 22*
+   16. VM IP Address: *VM IP Address, default is host*
+   17. Remote Directory: *Remote directory/folder where files are copied and processed*
+   18. First Record Date *Default 1970-01-01*
+   19. Date Fields *See below*
+   20. Schema Prefix Case: *UPPER/LOWER, if required.*
+   24. Tablename Case: *UPPER/LOWER, if required.*
+   25. Select Fields
        1.  FIELD_LIST
        2.  STAR
+   26. SSL: *Control use of SSL; any non-null value causes SSL to be required.* 
 5. If the Datasource is being use as a source:
       1. Date fields
          1. This is a comma separated list of fields that contain dates for use in incremental downloads.

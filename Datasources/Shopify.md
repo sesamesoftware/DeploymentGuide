@@ -30,7 +30,7 @@
    1. Recommended: ‘Source Shopify' or something similar.
    2. Select Shopify Template
    3. Click Save
-3. {img goes here}
+3. ![Shopify Datasource](../images/Shopify.png)
 4. Logon Information Section
    1. Password: *Password for database user*
    2. AppId: *APIID for the Admin API*

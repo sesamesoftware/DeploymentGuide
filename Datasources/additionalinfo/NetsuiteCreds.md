@@ -5,8 +5,14 @@
 [[Installation](../installguide.md)] [[Registration](../RegistrationGuide.md)] [[Configuration](../configurationGuide.md)] [[Datasource](../DatasourceGuide.md)]
 
 ---
+## Required Information for NetSuite Connection
 
-1. In NetSuite, log in as an administrator role and navigate to **Setup&rarr;Company&rarr;Company Information**. Save the Account ID to a document.
+* **Account ID**
+* **Role ID**
+* **Authorization Tokens**
+
+
+1. In NetSuite, log in as an administrator role and navigate to **Setup&rarr;Company&rarr;Company Information**. Save the Account ID to a .txt or other easy-to-find document.
 
 ![account id](../../images/NetsuiteAccountId.png)
 
@@ -19,9 +25,10 @@
 
 ![Manage Integrations](../../images/NetsuiteManageIntegrations.png)
 
-6. Create a token role by navigating to **Setup&rarr;User/Roles&rarr;Manage Roles** and either create a new role or edit an existing role.
-7. Under **Permissions&rarr;Setup**, the role must have the User Access Token: Full, Access Token Management: Full, and Web Services: Full permissions.
-8. Add the role to a user under **Lists&rarr;Employees&rarr;Employees**. Select to edit an employee and add the new token role under **Access&rarr;Roles**.
+6. Create a token role by navigating to **Setup&rarr;User/Roles&rarr;Manage Roles** and either create a new role for RJWarehouse to use or edit an existing role with the required configuration and permissions
+   1. See [Role Creation, Modification and Setting Permissions](../../images/netsuitepermissions.md) for more information on the requirements for roles and permissions.
+
+7. Add the role to a user under **Lists&rarr;Employees&rarr;Employees**. Select to edit an employee and add the new token role under **Access&rarr;Roles**.
 
 ![Manage Roles](../../images/NetsuiteManageRoles.png)
 
@@ -30,7 +37,7 @@
 
 ![AccessTokens](../../images/NetsuiteAccessTokens.png)
 
-After creating the access token, a connection can now be made using the values obtained from the previous steps. Specify these connection properties at a minimum to connect:
+You should not have the following information:
 
 **AccountId** specifying the account to connect to.
 **OAuthClientId** the Consumer Key displayed when the application was created.

@@ -2,7 +2,7 @@
 
 [comment]: # (Change Heading to reflect Datasource)
 
-#  SAP NetWeaver
+#  Odoo ERP
 
 [comment]: # (Leave Nav BAR untouched)
 
@@ -14,6 +14,7 @@
 
 ### *Required Information*
 
+* **Database**
 * **User**
 * **Password**
 * **URL**
@@ -27,24 +28,23 @@
 
 1. From the front page of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
 2. On the next screen, choose a label for your Datasource.
-   1. Recommended: ‘Source SAP NetWeaver' or something similar.
-   2. Select SAPNetWeaver Template
+   1. Recommended: ‘Source Odoo' or something similar.
+   2. Select Odoo Template
    3. Click Save
-3. ![SAPNetWeaver Datasource](../images/SAPNetWeaver.png)
+3. ![Odoo Datasource](../images/Odoo-datasource.png)
 4. Logon Information Section
-   1. Database: *Database name*
-   2. Schema: *Schema name* 
+   1. Database
+   2. Schema
    3. User: *Login name for database user*
    4. Password: *Password for database user*
    5. URL
-   6. InitiateOAuth
-   7. Batch
-   8. Batch Size *Default 200*
-   9. First Record Date *Default 1970-01-01*
-   10. Date Fields *See below*
-   11. Schema Prefix Case: *UPPER/LOWER, if required.*
-   12. Tablename Case: *UPPER/LOWER, if required.*
-   13. Select Method
+   6. Batch
+   7. Batch Size *Default 200*
+   8. First Record Date *Default 1970-01-01*
+   9.  Date Fields *See below*
+   10. Schema Prefix Case: *UPPER/LOWER, if required.*
+   11. Tablename Case: *UPPER/LOWER, if required.*
+   12. Select Method
        1.  FIELD_LIST
        2.  STAR
 5. If the Datasource is being use as a source:
