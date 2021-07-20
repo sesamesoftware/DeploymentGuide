@@ -35,7 +35,7 @@
    1. Recommended: ‘Source Snowflake' or something similar.
    2. Select Snowflake Template
    3. Click Save
-3. {img goes here}
+3. ![Snowflake Datasource](../images/snowflake.png)
 4. Logon Information Section
    1. Host: *IP or DNS of database server*
    2. Database: *Database name*

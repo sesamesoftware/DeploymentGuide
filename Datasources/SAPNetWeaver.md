@@ -30,7 +30,7 @@
    1. Recommended: ‘Source SAP NetWeaver' or something similar.
    2. Select SAPNetWeaver Template
    3. Click Save
-3. {img goes here}
+3. ![SAPNetWeaver Datasource](../images/SAPNetWeaver.png)
 4. Logon Information Section
    1. Database: *Database name*
    2. Schema: *Schema name* 

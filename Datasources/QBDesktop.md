@@ -27,7 +27,7 @@
    1. Recommended: ‘Source QuickBooks Desktop' or something similar.
    2. Select QuickBooksDesktop Template
    3. Click Save
-3. {img goes here}
+3. ![QuickBooksDesktop Datasource](../images/QuickBooksDesktop.png)
 4. Logon Information Section
    1. User: *Login name for database user*
    6. Password: *Password for database user*

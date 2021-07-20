@@ -29,7 +29,7 @@
    4. Port: *default port for mysql is 3306*
    5. Username: *login name for database user*
    6. Password: *Password for database user*
-   7. tablespace: if applicable
+   7. Tablespace: if applicable
       1. Data Tablespace
       2. Index Tablespace
       3. LOB Tablespace

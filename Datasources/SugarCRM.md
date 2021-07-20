@@ -31,7 +31,7 @@
    1. Recommended: ‘Source SugarCRM' or something similar.
    2. Select SugarCRM Template
    3. Click Save
-3. {img goes here}
+3. ![SugarCRM Datasource](../images/sugarcrm.png)
 4. Logon Information Section
    1. URL: ```https://YOUR_COMPANY_ID.sugarcrm.com```
    6. Password: *Password for database user*
