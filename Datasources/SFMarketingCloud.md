@@ -30,34 +30,34 @@
    1. Recommended: ‘Source SFMarketingCloud' or something similar.
    2. Select SFMarketingCloud Template
    3. Click Save
-3. ![SFMarketingCloud Datasource](../images/SFMarketingCloud.png)
-4. Logon Information Section
+   ![SFMarketingCloud Datasource](../images/SFMarketingCloud.png)
+3. Logon Information Section
    1. User: *Login name for database user*
-   6. Password: *Password for database user*
-   2. Schema Type
-   3. SOAP
-   4. AccountID
-   5. Instance: *Default s7*
-   6. Subdomain
-   7. UseLegacyAuthentication *Default FALSE*
-   8. Batch
-   9. Batch Size *Default 200*
-   10. First Record Date *Default 1970-01-01*
-   11. Date Fields *See below*
-   12. Schema Prefix: *UPPER/LOWER, if required.*
-   13. Tablename Case: *UPPER/LOWER, if required.*
-   14. Select Method
+   2. Password: *Password for database user*
+   3. Schema Type
+   4. SOAP
+   5. AccountID
+   6. Instance: *Default s7*
+   7. Subdomain
+   8. UseLegacyAuthentication *Default FALSE*
+   9. Batch
+   10. Batch Size *Default 200*
+   11. First Record Date *Default 1970-01-01*
+   12. Date Fields *See below*
+   13. Schema Prefix: *UPPER/LOWER, if required.*
+   14. Tablename Case: *UPPER/LOWER, if required.*
+   15. Select Method
        1.  FIELD_LIST
        2.  STAR
-5. If the Datasource is being use as a source:
+4. If the Datasource is being use as a source:
       1. Date fields
          1. This is a comma separated list of fields that contain dates for use in incremental downloads.
          2. Choose any and all date fields in the Schema that are altered during a create or update of the records.
          3. The order of precedence is from left to right in what date field is chosen. Given a date field list `LastModifiedDate, CreatedDate` when the tables is queried it will check first if `LastModifiedDate` exists if it does, it will use that for incremental. If it doesn't then it will use `CreateDate`. If neither exist it will do a full table pull.
       2. First Record Date
          1. The oldest date found in the schema for the fields in the date field list. This helps to avoid slow startup of initial load where it will query empty time.
-6. Click Test
-7. Once you see Connection Test Successful, click Save and Close.
+5. Click Test
+6. Once you see Connection Test Successful, click Save and Close.
 
 ---
 

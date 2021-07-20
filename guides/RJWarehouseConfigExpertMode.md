@@ -8,9 +8,11 @@
 
 At the top of your configuration, select the radial button for Expert Mode.
 
+These settings in their default mode
+
 ![AdvancedConfigProps](../images/advconfigprop1.png)
 
-####Database Design:
+#### Database Design:
 
 1. Maximum VARCHAR Size: *Parameter to override the default VARCHAR limit; default 1000.*
    1. This value is used to determine if a CLOB or TEXT data type will be used. If the length is greater than this value a CLOB or TEXT data type will be used.  This will affect the ability to store large rows in a given table, since CLOB or TEXT fields are typically not stored in the same physical record and do not count against the block size limit. If “use internationalization” is set to true, you cannot set this higher than 2000. If use internationalization is set to false, you cannot set this higher than 4000. If you are using a DBMS like MySQLor Maria DB you will not want to set this higher than 255 due to database limitations.

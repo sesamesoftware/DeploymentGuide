@@ -26,18 +26,19 @@
 ![Manage Integrations](../../images/NetsuiteManageIntegrations.png)
 
 6. Create a token role by navigating to **Setup&rarr;User/Roles&rarr;Manage Roles** and either create a new role for RJWarehouse to use or edit an existing role with the required configuration and permissions
-   1. See [Role Creation, Modification and Setting Permissions](../../images/netsuitepermissions.md) for more information on the requirements for roles and permissions.
+   1. See [Role Configuration](../../images/netsuitepermissions.md) for more information on the requirements for roles and permissions.
 
 7. Add the role to a user under **Lists&rarr;Employees&rarr;Employees**. Select to edit an employee and add the new token role under **Access&rarr;Roles**.
 
 ![Manage Roles](../../images/NetsuiteManageRoles.png)
 
 9. Navigate to **Setup&rarr;User/Roles&rarr;Access Tokens** and create a new access token. Select the application name as the integration that was created earlier, and the same user and role that were updated in the previous steps.
-10. After creating the access token, a Token Id and Token Secret will be displayed. These map directly to the OAuthAccessToken and OAuthAccessTokenSecret. Save these to the document.
+    
+10. After creating the access token, a Token ID and Token Secret will be displayed. These map directly to the OAuthAccessToken and OAuthAccessTokenSecret. Save these to the document.
 
 ![AccessTokens](../../images/NetsuiteAccessTokens.png)
 
-You should not have the following information:
+You should now have the following information:
 
 **AccountId** specifying the account to connect to.
 **OAuthClientId** the Consumer Key displayed when the application was created.

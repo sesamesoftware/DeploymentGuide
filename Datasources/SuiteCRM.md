@@ -29,10 +29,8 @@
 2. On the next screen, choose a label for your Datasource.
    1. Recommended: ‘Source SuiteCRM' or something similar.
    2. Select SuiteCRM Template
-   3. Click Save
-   
-   ![SuiteCRM Datasource](../images/suitecrm.png)
-
+   3. Click Save 
+![SuiteCRM Datasource](../images/suitecrm.png)
 3. Logon Information Section
    1. User: *Login name for SuiteCRM account.*
    2. Password: *Password for SuiteCRM account.*

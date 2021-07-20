@@ -22,7 +22,7 @@
    1. Recommended: ‘Source PeopleSoft’ or something similar.
    2. Select OracleServiceThin Template
    3. Click Save
-3. ![Oracle Service Thin](../images/oracleservicethin.png)
+3. ![PeopleSoft](../images/PeopleSoft.png)
    1. *PeopleSoft Connections are made directly to the underlying Oracle Database*
 4. Logon Information Section
    1. Host: *IP or DNS of database server*

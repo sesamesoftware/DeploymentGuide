@@ -30,10 +30,8 @@
 2. On the next screen, choose a label for your Datasource.
    1. Recommended: ‘Source Vertica' or something similar.
    2. Select Vertica Template
-   3. Click Save
-   
-   ![Vertica Datasource](../images/vertica.png)
-   
+   3. Click Save 
+![Vertica Datasource](../images/vertica.png)
 3. Logon Information Section
    1. Host: *IP address or host of Vertica database server*
    2. Database: *Name of the database to connect to*

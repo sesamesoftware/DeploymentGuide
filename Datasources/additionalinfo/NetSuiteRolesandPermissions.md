@@ -49,20 +49,18 @@ Once your role is created or you have your existing role which conforms to the r
 
 Permissions may be configured for a role in NetSuite under **Setup &rarr; Users/Roles &rarr; Mange Roles**. The only permission additions/removals required by RJWarehouse are in the following Required and Access Violation sections. All other permissions are technically optional but will be required to replicate the individual objects they are related to. For example, if you are attempting to replicate the object Sales Order, you will need the permission for Sales Order but you may also need permissions for any related lists and Sales Order-adjacent objects (i.e.; Customer Payment, Account, etc).
 
-1. Permissions
-   1. Adding/Removing Permissions
-      1. Using an Admin level account, log into the NetSuite instance.
-      2. Use global search for Manage Roles
-      3. In the dropdown results, click Page: Manage Roles
-      4. Find the role you are altering in the list.
-      5. Click edit
-         1. Find the necessary permission in the Permissions section tabs in the dropdown at the bottom of the page. There are 5 tabs of permissions: Transactions, Reports, Lists, Setup, and Custom Record.
-         1. Click add. 
-            1. If you're adding a lot of permissions, save periodcally and navigate back to the 
-         2. Repeat steps 1 and 2 for any permissions you need.
-      1. Click save.
-
 Please see this Oracle Document: [NetSuite Users & Roles](https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/chapter_N284861.html) for more information on permissions.
+
+Permissions
+1. Using an Admin level account, log into the NetSuite instance.
+2. Navigate to Setup &rarr; Users/Roles &rarr; Mange Roles
+3. Find the role you are altering in the list.
+4. Click edit
+5. Find the necessary permission in the Permissions section tabs in the dropdown at the bottom of the page. There are 5 tabs of permissions: Transactions, Reports, Lists, Setup, and Custom Record.
+6. Click add. 
+   1. If you're adding a lot of permissions, save periodcally and navigate back to the 
+7. Repeat steps 1 and 2 for any permissions you need.
+8. Click save.
 
 You can find information about removing objects from the RJWarehouse job that you don't have or don't wish to grant permission for in the [Advanced Configuration Properties](../rjwarehouseconfig2.md).
 

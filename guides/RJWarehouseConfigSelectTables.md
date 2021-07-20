@@ -10,7 +10,7 @@ At the top of your configuration, select the radial button for Expert Mode.
 
 ![AdvancedConfigProps](../images/advconfigprop1.png)
 
-####Database Design:
+#### Database Design:
 
 Select Tables to Load
 Select tables to load is a tool that allows you to create/edit download, upload, and exclude files. This is most helpful when defining subsets for your use whether for a blacklist or white list. Refer to the database design tab and set objects downloaded to restricted and point to the new subset file i.e. download.config.small.
