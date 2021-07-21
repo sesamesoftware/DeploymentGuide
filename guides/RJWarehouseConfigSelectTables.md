@@ -20,31 +20,39 @@ Select the RJWarehouse → Select Tables to Load menu, and choose the specific o
 1. From the front page of the RJ UI, go to the menu on the left and click Warehouse &rarr; Select Tables to Load
 2. Choose the configuration for your download.
 3. Chose your object list.
-   1. If this is your first time, use ```download.config```. If you have a config file already select it in the dropdown.
+   1. If this is your first time, use ```download.config```. If you have a ```download.config``` file you're already using select it in the dropdown.
 4. Click the Refresh Available Objects button, wait until the tables load.
    1. On the left are the available objects in your datasource. On the right are the objects in your download list.
-5. Objects can be moved using the center Add/Remove buttons. SHIFT+Click and CTRL+Click can be used.
+5. Objects can be moved from Available to Selected and vice versa using the center Add/Remove buttons. ```SHIFT+Click``` and ```CTRL+Click``` can be used to select multiple objects.
 6. Click Save
-7. In the pop-up give your new ```download.config``` a new name, meaningful and/or note the name down.
+7. In the pop-up give your new ```download.config``` a new name, meaningful and/or note the name down for later reference.
 8. Click Save.
 
 #### exclude.config
 
-The exclude configs are already populated with some standard objects.  Upon initialization, a checkExcludeGlobal will run creating an exclude.config.default file looking at the current Salesforce object list and verifying which objects are usable or not.  This file will reside in the RJ_HOME\1000\rjwarehouse\conf folder.
+The ```exclude.config``` contains the objects to be ignored by the download.
 
-To add this to your current job:
+1. From the front page of the RJ UI, go to the menu on the left and click Warehouse &rarr; Select Tables to Load
+2. Choose the configuration for your download.
+3. Select the  ```exclude.config``` from the Object List.
+   1. If this is your first time, use ```exclude.config```. If you have a ```exclude.config``` file you're already using select it.
+4. Click the Refresh Available Objects button, wait until the tables load.
+   1. On the left are the available objects in your datasource. On the right are the objects in your exclude list.
+5. Objects can be moved from Available to Selected and vice versa using the center Add/Remove buttons. ```SHIFT+Click``` and ```CTRL+Click``` can be used to select multiple objects.
+6. Click Save
+7. In the pop-up give your new ```exclude.config``` a new name, meaningful and/or note the name down for later reference.
+8. Click Save.
+
+#### Using the Exclude and Download Configs
+
+To add a ```download.config``` and/or ```exclude.config``` to your current job:
 
 1. From the menu on the left, go to Warehouse &rarr; Config List
 2. Select your config file.
 3. Verify you are in Expert Mode (radial button at the top of the config) and then click Database Design.
 4. Set Objects Downloaded to Restricted
 5.  In the Download Config and Exclude Config fields, enter the ```download.config``` and/or ```exclude.config``` you just built.
-6.  Click Save
-
-Note: Even if your configuration file is set to restricted mode you can still download or upload a specific object using one of the single object commands.
-
-
-
+6.  Click Save and close.
 
 ---
 
