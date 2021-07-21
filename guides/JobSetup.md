@@ -28,24 +28,24 @@
 
 ![Job Steps Tab](../images/jobsteps3.png)
 
-1. Replication Type
-   1. Select in drop down RJ Warehouse.
-2. Replication Config
-   1. Select in dropdown the config you created.
-3. Click Add New button
-4. Replication Step Label
-   1. Give the step a name. 
-   2. Suggested: getGlobal
-5. Replication Step Type
-   1. Select in dropdown RJ Warehouse.
-6. Replication Step Config
-   1. Select in dropdown config you created.
-7. Replication Step Command
-   1.  Field should now contain 'RJWarehouse -config [configfromStep8]
-   2.  At the end of the string, hit space and type ```-getGlobal```
-8.  Tick Add to current steps box
-9.  Click Save or Save and Run
-10. If running a job, return to the main Jobs tab to verify the job is running.
+##### Creating a Job Step
+
+1. Find the Available Replication Steps section.
+2. In the dropdown Replication Type select ```RJWarehouse```.
+3. In the field Replication Config, select the config you created during the steps in [Warehouse Configuration](rjwarehouseconfig.md).
+4. Click Add New button
+
+![Job Steps Tab 2](../images/jobsteps5.png)
+
+1. In the Replication Step Label Field, give the step a name.
+   1. Name should be meaningful; suggestion: ```getGlobal```
+2. In the dropdown Replication Step Type select ```RJWarehouse```.
+3. In the dropdown Replication Step Config select the config you created during the steps in [Warehouse Configuration](rjwarehouseconfig.md).
+4. The field Replication Step Command should now contain ```RJWarehouse -config [configfromStep8]```
+5. At the end of the string in Replication Step Command, hit space and type ```-getGlobal```
+6.  Tick Add to current steps box
+7.  Click Save or Save and Run
+8.  If you clicked Saved and Run, return return to the main Jobs tab to verify the job is running and you can view the log from there.
 
 #### History Tab
 
