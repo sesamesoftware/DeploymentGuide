@@ -27,12 +27,12 @@ From the front page of the RJ UI, go to the menu on the left and click **Warehou
 2. Click Save
 3. Close tab.
    
-These instructions are for an unrestricted run to download all discoverable objects in a datasource. For a limited ist of objects i.e., creating a Restricted job and other configuration properties, please see: [Advanced Configuration Properties](../images/databaseConnection.png)
+These instructions are for an unrestricted run to download all discoverable objects in a datasource. For a limited ist of objects i.e., creating a Restricted job, please see the [Select Tables to Load](RJWarehouseConfigSelectTables.md) documentation.
 
 *Note this is for a full unrestricted download of all source data*
 
 ---
 
-[[&#9664; Create Datasources](DatasourceGuide.md)] [[create and Run Job &#9654;](JobSetup.md)]
+[Configuration](guides/configurationGuide.md) | [Notifications](notification.md) | [Datasources](DatasourceGuide.md) | [**RJWarehouse Config**](rjwarehouseconfig.md) | [Create and Run Job](JobSetup.md)
 
 <p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../images/poweredBy.png" height="80px"></img></a> </p>
