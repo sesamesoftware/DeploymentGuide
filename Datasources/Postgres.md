@@ -2,7 +2,7 @@
 
 [comment]: # (Change Heading to reflect Datasource)
 
-# Postgres
+# PostgreSQL
 
 [comment]: # (Leave Nav BAR untouched)
 
