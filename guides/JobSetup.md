@@ -9,44 +9,46 @@
 1. From the front page of the RJ UI, go to the menu on the left and click **Jobs &rarr; New Job**
 2. The “ETL Job Label” will be the name of the job.
 3. Click Save.
-4. On the following screen you will see 3 tabs. Details, Job Steps and History.
-{image of details tab}
-   1. **Details tab**
-      1. Job Label
-      2. Schedule Id
-         * This ID is the unique identifier for this job and will be important if you run any ETL jobs through the terminal.
-      3. Schedule Job
-         * [Schedule Guide](./Supporting/Schedule.md)
-      4. Global Email Settings
-         * Insert Link to Global Settings Doc.
-      5. Error Notifications To
-         * Email where error logs should be sent if using the Global Email Settings.
 
-{img of job steps tab}
+#### Details Tab
 
-   1. **Job Steps tab**
-      1. Source Datasource
-         * Select the Source Datasource you created.
-      2. Target Datasource
-         * Select the Target Datasource you created.
-      3. Replication Type
-         * Select in drop down **RJ Warehouse**.
-      4. Replication Config
-         * Select in dropdown the config you created.
-      5. Click Add New button
-      6. Replication Step Label
-         * Give the step a name. 
-         * Suggested: getGlobal
-      7. Replication Step Type
-         * Select in dropdown **RJ Warehouse**.
-      8. Replication Step Config
-         * Select in dropdown config you created.
-      9. Replication Step Command
-          * Field should now contain 'RJWarehouse -config [configfromStep8]'
-          * At the end of the string, hit space and type ```-getGlobal```
-      10. Tick Add to current steps box
-   1. Click Save or Save and Run
-   1. If running a job, return to the main Jobs tab to verify the job is running.
+![Details Tab](../images/jobsteps2.png)
+1. Job Label
+2. Schedule Id
+   1. This ID is the unique identifier for this job and will be important if you run any ETL jobs through the terminal.
+3. Schedule Job
+   1. [Schedule Guide](./Supporting/Schedule.md)
+4. Global Email Settings
+   1. Insert Link to Global Settings Doc.
+5. Error Notifications To
+   1. Email where error logs should be sent if using the Global Email Settings.
+
+#### Job Steps Tab
+
+![Job Steps Tab](../images/jobsteps3.png)
+
+1. Source Datasource
+   1. Select the Source Datasource you created.
+2. Target Datasource
+   1. Select the Target Datasource you created.
+3. Replication Type
+   1. Select in drop down RJ Warehouse.
+4. Replication Config
+   1. Select in dropdown the config you created.
+5. Click Add New button
+6. Replication Step Label
+   1. Give the step a name. 
+   2. Suggested: getGlobal
+7. Replication Step Type
+   1. Select in dropdown RJ Warehouse.
+8. Replication Step Config
+   1. Select in dropdown config you created.
+9. Replication Step Command
+   1.  Field should now contain 'RJWarehouse -config [configfromStep8]
+   2.  At the end of the string, hit space and type ```-getGlobal```
+10. Tick Add to current steps box
+11. Click Save or Save and Run
+12. If running a job, return to the main Jobs tab to verify the job is running.
 
 ---
 

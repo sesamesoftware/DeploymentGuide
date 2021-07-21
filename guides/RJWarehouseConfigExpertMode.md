@@ -66,38 +66,40 @@ Note: Even if your configuration file is set to restricted mode you can still do
         1.  When you change records in the database in preparation to send to datasource and a download happens first if the record has changed in the datasource it will overwrite the data in the database.
     3.  Local
         1.  When you change records in the database in preparation to send to datasource and a download happens first if the record has changed in datasource the data in the database will not be overwritten as long as their delete_flag is set to any one of the action flags or action flag errors.
+    4.  The order of operation when it comes to the job steps can also be used to determine the system of record when the setting is set to datasource. Doing a -set then a -get (local db is system of record)  vs doing a -get then a -set (datasource is system of record).
 
-The order of operation when it comes to the job steps can also be used to determine the system of record when the setting is set to datasource. Doing a -set then a -get (local db is system of record)  vs doing a -get then a -set (datasource is system of record).; default datasource
-
-1.   Download Config:  
-     1.   The name of the file in the RJ_HOME\1000\rjwarehouse\conf directory containing the object names in order to be downloaded for download operations. The default config file is download.config. You can specify different user created config files and place them in this setting. If the datasource config file is set to restricted mode then even if you run a single object command you still have to have the object listed in the download.config file that you are using; default download.config
+11.  Download Config:  
+     1.   The name of the file in the RJ_HOME\1000\rjwarehouse\conf directory containing the object names in order to be downloaded for download operations. The default config file is download.config. You can specify different user created config files and place them in this setting. If the datasource config file is set to restricted mode then even if you run a single object command you still have to have the object listed in the download.config file that you are using.
+     2.   See the document [Select Table to Load](RJWarehouseConfigSelectTables.md) for more information.
     
-2.  Upload Config: 
-    1.  Upload Config The name of the file in the RJ_HOME\1000\rjwarehouse\conf directory containing the object names in order to be uploaded in upload operations. The default config file is upload.config.You can specify different user created config files and place them in this setting. If the datasource config file is set to restricted mode then even if you run a single object command you still have to have the object listed in the upload.config file that you are using. default upload.config
+12. Upload Config: 
+    1.  The name of the file in the RJ_HOME\1000\rjwarehouse\conf directory containing the object names in order to be uploaded in upload operations. The default config file is upload.config.You can specify different user created config files and place them in this setting. If the datasource config file is set to restricted mode then even if you run a single object command you still have to have the object listed in the upload.config file that you are using.
+    2.  See the document [Select Table to Load](RJWarehouseConfigSelectTables.md) for more information.
     
-3.  Exclude Config: 
-    1.  Exclude Config The name of the file in the RJ_HOME\1000\rjwarehouse\conf directory containing the objects to be ignored download or upload operations. The default config file is exclude.config. You can specify different user created config files and place them in this setting.
-    2.  Note: By default the download, upload, and exclude configs are already populated with some standard objects.  Upon initialization, a checkExcludeGlobal will run creating an exclude.config.default file looking at the current datasource object list and verifying which objects are usable or not.  This file will reside in the RJ_HOME\1000\rjwarehouse\conf folder. You can create user specific object config files by using the select tables to load tab. exclude.config
+13. Exclude Config: 
+    1.  The name of the file in the RJ_HOME\1000\rjwarehouse\conf directory containing the objects to be ignored download or upload operations. The default config file is exclude.config. You can specify different user created config files and place them in this setting.
+    2.  Note: By default the download, upload, and exclude configs are already populated with some standard objects.  Upon initialization, a checkExcludeGlobal will run creating an exclude.config.default file looking at the current datasource object list and verifying which objects are usable or not.  This file will reside in the RJ_HOME\1000\rjwarehouse\conf folder. You can create user specific object config files by using the select tables to load tab.
+    3.  See the document [Select Table to Load](RJWarehouseConfigSelectTables.md) for more information.
 
-4.  Track History: 
+14. Track History: 
     1.  Track History (true | false). Whether history tables will be generated. If true, the prior images of any changed record will be recorded in a corresponding history table. These tables will be created with an X prefix. For example the account table will have a corresponding xaccount table.
 
-5.   Use Internationalization (Unicode): Y/N 
+15.  Use Internationalization (Unicode): Y/N 
      1.   This setting is to be used for unicode characters. Due to changes in the functioning of datasource they have added the ability to have multiple different types of unicode data including emoticons. It will create NVARCHAR or equivalent data types for most all fields capable of having unicode data. By default this setting is set to true and should not be changed unless 100% sure there will never be any unicode data present in any of your objects.
 
-6.  Database Genesis: 
+16. Database Genesis: 
     1.  Database Genesis: The start date for the database data. Can be a year (2000) or date (2000-12-01). If empty, defaults to 1970-01-01. 2005-01-01
     
-7.  Bulk Loader Error Limit: 	
+17. Bulk Loader Error Limit: 	
     1.  Bulk Loader Error Limit: Max errors for bulk loader to throw before termination.
 
-8.  Bulk Loader escape character: 	
+18. Bulk Loader escape character: 	
     1.  Bulk Loader Escape Character: Escape character to use in flat file construction.
 
-9.  Truncate Error Table Objects: 
+19. Truncate Error Table Objects: 
     1.  Truncate Error table objects: This option does not currently do anything as an automatic feature is enabled and is scheduled to be removed from the UI. see  rj.logging.rejectLevel Yes
 
-10. Maximum Byte Count: 	
+20. Maximum Byte Count: 	
     1.  Maximum Byte Count: Data is monitored for the given day (i.e. midnight to midnight) if the total bytes in the day exceed the maxByteCount property then the program shuts down with the appropriate error. Value is in GB.
 
 
