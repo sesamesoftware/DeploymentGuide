@@ -25,8 +25,8 @@ Select the RJWarehouse → Select Tables to Load menu, and choose the specific o
    1. On the left are the available objects in your datasource. On the right are the objects in your download list.
 5. Objects can be moved from Available to Selected and vice versa using the center Add/Remove buttons. ```SHIFT+Click``` and ```CTRL+Click``` can be used to select multiple objects.
 6. Click Save
-7. In the pop-up give your new ```download.config``` a new name, meaningful and/or note the name down for later reference.
-8. Click Save.
+7. In the pop-up give your new ```download.config``` a new suffix Example: ```download.config.netsuite``` or ```download.config.NS2ADW```, meaningful and/or note the name down for later reference.
+8. Click Save and close.
 
 #### exclude.config
 

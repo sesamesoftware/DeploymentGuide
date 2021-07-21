@@ -28,28 +28,24 @@
 
 ![Job Steps Tab](../images/jobsteps3.png)
 
-1. Source Datasource
-   1. Select the Source Datasource you created.
-2. Target Datasource
-   1. Select the Target Datasource you created.
-3. Replication Type
+1. Replication Type
    1. Select in drop down RJ Warehouse.
-4. Replication Config
+2. Replication Config
    1. Select in dropdown the config you created.
-5. Click Add New button
-6. Replication Step Label
+3. Click Add New button
+4. Replication Step Label
    1. Give the step a name. 
    2. Suggested: getGlobal
-7. Replication Step Type
+5. Replication Step Type
    1. Select in dropdown RJ Warehouse.
-8. Replication Step Config
+6. Replication Step Config
    1. Select in dropdown config you created.
-9. Replication Step Command
+7. Replication Step Command
    1.  Field should now contain 'RJWarehouse -config [configfromStep8]
    2.  At the end of the string, hit space and type ```-getGlobal```
-10. Tick Add to current steps box
-11. Click Save or Save and Run
-12. If running a job, return to the main Jobs tab to verify the job is running.
+8.  Tick Add to current steps box
+9.  Click Save or Save and Run
+10. If running a job, return to the main Jobs tab to verify the job is running.
 
 #### History Tab
 
