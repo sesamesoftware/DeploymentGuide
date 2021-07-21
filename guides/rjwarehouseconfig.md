@@ -6,9 +6,11 @@
 
 ---
 
+### Config Creation
+
 From the front page of the RJ UI, go to the menu on the left and click **Warehouse &rarr; New Config**
 
-![create Config](../images/newConfig.png)
+![Create Config](../images/newConfig.png)
 
 1. Provide a name for the new configuration
    1. The name should be meaningful
