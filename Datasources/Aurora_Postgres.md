@@ -30,8 +30,9 @@
 
 1. From the front page of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
 2. On the next screen, choose a label for your Datasource.
-   1. Recommended: ‘Source AuroraPostgres’ or something similar.
-   2. Select Postgres Template
+   1. Recommended: ‘Source Aurora PostgreSQL’ or something similar.
+   2. Select PostgreSQL Template
+
    3. Click Save
 3. ![Aurora Postgres Datasource](../images\Aurora_Postgres.PNG)
 4. Logon Information Section
