@@ -19,17 +19,15 @@ From the front page of the RJ UI, go to the menu on the left and click **Warehou
 
 1. Database Connection Section
    1. Source Datasource
-      * The datasource you created for your Source.
+      1. The datasource you created for your Source.
    2. Target Datasource
-      * The datasource you created for your Target.
+      1. The datasource you created for your Target.
    3. Metadata Datasource
-      * Same as Target unless indicated otherwise.
+      1. Same as Target unless indicated otherwise.
 2. Click Save
 3. Close tab.
    
-These instructions are for an unrestricted run to download all discoverable objects in a datasource. For a limited ist of objects i.e., creating a Restricted job, please see the [Select Tables to Load](RJWarehouseConfigSelectTables.md) documentation.
-
-*Note this is for a full unrestricted download of all source data*
+These instructions are for an unrestricted run to download all discoverable objects in a datasource. For a limited list of objects i.e., creating a Restricted job, please see the [Select Tables to Load](RJWarehouseConfigSelectTables.md) documentation.
 
 ---
 
