@@ -79,6 +79,6 @@ NOTE: If your Job is setup to remove logs after X number of days the logs will n
 
 ---
 
- [[&#9664; Create Warehouse Config](rjwarehouseconfig.md)] [[Back to Main &#9654;](../README.md)]
+[Notifications](notification.md) | [Datasources](DatasourceGuide.md) | [RJWarehouse Config](rjwarehouseconfig.md) |&#9664; [**Create and Run Job**](JobSetup.md) | [Back to Main](../README.md) &#9654;
 
  <p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../images/poweredBy.png" height="80px"></img></a> </p>

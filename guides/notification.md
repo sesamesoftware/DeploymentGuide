@@ -48,7 +48,7 @@ These instructions are the set up for Relational Junction email notifications, i
 
 ---
 
-[Configuration](guides/configurationGuide.md) | [**Notifications**](notification.md) | [Datasources](DatasourceGuide.md) | [RJWarehouse Config](rjwarehouseconfig.md) | [Create and Run Job](JobSetup.md)
+[Configuration](guides/configurationGuide.md) | [&#9664; **Notifications** &#9654;](notification.md) | [Datasources](DatasourceGuide.md) | [RJWarehouse Config](rjwarehouseconfig.md) | [Create and Run Job](JobSetup.md)
 
 
 <p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../images/poweredBy.png" height="80px"></img></a> </p>

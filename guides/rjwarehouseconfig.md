@@ -33,6 +33,6 @@ These instructions are for an unrestricted run to download all discoverable obje
 
 ---
 
-[Configuration](guides/configurationGuide.md) | [Notifications](notification.md) | [Datasources](DatasourceGuide.md) | [**RJWarehouse Config**](rjwarehouseconfig.md) | [Create and Run Job](JobSetup.md)
+[Configuration](guides/configurationGuide.md) | [Notifications](notification.md) | [Datasources](DatasourceGuide.md) | [&#9664; **RJWarehouse Config** &#9654;](rjwarehouseconfig.md) | [Create and Run Job](JobSetup.md)
 
 <p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../images/poweredBy.png" height="80px"></img></a> </p>
