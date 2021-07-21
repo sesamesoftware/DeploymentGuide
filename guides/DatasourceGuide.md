@@ -32,10 +32,10 @@ Repeat above for your source and target. If you are using Columnar based systems
 * [EBS](../Datasources/EBS.md)
 * [MariaDB](../Datasources/MariaDB.md)
 * [Marketo](../Datasources/Marketo.md)
-* [Microsoft Sql Server](../Datasources/MySQL.md)
+* [Microsoft SQL Server](../Datasources/MySQL.md)
 * [MS Dynamics CRM](../Datasources/MSDynamicsCRM.md)
 * [MS Teams](../Datasources/MSTeams.md)
-* [MySql](../Datasources/MySQL.md)
+* [MySQL](../Datasources/MySQL.md)
 * [NetSuite](../Datasources/netsuite.md)
 * [Oracle Service Thin](../Datasources/OracleServiceThin.md)
 * [Oracle Sid Thin](../Datasources/OracleSidThin.md)
@@ -55,6 +55,6 @@ Repeat above for your source and target. If you are using Columnar based systems
 
 ---
 
-[[&#9664; Configure Notification](notification.md)] [[Create Warehouse Config &#9654;](rjwarehouseconfig.md)]
+[Configuration](guides/configurationGuide.md) | [Notifications](notification.md) | [**Datasources**](DatasourceGuide.md) | [RJWarehouse Config](rjwarehouseconfig.md) | [Create and Run Job](JobSetup.md)
 
 <p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../images/poweredBy.png" height="80px"></img></a> </p>
