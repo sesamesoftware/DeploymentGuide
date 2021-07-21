@@ -1,20 +1,19 @@
- <a href="http://www.sesamesoftware.com"><img align=left src="../images/RJOrbit110x110.png"></img></a>
+<img  src="../images/SesameSoftwareLogo-2020Final.png" width="100"><img align=right src="../images/RJOrbitLogo-2021Final.png" width="100">
 
-[comment]: # (Change Heading to   reflect Datasource)
+[comment]: # (Change Heading  to reflect Datasource)
 
-#  XML
+## Datasource Guide for MSAccess
 
 [comment]: # (Leave Nav BAR untouched)
 
-[[Installation](../guides/installguide.md)] [[Registration](../guides/RegistrationGuide.md)] [[Configuration](../guides/configurationGuide.md)] [[Datasource](../guides/DatasourceGuide.md)]
+[![Pre-Installation](../images/Button_PreInstall.png)](guides/installguide.md)[![Installation](../images/Button_Installation.png)](guides/installguide.md)[![Registration](../images/Button_Registration.png)](guides/RegistrationGuide.md)[![Configuration](../images/Button_Configuration.png)](guides/configurationGuide.md)[![Datasource](../images/Button_Datasource.png)](README.md)
 
 ---
-
 [comment]: # (Leave Or Alter Required info as needed)
 
 ### *Required Information*
 
-* **URI**
+* ***Datasource***
 
 ### Steps
 
@@ -25,15 +24,15 @@
 
 1. From the front page of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
 2. On the next screen, choose a label for your Datasource.
-   1. Recommended: ‘Source XML or something similar.
-   2. Select XML Template
+   1. Recommended: ‘Source MSAccess or something similar.
+   2. Select MSAccess Template
    3. Click Save
-3. ![XML Datasource](../images/XML.png)
+3. ![MSAccess Datasource](../images/MSAccess.png)
 4. Logon Information Section
-   1. URI: *The Uniform Resource Identifier (URI) for the XML resource location.  Must include the fule name of the XML file.*
+   1. Datasource: *The full path and name of the MS Access database file*
 5. Click Test
-   1. If you see Connection Test Successful
-      1. Click the SQL Button and perform a simple query to confirm that data is visible to the User. Example select * from book.
+  1. If you see Connection Test Successful
+      1. Click the SQL Button and perform a simple query to confirm that data is visible to the User. Example select * from sample.
       2. If no data is returned follow the instruction for a connection Test Failed below.
    2. If you see Connection Test Failed Check your URI and try again.
 6. If Datasource is being use as a source
@@ -43,10 +42,5 @@
       3. The order of precedence is from left to right in what date field is chosen. given a date field list `LastModifiedDate, CreatedDate` when the tables is queried it will see first if `LastModifiedDate` exists if it does use that for incremental. If it doesn't then it will use `CreateDate` if neither exist it will do a full table pull.
    2. First Record Date
       1. the oldest date found in the schema for the fields in the date field list. This helps to avoid slow startup of initial load will it queries empty time.
-6. click Save and Close.
-
----
-
-[[&#9664; Datasource Guide](../guides/DatasourceGuide.md)]
-
-<p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../images/poweredBy.png" height="80px"></img></a> </p>
+7. click Save and Close.
+<img src="../images/Left_Arrow_Configuration.png" height=75px>

@@ -6,20 +6,29 @@
 
 ---
 
-At the top of your configuration, select the radial button for Expert Mode.
-
-![AdvancedConfigProps](../images/advconfigprop1.png)
-
-####Database Design:
-
 Select Tables to Load
 Select tables to load is a tool that allows you to create/edit download, upload, and exclude files. This is most helpful when defining subsets for your use whether for a blacklist or white list. Refer to the database design tab and set objects downloaded to restricted and point to the new subset file i.e. download.config.small.
 
-Restricted | Unrestricted settings for upload and download. Unrestricted is the default setting.
-Objects Downloaded
-Restricted = Use this option to tightly control which tables are downloaded. The objects must exist in salesforce and the user must have access to the objects. Objects cannot be in both the download and exclude config.
-Unrestricted = This option will attempt to download all tables from Salesforce unless they are in the exclude config or default exclude config file. Use this to get started or if you want the system to download all tables automatically. You can create a download config file to define the initial order of the objects in the download and then the rest of the tables will be downloaded in a mostly alphabetical order. Package objects are sometimes presented out of alphabetical order.
-You can use the select tables to load tab to define what is in a download or exclude object config file.
+
+![Select Tables to Load Menu, NetSuite Example](../images/selecttablestoload.png)
+
+#### download.config
+
+Select the RJWarehouse → Select Tables to Load menu, and choose the specific objects or tables you want to load.
+
+1. From the front page of the RJ UI, go to the menu on the left and click Warehouse &rarr; Select Tables to Load
+2. Choose the configuration for your download.
+3. Chose your object list.
+   1. If this is your first time, use ```download.config```. If you have a config file already select it in the dropdown.
+4. Click the Refresh Available Objects button, wait until the tables load.
+   1. On the left are the available objects in your datasource. On the right are the objects in your download list.
+5. Objects can be moved using the center Add/Remove buttons. SHIFT+Click and CTRL+Click can be used.
+6. Click Save
+7. In the pop-up give your new ```download.config``` a new name, meaningful and/or note the name down.
+8. Click Save.
+
+
+
 Objects Uploaded
 Restricted = Use this option to tightly control which tables are uploaded. The objects must exist in salesforce and the user must have access to the objects. Objects need to be in a parent child relational order or else you can get errors like invalid cross reference id. Objects cannot be in both the upload and exclude config.
 Unrestricted = This option will attempt to download all tables from Salesforce unless they are in the exclude config or default exclude config file. Use this to get started or if you want the system to download all tables automatically. You can create a download config file to define the initial order of the objects in the download and then the rest of the tables will be downloaded in a mostly alphabetical order. Package objects are sometimes presented out of alphabetical order.
@@ -29,6 +38,14 @@ Note: Even if your configuration file is set to restricted mode you can still do
 
 exclude configs are already populated with some standard objects.  Upon initialization, a checkExcludeGlobal will run creating an exclude.config.default file looking at the current Salesforce object list and verifying which objects are usable or not.  This file will reside in the RJ_HOME\1000\rjwarehouse\conf folder. You can create user specific object config files by using the select tables to load tab.
 
+To add this to your current job:
+
+1. From the menu on the left, go to Warehouse &rarr; Config List
+2. Select your config file.
+3. Verify you are in Expert Mode (radial button at the top of the config) and then click Database Design.
+4. Set Objects Downloaded to Restricted
+5.  In the Download Config and Exclude Config fields, enter the ```download.config``` and/or ```exclude.config``` you just built.
+6.  Click Save
 
 
 
