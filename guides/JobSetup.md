@@ -78,7 +78,6 @@
 NOTE: If your Job is setup to remove logs after X number of days the logs will not be available to download or view
 
 ---
-
- [[&#9664; Create Warehouse Config](rjwarehouseconfig.md)] [[Back to Main &#9654;](../README.md)]
+[Configuration](guides/configurationGuide.md) | [Notifications](notification.md) | [Datasources](DatasourceGuide.md) | [RJWarehouse Config](rjwarehouseconfig.md) | [**Create and Run Job**](JobSetup.md)
 
  <p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../images/poweredBy.png" height="80px"></img></a> </p>
