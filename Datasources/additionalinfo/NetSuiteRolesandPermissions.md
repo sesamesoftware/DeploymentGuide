@@ -7,7 +7,7 @@
 
 ---
 
-## Role Creation and Modification in NetSuite
+### Role Creation and Modification in NetSuite
 
 Sesame Software recommends, where it is possible, to modify an existing NetSuite role vs. creation of a role for RJWarehouse use. The process of creating a role from scratch with the many permissions you may or may not need can be a time sink. Using an existing role and verifying/adding permissions required is a quicker way to get your data replication up and running.
 
@@ -47,7 +47,7 @@ Optional but recommended: Re-name the existing role to indicate that it is being
 Once your role is created or you have your existing role which conforms to the requirements set above, save the role and then add the permissions for the data you need replicated.
 #### NetSuite Permissions
 
-Permissions may be configured for a role in NetSuite under **Setup &rarr; Users/Roles &rarr; Mange Roles**. The only permission additions/removals required by RJWarehouse are in the following Required and Access Violation sections. All other permissions are technically optional but will be required to replicate the individual objects they are related to. For example, if you are attempting to replicate the object Sales Order, you will need the permission for Sales Order but you may also need permissions for any related lists and Sales Order-adjacent objects (i.e.; Customer Payment, Account, etc).
+Permissions may be configured for a role in NetSuite under **Setup &rarr; Users/Roles &rarr; Mange Roles**. The only permission additions/removals required by RJWarehouse are in the following Required and Access Violation sections. All other permissions can be selected as needed however, be aware that in Sesame Software's experience restricting the role too heavily can lead to repeated access/permission violations. For example, if you are attempting to replicate the object Sales Order, you will need the permission for Sales Order but you may also need permissions for any related lists and Sales Order-adjacent objects (i.e.; Customer Payment, Account, etc). This is even more relevant to analytics after replication. Starting with a high-permission role will speed the process of getting your replication running the way you need.
 
 1. Permissions
    1. Adding/Removing Permissions
