@@ -47,27 +47,31 @@ Optional but recommended: Re-name the existing role to indicate that it is being
 Once your role is created or you have your existing role which conforms to the requirements set above, save the role and then add the permissions for the data you need replicated.
 #### NetSuite Permissions
 
-Permissions may be configured for a role in NetSuite under **Setup &rarr; Users/Roles &rarr; Mange Roles**. The only permission additions/removals required by RJWarehouse are in the following Required and Access Violation sections. All other permissions can be selected as needed however, be aware that in Sesame Software's experience restricting the role too heavily can lead to repeated access/permission violations. For example, if you are attempting to replicate the object Sales Order, you will need the permission for Sales Order but you may also need permissions for any related lists and Sales Order-adjacent objects (i.e.; Customer Payment, Account, etc). This is even more relevant to analytics after replication. Starting with a high-permission role will speed the process of getting your replication running the way you need.
+Permissions may be configured for a role in NetSuite under **Setup &rarr; Users/Roles &rarr; Mange Roles**. The only permission additions/removals required by RJWarehouse are in the following Required and Access Violation sections. 
 
-1. Permissions
-   1. Adding/Removing Permissions
-      1. Using an Admin level account, log into the NetSuite instance.
-      2. Use global search for Manage Roles
-      3. In the dropdown results, click Page: Manage Roles
-      4. Find the role you are altering in the list.
-      5. Click edit
-         1. Find the necessary permission in the Permissions section tabs in the dropdown at the bottom of the page. There are 5 tabs of permissions: Transactions, Reports, Lists, Setup, and Custom Record.
-         1. Click add. 
-            1. If you're adding a lot of permissions, save periodcally and navigate back to the 
-         2. Repeat steps 1 and 2 for any permissions you need.
-      1. Click save.
+All other permissions can be selected as needed however, be aware that in Sesame Software's experience restricting the role too heavily can lead to repeated access/permission violations. For example, if you are attempting to replicate the object Sales Order, you will need the permission for Sales Order but you may also need permissions for any related lists and Sales Order-adjacent objects (i.e.; Customer Payment, Account, etc). This is even more relevant to analytics after replication. Starting with a high-permission role will speed the process of getting your replication running the way you need.
+
+#### Permissions
+
+![NetSuite Permissions](../../images/netsuite4.png)
+
+1. Adding/Removing Permissions
+   1. Using an Admin level account, log into the NetSuite instance.
+   2. Navigate to Setup &rarr; Users/Roles &rarr; Manage Roles
+   3. Find the role you are altering in the list.
+   4. Click edit
+   5. Find the necessary permission in the Permissions section tabs in the dropdown at the bottom of the page. 
+      1. There are 5 tabs of permissions: Transactions, Reports, Lists, Setup, and Custom Record.
+   6. Click add. 
+      1. If you're adding a lot of permissions, it's recommended to save periodically and navigate back to the role to continue editing.
+   7. Repeat steps 5 and 6 for any permissions you need.
+   8.  Click save.
 
 Please see this Oracle Document: [NetSuite Users & Roles](https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/chapter_N284861.html) for more information on permissions.
 
-You can find information about removing objects from the RJWarehouse job that you don't have or don't wish to grant permission for in the [Advanced Configuration Properties](../rjwarehouseconfig2.md).
-
+You can find information about removing objects from the RJWarehouse job that you don't have or don't want to grant permission for in the [Warehouse Config](../rjwarehouseconfig.md) and [Select Tables to Load](../RJWarehouseConfigSelectTables.md) documentation.
 #### Required Permissions
-Note: Most of the following permissions fall under the Permissions &rarr; Setup section for a role. All permissions from the Required section are necessary for the function of RJWarehouse
+Note: Most of the following permissions fall under the Permissions &rarr; Setup section for a role. All permissions from the Required section are necessary for the function of RJWarehouse.
 
 |Permission | Used For|
 |---|---|
@@ -161,4 +165,4 @@ For the function of RJWarehouse, all of these permissions must be removed from t
 
 If you are having issues with permission violations in your runs and you believe you have set your role up correctly, please contact [support](support@sesamesoftware.com) for assistance.
 
-[&#9664; Previous](NetsuiteCreds.md)
+[&#9664; NetSuite Datasource](netsuite.md) |[NS Credentials](NetsuiteCreds.md) | [**NS Roles and Permissions**](NetSuiteRolesandPermissions.md)
