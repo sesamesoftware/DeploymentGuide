@@ -25,7 +25,7 @@ Connectwise Datasources can download a specific list of tables.
 
 1. In the warehouse config under database design, set objects downloaded to restricted. 
 2. list the following tables in the download.config or create a new download.config.connectwise with the following tables:
-'''
+```
    company/addressFormats
    company/communicationTypes
    company/companies
@@ -204,7 +204,7 @@ Connectwise Datasources can download a specific list of tables.
    time/timePeriodSetups
    time/workRoles
    time/workTypes
-'''
+```
 [[&#9664; Datasource Guide](../guides/DatasourceGuide.md)]
 
 <p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../images/poweredBy.png" height="80px"></img></a> </p>
