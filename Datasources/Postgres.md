@@ -2,7 +2,7 @@
 
 [comment]: # (Change Heading to reflect Datasource)
 
-#  Sybase
+# PostgreSQL
 
 [comment]: # (Leave Nav BAR untouched)
 
@@ -14,10 +14,11 @@
 
 ### *Required Information*
 
-* **HOSTNAME**
-* **Database**
+* **Host**
+* **Database Name**
+* **Schema**
 * **Port**
-* **User**
+* **User Name**
 * **Password**
 
 ### Steps
@@ -29,37 +30,27 @@
 
 1. From the front page of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
 2. On the next screen, choose a label for your Datasource.
-   1. Recommended: ‘Source Sybase' or something similar.
-   2. Select Sybase Template
-   3. Click Save
-   
-   ![Sybase Datasource](../images/sybase.png)
+   1. Recommended: ‘Source PostgreSQL’ or something similar.
+   2. Select PostgreSQL Template
 
-3. Logon Information Section
-   1. HOSTNAME: *Name of current host.*
-   2. Database: *Sybase database name.*
-   3. Schema: *Database schema.*
-   4. Port:
-   5. User: *Login name for database user*
+   3. Click Save
+3. ![Oracle Service Thin Datasource](../images/postgres.png)
+4. Logon Information Section
+   1. Host: *ip or dns of database server*
+   2. Database: *Database name*
+   3. Schema: *public or named schema*
+   4. Port: *default port for oracle is 5432*
+   5. Username: *login name for database user*
    6. Password: *Password for database user*
-   7. Batch Mode 	
-   8. Batch Size 	 	
-   9. First Record Date *Default 1970-01-01*
-   10. Date Fields *See below* 
-   11. Schema Prefix Case: *UPPER/LOWER, if required.*
-   12. Tablename Case: *UPPER/LOWER, if required.*
-   13. Select Fields
-       1.  FIELD_List
-       2.  STAR
-4. If the Datasource is being use as a source:
+5. If the Datasource is being use as a source:
       1. Date fields
          1. This is a comma separated list of fields that contain dates for use in incremental downloads.
          2. Choose any and all date fields in the Schema that are altered during a create or update of the records.
          3. The order of precedence is from left to right in what date field is chosen. Given a date field list `LastModifiedDate, CreatedDate` when the tables is queried it will check first if `LastModifiedDate` exists if it does, it will use that for incremental. If it doesn't then it will use `CreateDate`. If neither exist it will do a full table pull.
       2. First Record Date
          1. The oldest date found in the schema for the fields in the date field list. This helps to avoid slow startup of initial load where it will query empty time.
-5. Click Test
-6. Once you see Connection Test Successful, click Save and Close.
+7. Click Test
+8. Once you see Connection Test Successful, click Save and Close.
 
 ---
 

@@ -7,18 +7,17 @@
 ---
 
 * [Installation](guides/installguide.md)
-  * [Pre-install Information](guides/installguide.md##Pre-Install)
-  * [Three ways to install](guides/installguide.md##Install)
+  * [Pre-install Information](guides/installguide.md#Pre-Install)
+  * [Three ways to install](guides/installguide.md#Install)
     * [MarketPlace](guides/installWithMarketPlace.md)
     * [Oracle Resource Manager](guides/installwithORM.md)
     * [Terraform](guides/installwithTerraform.md)
 * [Registration](guides/RegistrationGuide.md)
 * [Configuration](guides/configurationGuide.md)
-  * [setup email](guides/configurationGuide.md#Relational-Junction-Global-Settings)
-  * [Datasource Setup](guides/configurationGuide.md#RJ-Warehouse-Oracle-Datasource-Setup)
-    * [Datasources](guides/DatasourceGuide.md)
-  * [Source to Target connection Configuration](guides/configurationGuide.md#RJ-Warehouse-Datasource-Connection-Configuration)
-* [Job Setup](guides/configurationGuide.md#RJWarehouse-Job-Setup)
+  * [setup email](guides/notification.md)
+  * [Datasource Setup](guides/DatasourceGuide.md)
+  * [Source to Target connection Configuration](guides/rjwarehouseconfig.md)
+* [Job Setup](guides/JobSetup.md)
 
 ---
 
