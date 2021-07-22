@@ -18,7 +18,7 @@
   * [Datasource Setup](guides/DatasourceGuide)
     * [Datasources](guides/DatasourceGuide.md)
   * [Source to Target connection Configuration](rjwarehouseconfig.md)
-* [Job Setup](guides/JobSetup.mdp)
+* [Job Setup](guides/JobSetup.md)
 
 ---
 
