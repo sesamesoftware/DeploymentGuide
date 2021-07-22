@@ -207,4 +207,4 @@ Connectwise Datasources can download a specific list of tables.
 ```
 [[&#9664; Datasource Guide](../guides/DatasourceGuide.md)]
 
-<p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../images/poweredBy.png" height="80px"></img></a> </p>
+<p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../../images/poweredBy.png" height="80px"></img></a> </p>
