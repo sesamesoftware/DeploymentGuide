@@ -15,7 +15,7 @@
 * [Registration](guides/RegistrationGuide.md)
 * [Configuration](guides/configurationGuide.md)
   * [setup email](guides/notification.md)
-  * [Datasource Setup](guides/DatasourceGuide)
+  * [Datasource Setup](guides/DatasourceGuide.md)
   * [Source to Target connection Configuration](guides/rjwarehouseconfig.md)
 * [Job Setup](guides/JobSetup.md)
 
