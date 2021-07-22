@@ -23,6 +23,8 @@ Repeat above for your source and target. If you are using Columnar based systems
 * [Aurora PostgreSQL](../Datasources/Aurora_Postgres.md)
 * [Bullhorn crm](../images/Button_Configuration.png)
 * [Chargebee](../Datasources/Chargebee.md)
+* [ConnectWise](../Datasources/Connectwise.md)
+* [CSV/TSV](../Datasources/CSV.md)
 * [DB2](../Datasources/db2.md)
 * [DB2AS400](../Datasources/db2AS400.md)
 * [EBS](../Datasources/EBS.md)

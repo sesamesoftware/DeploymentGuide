@@ -6,7 +6,7 @@
 
 [comment]: # (Leave Nav BAR untouched)
 
-[![Pre-Installation](../images/Button_PreInstall.png)](guides/installguide.md)[![Installation](../images/Button_Installation.png)](guides/installguide.md)[![Registration](../images/Button_Registration.png)](guides/RegistrationGuide.md)[![Configuration](../images/Button_Configuration.png)](guides/configurationGuide.md)[![Datasource](../images/Button_Datasource.png)](README.md)
+[[Installation](../guides/installguide.md)] [[Registration](../guides/RegistrationGuide.md)] [[Configuration](../guides/configurationGuide.md)] [[Datasource](../guides/DatasourceGuide.md)]
 
 ---
 [comment]: # (Leave Or  Alter Required info as needed)
@@ -43,4 +43,9 @@
    2. First Record Date
       1. the oldest date found in the schema for the fields in the date field list. This helps to avoid slow startup of initial load will it queries empty time.
 7. click Save and Close.
-<img src="../images/Left_Arrow_Configuration.png" height=75px>
+
+---
+
+[[&#9664; Datasource Guide](../guides/DatasourceGuide.md)]
+
+<p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../images/poweredBy.png" height="80px"></img></a> </p>
