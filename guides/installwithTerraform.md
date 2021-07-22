@@ -14,7 +14,7 @@
 
 #### Provisioning Using git Repository
 
-1. Clone the Repository:
+Clone the Repository:
 
 ```bash
 git clone https://github.com/sesamesoftware/Terraform-OCI-RelationalJunction.git RelationalJunction
@@ -23,7 +23,7 @@ cd RelationalJunction
 cp terraform.tfvars.example terraform.tfvars
 ```
 
-2. Mandatory parameters: env-vars file
+Mandatory parameters: env-vars file
 
 |parameter|description|example|
 |---|---|---|
