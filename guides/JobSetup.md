@@ -47,39 +47,8 @@
 7.  Click Save or Save and Run
 8.  If you clicked Saved and Run, return return to the main Jobs tab to verify the job is running and you can view the log from there.
 
-#### History Tab
 
-![History Tab](../images/jobsteps4.png)
-
-1. Job History Fields
-   1. Search
-      1. Search using specific date ranges or by run id to see specific log files.
-   2. Run Id
-      1. The unique run Id that identifies this run
-   3. Start
-      1. The time the Job started
-   4. End
-      1. The time the Job ended 
-   5. Read
-      1. The total number of records read during the run 
-   6. Inserted
-      1. The total number of records inserted during the run
-   7. Updated
-      1. The total number of records updated during the run 
-   8. Errors
-      1. The total number of errors during the run 
-   9.  Status
-       1.  COMPLETED - Job run completed successfully
-       2.  FAILED - Job run failed 
-       3.  RUNNING - Current Job that is running
-       4.  CANCELED - Job run was canceled 
-       5.  CREATED - When the Job was created
-
-NOTE: If your Job is setup to remove logs after X number of days the logs will not be available to download or view
-
-
-
-[Notifications](notification.md) | [Datasources](DatasourceGuide.md) | [RJWarehouse Config](rjwarehouseconfig.md) |&#9664; [**Create and Run Job**](JobSetup.md) | [Back to Main](../README.md) &#9654;
+[[&#9664; Back to Warehouse Config](../rjwarehouseconfig.md)] [[Main &#9654;](../README.md)]
 
 
  <p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../images/poweredBy.png" height="80px"></img></a> </p>

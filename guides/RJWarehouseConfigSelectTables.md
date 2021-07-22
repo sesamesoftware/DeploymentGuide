@@ -61,6 +61,6 @@ To add a ```download.config``` and/or ```exclude.config``` to your current job:
 6.  Click Save and close.
 
 ---
-[Configuration](guides/configurationGuide.md) | [Notifications](notification.md) | [Datasources](DatasourceGuide.md) | [RJWarehouse Config](rjwarehouseconfig.md) | [Create and Run Job](JobSetup.md)
+[[&#9664; Back to Warehouse Config](../rjwarehouseconfig.md)] [[Create & Run Jobs &#9654;](../JobSetup.md)]
 
 <p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../images/poweredBy.png" height="80px"></img></a> </p>

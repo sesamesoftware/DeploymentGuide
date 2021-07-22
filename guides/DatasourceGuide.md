@@ -55,6 +55,6 @@ Repeat above for your source and target. If you are using Columnar based systems
 
 ---
 
-[Configuration](guides/configurationGuide.md) | [Notifications](notification.md) | [&#9664; **Datasources** &#9654;](DatasourceGuide.md) | [RJWarehouse Config](rjwarehouseconfig.md) | [Create and Run Job](JobSetup.md)
+[[&#9664; Back to Notifications](../notification.md)] [[Create Warehouse Config &#9654;](../rjwarehouseconfig.md)]
 
 <p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../images/poweredBy.png" height="80px"></img></a> </p>

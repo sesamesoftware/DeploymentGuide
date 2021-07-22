@@ -47,6 +47,6 @@ You should not have the following information:
 
 ---
 
-[&#9664; NetSuite Datasource](../netsuite.md)| [**NS Credentials**](NetsuiteCreds.md) | [NS Roles and Permissions](NetSuiteRolesandPermissions.md)
+[[&#9664; Back to NetSuite Datasource](../netsuite.md)]
 
 <p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../../images/poweredBy.png" height="80px"></img></a> </p>
