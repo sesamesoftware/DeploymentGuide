@@ -7,8 +7,8 @@
 ---
 
 * [Installation](guides/installguide.md)
-  * [Pre-install Information](guides/installguide.md##Pre-Install)
-  * [Three ways to install](guides/installguide.md##Install)
+  * [Pre-install Information](guides/installguide.md#Pre-Install)
+  * [Three ways to install](guides/installguide.md#Install)
     * [MarketPlace](guides/installWithMarketPlace.md)
     * [Oracle Resource Manager](guides/installwithORM.md)
     * [Terraform](guides/installwithTerraform.md)
