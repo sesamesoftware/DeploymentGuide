@@ -31,7 +31,7 @@
    1. Recommended: ‘Source Connectwise’ or something similar.
    2. Select Connectwise Template
    3. Click Save
-3. ![Connectwise Datasource](../images/Connectwise.png)
+3. ![Connectwise Datasource](../images/Connectwise.PNG)
 4. Logon Information Section
    1. Username: *User name+public key, + is required*
    2. Password: *User password*
