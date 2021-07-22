@@ -48,6 +48,7 @@ These instructions are the set up for Relational Junction email notifications, i
 
 ---
 
-[[&#9664; Configuration](guides/configurationGuide.md)] [[Create Datasources &#9654;](DatasourceGuide.md)]
+[[&#9664; Back to Configuration Guide](../configurationGuide.md)] [[Create Datasource &#9654;](../datasourceguide.md)]
+
 
 <p align="center" >  <a href="http://www.sesamesoftware.com"><img align=center src="../images/poweredBy.png" height="80px"></img></a> </p>
