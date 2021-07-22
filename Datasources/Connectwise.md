@@ -45,7 +45,7 @@
 6. Click Test
 7. Once you see Connection Test Successful, click Save and Close.
 8. When setting up this datasource the config needs to run as restricted with a specified list of objects.
-   1. See additional information [Connectwise Tables](additionalinfo/connectwisetables.md)
+   1. See additional information [Connectwise Tables](additionalinfo/ConnectwiseTables.md)
 
 ---
 
