@@ -11,12 +11,7 @@
 1. From the front page of the RJ UI, go to the menu on the left and click **Datasources &rarr; New Datasource**
 2. On the next screen, choose a label for your Datasource.
    1. *Recommendation: The name of each job should be clear and meaningful. Setting your naming convention from the start will save time in the future and make it quick and easy to find elements later. Example: ‘Oracle Target for Netsuite’ or 'Source Netsuite'.*
-<<<<<<< HEAD
 3. Select Template for the Technology you are connecting to.
-
-=======
-3. Select Template for the Technology you are connecting too
->>>>>>> fd72c99ec239321464073209d74688d34f060df2
 4. Click Save
 
 *Use the [Datasource Guide](#supported-datasources) for specific guides to datasource templates.*
@@ -25,6 +20,7 @@ Repeat above for your source and target. If you are using Columnar based systems
 
 ### Supported Datasources
 
+* [Aurora PostgreSQL](../Datasources/Aurora_Postgres.md)
 * [Bullhorn crm](../images/Button_Configuration.png)
 * [Chargebee](../Datasources/Chargebee.md)
 * [DB2](../Datasources/db2.md)
@@ -51,6 +47,9 @@ Repeat above for your source and target. If you are using Columnar based systems
 * [Oracle Supply Chain Management](../Datasources/OracleSCM.md)
 * [Pardot](../Datasources/Pardot.md)
 * [PeopleSoft](../Datasources/PeopleSoft.md)
+* [PostgreSQL](../Datasources/Postgres.md)
+* [Progress OpenEdge](../Datasources/OpenEdge.md)
+* [RSS](../Datasources/rss.md)
 * [Siebel](../Datasources/Siebel.md)
 
 ---
