@@ -39,7 +39,7 @@
    4. Endpoint: *Connectwise API URL (API URL example: https://" + SiteUrl + "/" + Codebase + "apis/3.0/)*
 5. If the Datasource is being used as a source:
       1. Date fields
-         1._info.lastUpdated
+         1. _info.lastUpdated
       2. First Record Date
          1. The oldest date found in the schema for the fields in the date field list. This helps to avoid slow startup of initial load where it will query empty time.
 6. Click Test
