@@ -16,8 +16,19 @@
 
 * **Host**
 * **Database**
+* **Schema**
+* **Port**
 * **User**
-* **Password** 
+* **Password**
+* **Utility Host**
+* **Remote Directory**
+* **SSH port**
+
+*Choose either SSH or pem Key*
+* **SSH User Name**
+* **SSH User Password**
+* **pem Key File Location**
+* **pem Key Pass Phrase**
 
 ### Steps
 
@@ -28,7 +39,7 @@
 
 1. From the front page of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
 2. On the next screen, choose a label for your Datasource.
-   1. Recommended: ‘Source Vertica' or something similar.
+   1. Recommended: ‘Vertica Target' or something similar.
    2. Select Vertica Template
    3. Click Save
    
@@ -56,6 +67,7 @@
    17. Date Fields *See below*
    18. Schema Prefix Case: *UPPER/LOWER, if required.*
    19. Tablename Case: *UPPER/LOWER, if required.*
+   20. SSL: *true or false, depending upon your system.*
 4. If the Datasource is being use as a source:
       1. Date fields
          1. This is a comma separated list of fields that contain dates for use in incremental downloads.
@@ -65,6 +77,14 @@
          1. The oldest date found in the schema for the fields in the date field list. This helps to avoid slow startup of initial load where it will query empty time.
 5. Click Test
 6. Once you see Connection Test Successful, click Save and Close.
+
+### Additional Configuration
+
+   1. When setting up your Warehouse configuration file you have to set **USE INTERNATINALIZATION** to false in the database design section
+   2. The rj.database.singleByte setting needs to be set to true in the defaults file.
+      1. Click on the Warehouse tab.
+      2. Click on defaults.
+      3. In the rj.database Preferences section set rj.database.singleByte = true
 
 ---
 

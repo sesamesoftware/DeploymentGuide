@@ -14,12 +14,15 @@
 
 ### *Required Information*
 
-* **Host**
-* **Service Name**
-* **User Name**
-* **Password**
+* **Server**
+* **Database**
 * **Schema**
 * **Port**
+* **User Name**
+* **Password**
+* **Schema Prefix**
+* **Tablename Case**
+
 
 ### Steps
 
@@ -30,30 +33,34 @@
 
 1. From the front page of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
 2. On the next screen, choose a label for your Datasource.
-   1. Recommended: ‘Source NetSuite’ or something similar.
-   2. Select Amazon Redshift Template
+   1. Recommended: ‘Redshift Target’ or something similar.
+   2. Select Redshift Template
    3. Click Save
-3. ![Oracle Service Thin Datasource](../images/oracleservicethin.png)
+3. ![Redshift Datasource](../images/redshift.png)
 4. Logon Information Section
-   1. Host: *ip or dns of database server*
-   2. Database: *ServiceName*
-   3. Schema: *Usually the same as database Username typically uppercase*
-   4. Port: *default port for oracle is 1521*
+   1. Server: *The connection string provided in the AWS environment.*
+   2. Database: *Name of the database.*
+   3. Schema: *Name of the Schema. Schema is lowercase.*
+   4. Port: *default port for Redshift is 5439*
    5. Username: *login name for database user*
    6. Password: *Password for database user*
-   7. tablespace: if applicable
-      1. Data Tablespace
-      2. Index Tablespace
-      3. LOB Tablespace
-6. If the Datasource is being used as a source:
-      1. Date fields
-         1. This is a comma separated list of fields that contain dates for use in incremental downloads.
-         2. Choose any and all date fields in the Schema that are altered during a create or update of the records.
-         3. The order of precedence is from left to right in what date field is chosen. Given a date field list `LastModifiedDate, CreatedDate` when the tables is queried it will check first if `LastModifiedDate` exists if it does, it will use that for incremental. If it doesn't then it will use `CreateDate`. If neither exist it will do a full table pull.
-      2. First Record Date
-         1. The oldest date found in the schema for the fields in the date field list. This helps to avoid slow startup of initial load where it will query empty time.
-7. Click Test
-8. Once you see Connection Test Successful, click Save and Close.
+   7. AllowPreparedStatement: *true* *This should be set to true for best performance.
+   8. Batch Delete: *Yes* *This should be set to true for best performance.
+   9. Writer Class: *Batch Insert Writer*
+   10. Batch Inserts: *true*
+   11. Batch Size: *200*
+   12. Schema Prefix: *LOWER*
+   13. Tablename Case: *LOWER*
+6. Click Test
+7. Once you see Connection Test Successful, click Save and Close.
+
+### Additional Configuration
+
+   1. When setting up your Warehouse configuration file you have to set **USE INTERNATINALIZATION** to false in the database design section
+   2. The rj.database.singleByte setting needs to be set to true in the defaults file.
+      1. Click on the Warehouse tab.
+      2. Click on defaults.
+      3. In the rj.database Preferences section set rj.database.singleByte = true
 
 ---
 
