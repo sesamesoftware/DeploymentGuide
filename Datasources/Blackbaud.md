@@ -49,6 +49,7 @@
 7. Click Test
 
 *Note: If this is a new datasource you will be presented with a Blackbaud login screen in order to complete the authentication process.*
+
 8. Once you see Connection Test Successful, click Save and Close.
 
 ---
