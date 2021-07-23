@@ -31,8 +31,8 @@
 2. From the front page of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
 3. On the next screen, choose a label for your Datasource.
    1. Recommended: ‘Source Blackbaud’ or something similar.
-   2. Select Blackbaud Template
-   3. Click Save
+   2. Select Blackbaud Template.
+   3. Click Save.
 ![Blackbaud FE NXT Datasource](../images/blackbaud.png)
 4. Logon Information Section
    1. Subscription Key: *Subscription key which provides access to the API. Found in your Profile.*
@@ -47,6 +47,7 @@
       2. First Record Date
          1. The oldest date found in the schema for the fields in the date field list. This helps to avoid slow startup of initial load where it will query empty time.
 7. Click Test
+   *Note: If this is a new datasource you will be presented with a Blackbaud login screen in order to complete the authentication process.*
 8. Once you see Connection Test Successful, click Save and Close.
 
 ---
