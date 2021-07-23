@@ -2,7 +2,7 @@
 
 [comment]: # (Change Heading to reflect Datasource)
 
-#  SAP NetWeaver
+#  SAP Concur
 
 [comment]: # (Leave Nav BAR untouched)
 
@@ -14,9 +14,7 @@
 
 ### *Required Information*
 
-* **User**
-* **Password**
-* **URL**
+* **ConcurInstanceURL**
 
 ### Steps
 
@@ -27,14 +25,12 @@
 
 1. From the front page of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
 2. On the next screen, choose a label for your Datasource.
-   1. Recommended: ‘Source SAP NetWeaver' or something similar.
-   2. Select SAPNetWeaver Template
+   1. Recommended: ‘Source SAP Concur' or something similar.
+   2. Select SAPConcur Template
    3. Click Save
-   ![SAPNetWeaver Datasource](../images/SAPNetWeaver.png)
+   ![SAPHana Datasource](../images/SAPConcur.png)
 3. Logon Information Section
-   3. User: *The SAP Gateway user account used to authenticate.*
-   4. Password: *The password used to authenticate the user.*
-   5. URL: *Set this to the URL your SAP Gateway environment or to the full URL of the OData service.*
+   1. ConcurInstanceURL *The server URL to use. For example https://concursolutions.com for some production accounts and https://implementation.concursolutions.com for sandbox accounts. Set this connection property if you are using V1-V3 API version and the server does not accept the Base Url with region information..*
 4. If the Datasource is being use as a source:
       1. Date fields
          1. This is a comma separated list of fields that contain dates for use in incremental downloads.
