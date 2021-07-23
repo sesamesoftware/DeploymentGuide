@@ -47,7 +47,8 @@
       2. First Record Date
          1. The oldest date found in the schema for the fields in the date field list. This helps to avoid slow startup of initial load where it will query empty time.
 7. Click Test
-   *Note: If this is a new datasource you will be presented with a Blackbaud login screen in order to complete the authentication process.*
+
+*Note: If this is a new datasource you will be presented with a Blackbaud login screen in order to complete the authentication process.*
 8. Once you see Connection Test Successful, click Save and Close.
 
 ---
