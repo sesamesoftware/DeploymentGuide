@@ -26,7 +26,7 @@
 
 ### Steps
 
-[comment]: # (step 1 is common to all Datasources)
+[comment]: # (step 1 is common to all  Datasources)
 [comment]: # (Step 2.1and 2.2 should be adjusted for Data Source specific)
 [comment]: # (Step 3 should be Image of the datasource you can add the screenshot to the images folder or create a placeholder like {image of datasource screen})
 [comment]: # (adjust step 4 and below as needed)
@@ -36,7 +36,7 @@
    1. Recommended: ‘Redshift Target’ or something similar.
    2. Select Redshift Template
    3. Click Save
-3. ![Redshift Datasource](../images/redshift.png)
+3. ![Redshift Datasource](../images/amazonredshift.png)
 4. Logon Information Section
    1. Server: *The connection string provided in the AWS environment.*
    2. Database: *Name of the database.*
