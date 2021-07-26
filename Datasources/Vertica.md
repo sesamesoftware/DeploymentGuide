@@ -2,7 +2,7 @@
 
 [comment]: # (Change Heading to reflect Datasource)
 
-#  Vertica
+# Vertica
 
 [comment]: # (Leave Nav BAR untouched)
 
