@@ -41,21 +41,6 @@
 * **Schema**
 * **Port**
 
-### Steps
-
-1. From the front page of the RJ UI, go to the left hand side and click **Datasources &rarr; New Datasource**
-2. On the next screen, choose a label for your Datasource.
-   1. Recommended: ```Source Aurora MySQL``` or something similar.
-   2. Select MySQL Template
-   3. Click Save
-   ![MySQL Datasource](../images/MySQL.png)
-3. Logon Information Section
-   1. Host: *ip or dns of database server*
-   2. Database: *ServiceName*
-   3. Schema: *Usually the same as database typically uppercase*
-   4. Port: *default port for mysql is 3306*
-   5. Username: *login name for database user*
-   6. Password: *Password for database user* 
 4. If the Datasource is being use as a source:
       1. Date fields
          1. This is a comma separated list of fields that contain dates for use in incremental downloads.
