@@ -30,7 +30,7 @@
    1. Recommended: ‘DynamoDB Source’ or something similar.
    2. Select DynamoDB template
    3. Click Save
-3. ![DynamoDB](../images/DynamoDB_LogonInformation.png)
+3. ![DynamoDB Logon Information](../images/DynamoDB_LogonInformation.png)
 4. Logon Information Section
    1. AccessKey: *Access Key provided by AmazonAWS*
    2. SecretKey: *Secret Key provided by AmazonAWS*
