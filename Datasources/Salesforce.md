@@ -17,21 +17,6 @@
 * **User Name**
 * **Password**
 * **SFDC Token**
-* **Connection URL Mode**
-* **Salesforce Connection URL**
-* **Timeout**
-* **Concurrent logins per user**
-* **Locked**
-* **Proxy Host**
-* **Proxy Port**
-* **Proxy User**
-* **Proxy Password**
-* **Soap Trace**
-* **Keystore**
-* **Truststore**
-* **Salesforce API Version**
-* **Query Date Fields**
-* **Reconnect on Connection Failures**
 
 ### Steps
 
