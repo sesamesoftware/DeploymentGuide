@@ -2,9 +2,7 @@
 
 [comment]: # (Change Heading to reflect Datasource)
 
-
-# 1010data
-
+# Google Analytics
 
 [comment]: # (Leave Nav BAR untouched)
 
@@ -16,9 +14,7 @@
 
 ### *Required Information*
 
-* **User Name**
-* **Password**
-* **Connect URL**
+* **Oauth Access Token**
 
 ### Steps
 
@@ -29,16 +25,13 @@
 
 1. From the front page of the RJ UI, go to the left hand side and click **Datasources &rarr; New Datasource**
 2. On the next screen, choose a label for your Datasource.
-
-   1. Recommended: `Source 1010data` or something similar.
-   2. Select 1010data Template
+   1. Recommended: ```Source Google Analytics``` or something similar.
+   2. Select GoogleAnalytics Template.
    3. Click Save
-3. ![1010data Datasource](../images/1010data.png)
-4. Logon Information Section
-   1. User Name: *login name for 1010data user*
-   2. Password: *Password for 1010data user*
-   3. Connect URL: *example: `https://mydomain.1010data.com`*
-
+3. ![Google Analytics Datasource](../images/google_analytics.png)
+4. Change datasource to expert Mode &rarr; Open Authorization Information.
+   1. Paste Oauth Access Token.
+   2. For steps on creating an Oauth Access Token. [See additional information](additionalinfo/google_token.md).
 5. If the Datasource is being used as a source:
       1. Date fields
          1. This is a comma separated list of fields that contain dates for use in incremental downloads.
