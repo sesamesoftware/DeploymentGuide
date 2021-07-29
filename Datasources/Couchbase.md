@@ -32,7 +32,8 @@
    3. Click Save
 3. ![Couchbase Logon Information](../images/Couchbase_LogonInformation.png)
 4. Logon Information section
-   1. Server: *IP address or host name of database server, beginning with "http://"*
+
+   1. Server: *ip address or host name of database server, beginning with "http://"*
    2. User: *login name for database user*
    3. Password: *password for database user*
 5. If the Datasource is being used as a source:

@@ -28,9 +28,11 @@
 1. From the front page of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
 2. On the next screen, choose a label for your Datasource.
    1. Recommended: ‘DynamoDB Source’ or something similar.
+
    2. Select DynamoDB template
    3. Click Save
 3. ![DynamoDB Logon Information](../images/DynamoDB_LogonInformation.png)
+
 4. Logon Information Section
    1. AccessKey: *Access Key provided by AmazonAWS*
    2. SecretKey: *Secret Key provided by AmazonAWS*
