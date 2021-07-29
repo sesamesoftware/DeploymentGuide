@@ -2,7 +2,7 @@
 
 [comment]: # (Change Heading to reflect Datasource)
 
-#  SuiteCRM
+# SuiteCRM
 
 [comment]: # (Leave Nav BAR untouched)
 
@@ -30,7 +30,6 @@
    1. Recommended: ‘Source SuiteCRM' or something similar.
    2. Select SuiteCRM Template
    3. Click Save
-   
    ![SuiteCRM Datasource](../images/suitecrm.png)
 
 3. Logon Information Section
@@ -40,7 +39,7 @@
    4. Batch
    5. Batch Size *Default 200*
    6. First Record Date *Default 1970-01-01*
-   7.  Date Fields *See below*
+   7. Date Fields *See below*
    8.  Schema Prefix Case: *UPPER/LOWER, if required.*
    9.  Tablename Case: *UPPER/LOWER, if required.*
    10. Select Fields
