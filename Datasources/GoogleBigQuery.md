@@ -26,7 +26,7 @@
    1. Recommended: ‘Source Google Big Query' or something similar.
    2. Select GoogleBigQuery Template
    3. Click Save
-   ![GoogleBigQuery Datasource](../images/GoogleBigQuery.png)
+   ![GoogleBigQuery Datasource](../images/googlebigquery.png)
 3. Logon Information Section
    1. OAuthAccessToken
    2. ProjectId
