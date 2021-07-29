@@ -30,7 +30,7 @@
    1. Recommended: ‘Couchbase Source’ or something similar.
    2. Select Couchbase template
    3. Click Save
-3. ![Couchbase Logon Information](../images/Couchbase_LogonInformation.png)
+3. ![Couchbase Logon Information](../images/CouchbaseLogonInformation.png)
 4. Logon Information section
    1. Server: *ip address or host name of database server, beginning with "http://"*
    2. User: *login name for database user*
