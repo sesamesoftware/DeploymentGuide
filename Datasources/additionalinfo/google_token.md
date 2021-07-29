@@ -14,7 +14,7 @@
 
 ### *Generate a New Token* 
 
-Google Analytics uses custom OAuth2 to authenticate Google Analytics.  A service account OAuthAccessToken is used to authenticate.  The token can not be seen anywhere in Google, but can be recreated, and the file containing the keys can be downloaded if a new key is created.
+Google Analytics uses custom OAuth2 to authenticate Google Analytics.  A service account OAuthAccessToken is used to authenticate.  The token cannot be seen anywhere in Google, but can be recreated, and the file containing the keys can be downloaded if a new key is created.
 
 ### Steps
 
