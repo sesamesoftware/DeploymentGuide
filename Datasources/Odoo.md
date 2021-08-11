@@ -31,7 +31,7 @@
    1. Recommended: `‘Source Odoo'` or something similar.
    2. Select Odoo Template
    3. Click Save
-   ![Odoo Datasource](../images/Odoo-datasource.png)
+   ![Odoo Datasource](../images/odoo-datasource.png)
 3. Logon Information Section
    1. Database
    2. Schema
