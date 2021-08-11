@@ -14,8 +14,8 @@
 
 ### *Required Information*
 
-* **CompanyDB**
 * **URL**
+* **CompanyDB**
 
 ### Steps
 
@@ -31,22 +31,8 @@
    3. Click Save
    ![SAPBusinessOne Datasource](../images/SAPBusOne.png)
 3. Logon Information Section
-   1. Database: *Database name*
-   2. Schema: *Schema name* 
-   3. User: *login name for database user*
-   4. Password: *Password for database user*
-   5. URL
-   6. CompanyDB
-   7. Date Fields *See below*
-   8.  Schema Prefix Case: *UPPER/LOWER, if required.*
-   9.  Tablename Case: *UPPER/LOWER, if required.*
-   10. Select Method
-       1.  FIELD_LIST
-       2.  STAR
-   11. Batch
-   12. Batch Size: *Default 200*
-   13. First Record Date: *Default 1970-01-01*
-4. If the Datasource is being use as a source:
+   1. URL: *URL to the SAP Business One Service Layer root. For example, http://localhost:50000/b1s/v1.*
+   2. CompanyDB: *Your SAP Business One company database.*
       1. Date fields
          1. This is a comma separated list of fields that contain dates for use in incremental downloads.
          2. Choose any and all date fields in the Schema that are altered during a create or update of the records.
@@ -54,6 +40,10 @@
       2. First Record Date
          1. The oldest date found in the schema for the fields in the date field list. This helps to avoid slow startup of initial load where it will query empty time.
 5. Click Test
+   1. If you see Connection Test Successful
+      1. Click the SQL Button and perform a simple query to confirm that data is visible to the User. Example select * from sample.
+      2. If no data is returned follow the instruction for a connection Test Failed below.
+   2. If you see Connection Test Failed Check your URI and try again.
 6. Once you see Connection Test Successful, click Save and Close.
 
 ---

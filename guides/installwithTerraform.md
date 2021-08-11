@@ -6,15 +6,15 @@
 
 ---
 
-## Pre-requisites
+## Pre-Requisites
 
-* git is installed
-* ssh client is installed
-* [Terraform 0.12.16+ is installed](Supporting/OCI-Prerequisites.md#Install-Terraform)
+* Install : ```git```
+* Install : ```SSH Client```
+* Install : [Terraform 0.12.16+](Supporting/OCI-Prerequisites.md#Install-Terraform)
 
-Provisioning using this git repo
+#### Provisioning Using git Repository
 
-Clone the repo:
+Clone the Repository:
 
 ```bash
 git clone https://github.com/sesamesoftware/Terraform-OCI-RelationalJunction.git RelationalJunction
@@ -58,25 +58,25 @@ subnet_private_existing
 
 Run Terraform:
 
-* this first init get the source Module form Github
+* This first ```init``` gets the source Module from Github:
 
     ```hcl
     terraform get -update
     ```
 
-* this init initializes the modules
+* This ```init``` initializes the modules:
   
     ```hcl
     terraform init
     ```
 
-* check that everything is there
+* Check that everything is there:
 
     ```hcl
     terraform plan
     ```
 
-* builds the infrastructure
+* Builds the infrastructure:
 
     ```hcl
     terraform apply

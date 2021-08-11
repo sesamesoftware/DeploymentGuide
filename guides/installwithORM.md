@@ -8,24 +8,26 @@
 
 ## Getting Started
 
-First step is to download The ORM compressed file [here](../pkg/RelationalJunctionOCIStack.zip)
+1. Download the ORM compressed file here: [RelationalJunctionOCIStack.zip](../pkg/RelationalJunctionOCIStack.zip)
 
-### Creating the Stack
+#### Creating the Stack
 
-1. Login to your OCI tenancy
-2. click &#9776; &rarr; Developer Services &rarr; Resource Manager &rarr; Stacks
+2. Login to your OCI tenancy
+3. Click &#9776; &rarr; Developer Services &rarr; Resource Manager &rarr; Stacks
 ![Resource Manager Stacks](../images/stacks.png)
-1. Set the compartment you whish to build in
-2. Click Create Stack
+4. Set the compartment you wish to build in.
+5. Click Create Stack
+   
 ![Create Stack](../images/CreateStack.png)
-1. Select My Configuration
-2. Select .zip File
-3. Browse to the download location of RelationalJunctionOCIStack.zip
-4. Click OK
-5. You can optionally change the name
-6. Change compartment to create the stack in.
-7. Add tags
-8. click Next
+
+6. Select My Configuration
+7. Select .zip File
+8. Browse to where you downloaded the RelationalJunctionOCIStack.zip from Step 1.
+9. Click OK
+   1. You can optionally change the name.
+10. Change compartment to create the stack in.
+11. Add your tags.
+12. Click Next
 
 ---
 

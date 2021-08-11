@@ -15,26 +15,26 @@ Data Gathering
   * Source Data [see Datasource Guide for specifics](DatasourceGuide.md)
 * SMTP Information
   * Information needed
-    * SMTP Server: ip/named server
-    * Port: Port to connect on default is 25
-    * Mail from : Who is the from on the email being sent *(ie rj@sesamesoftware.com)*
-    * Username: Login for mail server (optional, server dependant rules)
-    * Password: Password to the server (optional, server dependant rules)
+    * SMTP Server: IP or Named server
+    * Port: Port to connect on; default 25
+    * Mail from : Who the from on the email being sent i.e.; ```rj@sesamesoftware.com```.
+    * Username: Login for mail server (Optional, server dependant rules)
+    * Password: Password to the server (Optional, server dependant rules)
     * Use TLS: True/False if server uses TLS
 
 ## Install
 
-* The install using Market Place [click here](installWithMarketPlace.md)
-  * *Use this for established Tenancy and an rj only install*
-* The install using Oracle Resource Manager [click here](installwithORM.md)
-  * *Use this for install in most cases, has the ability to spin up the necessary infrastructure*
-    * *create or use existing VCN*
-    * *Create Rj server*
-    * *Create ADB servers*
-    * *Create OAC instance*
-    * *Create Object Storage Bucket*
-* The install using Terraform guide [click here](installwithTerraform.md)
-  * *Use this to further customize the ORM package*
+* Install using Market Place, [Click Here](installWithMarketPlace.md).
+  * Use this for established Tenancy and an RJ-Only install.
+* Install using Oracle Resource Manager, [Click Here](installwithORM.md).
+  * Use this for install in most cases, has the ability to spin up the necessary infrastructure.
+    * Create or use existing VCN
+    * Create RJ Server
+    * Create ADB Servers
+    * Create OAC instance
+    * Create Object Storage Bucket
+* Install using the Terraform guide, [Click Here](installwithTerraform.md).
+  * Use this to further customize the ORM package
 
 ---
 

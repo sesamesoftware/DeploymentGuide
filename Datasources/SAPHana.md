@@ -31,23 +31,12 @@
    1. Recommended: ‘Source SAP Hana' or something similar.
    2. Select SAPHana Template
    3. Click Save
-   ![SAPHana Datasource](../images/SAPHana.png)
+   ![SAPHana Datasource](../images/saphana.png)
 3. Logon Information Section
-   1. Server *Server name*
-   2. Database: *Database name*
-   3. Schema: *Schema name*
-   4. Port: *Default 39013*
-   5. User: *Login name for database user*
-   6. Password: *Password for database user*
-   7. Batch
-   8.  Batch Size *Default 200*
-   9.  First Record Date *Default 1970-01-01*
-   10. Date Fields *See below*
-   11. Schema Prefix Case: *UPPER/LOWER, if required.*
-   12. Tablename Case: *UPPER/LOWER, if required.*
-   13. Select Method
-       1.  FIELD_LIST
-       2.  STAR
+   1. Server *The name of the server running SAP HANA database.*
+   2. Database: *The name of the SAP HANA database*
+   5. User: *The SAP HANA user account used to authenticate.*
+   6. Password: *The password used to authenticate the user.*
 4. If the Datasource is being use as a source:
       1. Date fields
          1. This is a comma separated list of fields that contain dates for use in incremental downloads.
@@ -56,6 +45,10 @@
       2. First Record Date
          1. The oldest date found in the schema for the fields in the date field list. This helps to avoid slow startup of initial load where it will query empty time.
 5. Click Test
+   1. If you see Connection Test Successful
+      1. Click the SQL Button and perform a simple query to confirm that data is visible to the User. Example select * from sample.
+      2. If no data is returned follow the instruction for a connection Test Failed below.
+   2. If you see Connection Test Failed Check your URI and try again.
 6. Once you see Connection Test Successful, click Save and Close.
 
 ---
