@@ -2,7 +2,7 @@
 
 [comment]: # (Change Heading to reflect Datasource)
 
-#  SuiteCRM
+# SuiteCRM
 
 [comment]: # (Leave Nav BAR untouched)
 
@@ -25,27 +25,17 @@
 [comment]: # (Step 3 should be Image of the datasource you can add the screenshot to the images folder or create a placeholder like {image of datasource screen})
 [comment]: # (adjust step 4 and below as needed)
 
-1. From the front page of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
+1. From the front page of the RJ UI, go to the left hand side and click **Datasources &rarr; New Datasource**
 2. On the next screen, choose a label for your Datasource.
-   1. Recommended: ‘Source SuiteCRM' or something similar.
+   1. Recommended: `Source SuiteCRM` or something similar.
    2. Select SuiteCRM Template
    3. Click Save
-   
    ![SuiteCRM Datasource](../images/suitecrm.png)
 
 3. Logon Information Section
    1. User: *Login name for SuiteCRM account.*
    2. Password: *Password for SuiteCRM account.*
    3. URL: *URL of the Suite CRM account.*
-   4. Batch
-   5. Batch Size *Default 200*
-   6. First Record Date *Default 1970-01-01*
-   7.  Date Fields *See below*
-   8.  Schema Prefix Case: *UPPER/LOWER, if required.*
-   9.  Tablename Case: *UPPER/LOWER, if required.*
-   10. Select Fields
-       1.  FIELD_LIST
-       2.  STAR
 4. If the Datasource is being used as a source:
       1. Date fields
          1. This is a comma separated list of fields that contain dates for use in incremental downloads.
