@@ -81,10 +81,6 @@
 ### Additional Configuration
 
    1. When setting up your Warehouse configuration file you have to set **USE INTERNATINALIZATION** to false in the database design section
-   2. The rj.database.singleByte setting needs to be set to true in the defaults file.
-      1. Click on the Warehouse tab.
-      2. Click on defaults.
-      3. In the rj.database Preferences section set rj.database.singleByte = true
 
 ---
 
