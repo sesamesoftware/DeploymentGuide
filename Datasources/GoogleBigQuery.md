@@ -13,7 +13,9 @@
 
 ### *Required Information*
 
+* **OAuth Access Token**
 * **ProjectId**
+* **DatasetId**
 ### Steps
 
 [comment]: # (step 1 is common to all Datasources)
@@ -27,30 +29,27 @@
    2. Select GoogleBigQuery Template
    3. Click Save
    ![GoogleBigQuery Datasource](../images/googlebigquery.png)
-3. Logon Information Section
-   1. OAuthAccessToken
-   2. ProjectId
-   3. DatasetId
-   4. InitiateOAuth
-   5. UseStreamingInserts
-   6.  Batch
-   7.  Batch Size *Default 200*
-   8.  First Record Date *Default 1970-01-01*
-   9.  Date Fields *See below*
-   10. Schema Prefix Case: *UPPER/LOWER, if required.*
-   11. Tablename Case: *UPPER/LOWER, if required.*
-   12. Select Fields
-       1.  FIELD_LIST
-       2.  STAR
-4. If the Datasource is being use as a source:
+3. Change datasource to Expert Mode 
+4. Paste OAuth Access Token.
+   1. For steps on creating an Oauth Access Token. [See additional information](additionalinfo/google_token.md).
+5. Paste ProjectId
+   1. Go to the API Console.
+   2. From the projects list, select Manage all projects. The names and IDs for all the projects you're a member of are displayed.
+6. Paste DatasetId
+   1. See above for location.
+7. InitiateOAuth
+   1. Set as REFRESH
+8. UseStreamingInserts
+   1. Set as TRUE
+9.  If the Datasource is being use as a source:
       1. Date fields
          1. This is a comma separated list of fields that contain dates for use in incremental downloads.
          2. Choose any and all date fields in the Schema that are altered during a create or update of the records.
          3. The order of precedence is from left to right in what date field is chosen. Given a date field list `LastModifiedDate, CreatedDate` when the tables is queried it will check first if `LastModifiedDate` exists if it does, it will use that for incremental. If it doesn't then it will use `CreateDate`. If neither exist it will do a full table pull.
       2. First Record Date
          1. The oldest date found in the schema for the fields in the date field list. This helps to avoid slow startup of initial load where it will query empty time.
-5. Click Test
-6. Once you see Connection Test Successful, click Save and Close.
+10. Click Test
+11. Once you see Connection Test Successful, click Save and Close.
 
 ---
 
