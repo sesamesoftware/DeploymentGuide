@@ -40,7 +40,10 @@
       1. Hostname/IP of server with your MongoDB Database.
    2. Database
       1. Name of the database to replicated.
-      2. Located in the Databases tab of your MongoDB UI.
+      2. Located in the Databases --> Collections tab of your MongoDB UI.
+   
+   ![MongoDB UI](../images/MongoDB3.png)
+
    3. Schema
       1. Your database schema name, use % if unknown.
    4. Port
