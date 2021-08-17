@@ -25,6 +25,7 @@
 * **SSH port**
 
 *Choose either SSH or pem Key*
+
 * **SSH User Name**
 * **SSH User Password**
 * **pem Key File Location**
@@ -39,12 +40,12 @@
 
 1. From the front page of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
 2. On the next screen, choose a label for your Datasource.
-   1. Recommended: ‘Vertica Target' or something similar.
+   1. Recommended: ‘Source Vertica' or something similar.
    2. Select Vertica Template
    3. Click Save
-   
+
    ![Vertica Datasource](../images/vertica.png)
-   
+
 3. Logon Information Section
    1. Host: *IP address or host of Vertica database server*
    2. Database: *Name of the database to connect to*
@@ -57,8 +58,8 @@
    9. pem Key File Location: *Location of the .pem private key file.*
    10. pem Key Pass Phrase: *Password or Pass Phrase of the pem private Key.*
    11. Compression: *Type of compression on .csv file.*
-       1.  TAR
-       2.  GunZip
+       1. TAR
+       2. GunZip
    12. Utility Host: *Host where the file will be loaded.*
    13. Remote Directory: *Remote Directory where the file will be loaded.*
    14. SSH Port: *Default 22*

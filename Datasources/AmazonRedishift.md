@@ -2,7 +2,7 @@
 
 [comment]: # (Change Heading to reflect Datasource)
 
-#  Amazon Redshift
+# Amazon Redshift
 
 [comment]: # (Leave Nav BAR untouched)
 
@@ -23,7 +23,6 @@
 * **Schema Prefix**
 * **Tablename Case**
 
-
 ### Steps
 
 [comment]: # (step 1 is common to all  Datasources)
@@ -33,7 +32,7 @@
 
 1. From the front page of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
 2. On the next screen, choose a label for your Datasource.
-   1. Recommended: ‘Redshift Target’ or something similar.
+   1. Recommended: ‘Source Redshift’ or something similar.
    2. Select Redshift Template
    3. Click Save
 3. ![Redshift Datasource](../images/amazonredshift.png)
@@ -57,10 +56,6 @@
 ### Additional Configuration
 
    1. When setting up your Warehouse configuration file you have to set **USE INTERNATINALIZATION** to false in the database design section
-   2. The rj.database.singleByte setting needs to be set to true in the defaults file.
-      1. Click on the Warehouse tab.
-      2. Click on defaults.
-      3. In the rj.database Preferences section set rj.database.singleByte = true
 
 ---
 
