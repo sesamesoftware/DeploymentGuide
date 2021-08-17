@@ -54,7 +54,7 @@
       2. You can locate this information in the Database Access tab of your MongoDB UI.
    8. AuthDatabase 
       1. Enter the name of Mongo database used for authentication.
-      2.  2. You can locate this information in the Database Access tab of your MongoDB UI.
+      2. You can locate this information in the Database Access tab of your MongoDB UI.
 5. If the Datasource is being use as a source:
       1. Date fields
          1. This is a comma separated list of fields that contain dates for use in incremental downloads.
