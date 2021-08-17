@@ -52,6 +52,9 @@
    7. AuthMechanism: 
       1. Choose your authentication method.
       2. You can locate this information in the Database Access tab of your MongoDB UI.
+
+![MongoDB UI](../images/MongoDB2.png)
+
    8. AuthDatabase 
       1. Enter the name of Mongo database used for authentication.
       2. You can locate this information in the Database Access tab of your MongoDB UI.
