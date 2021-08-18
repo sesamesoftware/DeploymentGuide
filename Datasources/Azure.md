@@ -23,7 +23,7 @@
 * **User**
 * **Password**
 * **Encrypt**
-* **Trust Certificate**
+* **Trust Server Certificate**
 
 ### Steps
 
