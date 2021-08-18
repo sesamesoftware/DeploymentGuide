@@ -30,7 +30,7 @@
    1. Recommended: ‘Source SAP NetWeaver' or something similar.
    2. Select SAPNetWeaver Template
    3. Click Save
-   ![SAPNetWeaver Datasource](../images/SAPNetWeaver.png)
+   ![SAPNetWeaver Datasource](../images/sapnetweaver.png)
 3. Logon Information Section
    3. User: *The SAP Gateway user account used to authenticate.*
    4. Password: *The password used to authenticate the user.*
