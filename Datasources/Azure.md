@@ -34,7 +34,7 @@
 
 1. From the front page of the RJ UI, go to the left hand side and click **Datasources &rarr; New Datasource**
 2. On the next screen, choose a label for your Datasource.
-   1. Recommended: `Source Azure` or something similar.
+   1. Recommended: ``Source Azure`` or something similar.
    2. Select Azure Template
    3. Click Save
 3. ![Azure Datasource](../images/azure.png)
