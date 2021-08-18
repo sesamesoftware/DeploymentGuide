@@ -21,7 +21,6 @@
 * **User Name**
 * **Password**
 * **Schema Prefix**
-* **Tablename Case**
 
 ### Steps
 
@@ -43,13 +42,7 @@
    4. Port: *default port for Redshift is 5439*
    5. Username: *login name for database user*
    6. Password: *Password for database user*
-   7. AllowPreparedStatement: *true* *This should be set to true for best performance.
-   8. Batch Delete: *Yes* *This should be set to true for best performance.
-   9. Writer Class: *Batch Insert Writer*
-   10. Batch Inserts: *true*
-   11. Batch Size: *200*
-   12. Schema Prefix: *LOWER*
-   13. Tablename Case: *LOWER*
+   7. Schema Prefix: *LOWER*
 6. Click Test
 7. Once you see Connection Test Successful, click Save and Close.
 
