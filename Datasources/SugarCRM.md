@@ -28,15 +28,19 @@
 
 1. From the front page of the RJ UI, go to the left hand side and click **Datasources &rarr; New Datasource**
 2. On the next screen, choose a label for your Datasource.
-   1. Recommended: `Source SugarCRM` or something similar.
+   1. Recommended: ``Source SugarCRM`` or something similar.
    2. Select SugarCRM Template
    3. Click Save
    ![SugarCRM Datasource](../images/sugarcrm.png)
 3. Logon Information Section
-   1. URL: ```https://YOUR_COMPANY_ID.sugarcrm.com```
-   2. User: SugarCRM user
-   2. Password: *Password for SugarCRM user*
-   3. First Record Date *Default 1970-01-01*
+   1. URL 
+      1. Example: ```https://YOUR_COMPANY_ID.sugarcrm.com```
+   2. User
+      1. Your SugarCRM username.
+   3. Password
+      1. Password for your SugarCRM user.
+   4. First Record Date
+      1. Date of first record. Default is set at 1970-01-01.
 4. If the Datasource is being use as a source:
       1. Date fields
          1. This is a comma separated list of fields that contain dates for use in incremental downloads.
