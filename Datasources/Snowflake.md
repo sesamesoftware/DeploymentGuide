@@ -37,20 +37,29 @@
    3. Click Save
    ![Snowflake Datasource](../images/snowflake.png)
 3. Logon Information Section
-   1. Host: *IP or DNS of database server*
-   2. Database: *Database name*
-   3. Schema: *Schema name*
-   4. Port: *Default 5432*
-   5. Username: *Login name for database user*
-   6. Password: *Password for database user*
-   7. Warehouse: *The snowflake warehouse you are connecting to.*
-   8. First Record Date *Default 1970-01-01*
-   9.  Date Fields *See below*
-   10. Schema Prefix Case: *UPPER/LOWER, if required.*
-   11. Tablename Case: *UPPER/LOWER, if required.*
-   12. Select Fields 	
-       1.  FIELD_LIST
-       2.  STAR
+   1. Host
+      1. Snowflake portal URL.
+   2. Database
+      1. Name of your Snowflake database.
+      2. Information can be located in your Databases in the Snowflake UI.
+   ![Snowflake UI](../images/snowflake1.png)
+   1. Schema
+      1. Name of your Snowflake schema.
+      2. Information can be located in your Databases in the Snowflake UI.
+   2. Port
+      1. Required port, default is 5432.
+   3. Username
+      1. Login name for database user.
+   4. Password
+      1. Password for database user.
+   5. Warehouse
+      1. Name of your Snowflake warehouse.
+      2. Information can be located in your Warehouses in the Snowflake UI.
+   ![Snowflake UI](../images/snowflake2.png)
+   1. Snowflake Account
+      1. Name of your Snowflake account.
+      2. Your account name will be the first part of your Host URL, see example below.
+   ![Snowflake UI](../images/snowflake3.png)
 4. If the Datasource is being use as a source:
       1. Date fields
          1. This is a comma separated list of fields that contain dates for use in incremental downloads.
