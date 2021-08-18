@@ -9,11 +9,11 @@
 ### *Required Information*
 
 * **Host**
-* **Service Name**
-* **User Name**
-* **Password**
+* **Database**
 * **Schema**
 * **Port**
+* **User Name**
+* **Password**
 
 ### Steps
 
@@ -24,26 +24,28 @@
    3. Click Save
    ![Oracle Service OCI](../images/oracleserviceoci.png)
 3. Logon Information Section
-   1. Host: *ip or dns of database server*
-   2. Database: *ServiceName*
-   3. Schema: *Usually the same as database Username typically uppercase*
-   4. Port: *default port for oracle is 1521*
-   5. Username: *login name for database user*
-   6. Password: *Password for database user*
-   7. Tablespace: if applicable
-      1. Data Tablespace
-      2. Index Tablespace
-      3. LOB Tablespace
-4. Click Test
-   1. If you see Connection Test Successful
-5. If Datasource is being use as a source
+   1. Host
+      1. IP or URL of your Oracle Service OCI.
+   2. Database
+      1. Your Oracle Service name.
+   3. Schema
+      1. Typically the same as database username
+      2. Typically requires all uppercase.
+   4. Port
+      1. Required port, default for Oracle is 1521.
+   5. Username
+      1. Login name for database user.
+   6. Password
+      1. Password for database user.
+4. If Datasource is being use as a source
    1. Date fields
       1. This is a comma separated list of fields that contain dates for use in incremental downloads
       2. Choose any and all date fields in the Schema that are altered during a create or update of the records
       3. The order of precedence is from left to right in what date field is chosen. given a date field list `LastModifiedDate, CreatedDate` when the tables is queried it will see first if `LastModifiedDate` exists if it does use that for incremental. If it doesn't then it will use `CreateDate` if neither exist it will do a full table pull.
    2. First Record Date
       1. The oldest date found in the schema for the fields in the date field list. This helps to avoid slow startup of initial load will it queries empty time.
-6. Click Save and Close.
+5. Click Test
+6. Once you see Connection Test Successful, click Save and Close.
 
 ---
 
