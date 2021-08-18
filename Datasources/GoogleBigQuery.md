@@ -25,7 +25,7 @@
 
 1. From the front page of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
 2. On the next screen, choose a label for your Datasource.
-   1. Recommended: ‘Source Google Big Query' or something similar.
+   1. Recommended: ``Source Google Big Query`` or something similar.
    2. Select GoogleBigQuery Template
    3. Click Save
    ![GoogleBigQuery Datasource](../images/googlebigquery.png)

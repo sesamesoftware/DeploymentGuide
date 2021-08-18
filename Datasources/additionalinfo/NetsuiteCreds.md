@@ -37,7 +37,7 @@
 
 ![AccessTokens](../../images/NetsuiteAccessTokens.png)
 
-You should not have the following information:
+You should now have the following information:
 
 **AccountId** specifying the account to connect to.
 **OAuthClientId** the Consumer Key displayed when the application was created.

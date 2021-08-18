@@ -45,7 +45,7 @@
 3. Select existing VCN
 4. Select Private and Public Subnets
 
-When using an existing VCN you will need to add port 8080 to you ingress rules
+When using an existing VCN you will need to add port 8080 to you ingress rules. Navigate to your VCN's Subnet to add the rule. (Networking &rarr; Virtual Cloud Networks &rarr; your VCN &rarr; your Subnet &rarr; your Security List &rarr; Add Ingress Rule)
 
 ![Ingress Rule](../images/addIngressRule.png)
 

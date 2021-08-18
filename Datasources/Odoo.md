@@ -28,7 +28,7 @@
 
 1. From the front page of the RJ UI, go to the left hand side and click **Datasources &rarr; New Datasource**
 2. On the next screen, choose a label for your Datasource.
-   1. Recommended: `‘Source Odoo'` or something similar.
+   1. Recommended: ``Source Odoo`` or something similar.
    2. Select Odoo Template
    3. Click Save
    ![Odoo Datasource](../images/odoo-datasource.png)
