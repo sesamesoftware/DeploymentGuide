@@ -28,15 +28,19 @@
 
 1. From the front page of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
 2. On the next screen, choose a label for your Datasource.
-   1. Recommended: ‘Source SAP Hana' or something similar.
+   1. Recommended: ``Source SAP Hana`` or something similar.
    2. Select SAPHana Template
    3. Click Save
    ![SAPHana Datasource](../images/saphana.png)
 3. Logon Information Section
-   1. Server *The name of the server running SAP HANA database.*
-   2. Database: *The name of the SAP HANA database*
-   5. User: *The SAP HANA user account used to authenticate.*
-   6. Password: *The password used to authenticate the user.*
+   1. Server
+      1. The name of the server running SAP HANA database.
+   2. Database
+      1. The name of the SAP HANA database.
+   3. User
+      1. The SAP HANA user account used to authenticate.
+   4. Password
+      1. The password used to authenticate the user.
 4. If the Datasource is being use as a source:
       1. Date fields
          1. This is a comma separated list of fields that contain dates for use in incremental downloads.
