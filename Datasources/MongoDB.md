@@ -31,7 +31,7 @@
 1. Access is restricted by IP address. Before you begin, verify that your IP address is whitelisted in the Network Access tab of your MongoDB UI.
 2. From the front page of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
 3. On the next screen, choose a label for your Datasource.
-   1. Recommended: ‘Source MongoDB' or something similar.
+   1. Recommended: ``Source MongoDB`` or something similar.
    2. Select MongoDB Template
    3. Click Save
    ![MongoDB Datasource](../images/MongoDB.png)
