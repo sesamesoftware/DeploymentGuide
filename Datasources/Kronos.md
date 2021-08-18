@@ -27,8 +27,8 @@
 
 1. From the front page of the RJ UI, go to the left hand side and click **Datasources &rarr; New Datasource**
 2. On the next screen, choose a label for your Datasource.
-   1. Recommended: ‘Source NetSuite’ or something similar.
-   2. Select OracleServiceThin Template
+   1. Recommended: ‘Source Kronos’ or something similar.
+   2. Select Kronos Template
    3. Click Save
 3. ![Kronos Datasource](../images/kronos.png)
 4. Logon Information Section
