@@ -30,7 +30,7 @@
    ![CSV Datasource](../images/CSV.png)
 3. Logon Information Section
    1. URI
-      1. The Uniform Resource Identifier (URI) for the CSV resource location.  Must include the fule name of the CSV file.
+      1. The Uniform Resource Identifier (URI) for the CSV resource location.  Must include the full name of the CSV file.
 4. Click Test
    1. If you see Connection Test Successful
       1. Click the SQL Button and perform a simple query to confirm that data is visible to the User. Example select * from sample.
@@ -42,8 +42,8 @@
       2. Choose any and all date fields in the Schema that are altered during a create or update of the records
       3. The order of precedence is from left to right in what date field is chosen. given a date field list `LastModifiedDate, CreatedDate` when the tables is queried it will see first if `LastModifiedDate` exists if it does use that for incremental. If it doesn't then it will use `CreateDate` if neither exist it will do a full table pull.
    2. First Record Date
-      1. the oldest date found in the schema for the fields in the date field list. This helps to avoid slow startup of initial load will it queries empty time.
-6. click Save and Close.
+      1. The oldest date found in the schema for the fields in the date field list. This helps to avoid slow startup of initial load will it queries empty time.
+6. Click Save and Close.
 
 ---
 
