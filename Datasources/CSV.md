@@ -1,8 +1,8 @@
-<img  src="../images/SesameSoftwareLogo-2020Final.png" width="100"><img align=right src="../images/RJOrbitLogo-2021Final.png" width="100">
+ <a href="http://www.sesamesoftware.com"><img align=left src="../images/RJOrbit110x110.png"></img></a>
 
 [comment]: # (Change Heading to reflect Datasource)
 
-## Datasource Guide for CSV
+#  CSV (Comma Separated Values File)
 
 [comment]: # (Leave Nav BAR untouched)
 
@@ -27,22 +27,23 @@
    1. Recommended: ‘Source CSV or something similar.
    2. Select CSV Template
    3. Click Save
-3. ![CSV Datasource](../images/CSV.png)
-4. Logon Information Section
-   1. URI: *The Uniform Resource Identifier (URI) for the CSV resource location.  Must include the fule name of the CSV file.*
-5. Click Test
+   ![CSV Datasource](../images/CSV.png)
+3. Logon Information Section
+   1. URI
+      1. The Uniform Resource Identifier (URI) for the CSV resource location.  Must include the fule name of the CSV file.
+4. Click Test
    1. If you see Connection Test Successful
       1. Click the SQL Button and perform a simple query to confirm that data is visible to the User. Example select * from sample.
       2. If no data is returned follow the instruction for a connection Test Failed below.
    2. If you see Connection Test Failed Check your URI and try again.
-6. If Datasource is being use as a source
+5. If Datasource is being use as a source
    1. Date fields
       1. This is a comma separated list of fields that contain dates for use in incremental downloads
       2. Choose any and all date fields in the Schema that are altered during a create or update of the records
       3. The order of precedence is from left to right in what date field is chosen. given a date field list `LastModifiedDate, CreatedDate` when the tables is queried it will see first if `LastModifiedDate` exists if it does use that for incremental. If it doesn't then it will use `CreateDate` if neither exist it will do a full table pull.
    2. First Record Date
       1. the oldest date found in the schema for the fields in the date field list. This helps to avoid slow startup of initial load will it queries empty time.
-7. click Save and Close.
+6. click Save and Close.
 
 ---
 
