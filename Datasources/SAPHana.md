@@ -36,7 +36,11 @@
    1. Server
       1. The name of the server running SAP HANA database.
    2. Database
+<<<<<<< HEAD
       1. The name of the SAP HANA database.
+=======
+      1. The name of the SAP HANA database*
+>>>>>>> 4407c4e0eca9cc101ad30ab08f627be5bdfb441b
    3. User
       1. The SAP HANA user account used to authenticate.
    4. Password

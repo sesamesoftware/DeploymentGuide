@@ -27,23 +27,22 @@
 
 6. Create a token role by navigating to **Setup&rarr;User/Roles&rarr;Manage Roles** and either create a new role for RJWarehouse to use or edit an existing role with the required configuration and permissions
    1. See [Role Creation, Modification and Setting Permissions](../../images/netsuitepermissions.md) for more information on the requirements for roles and permissions.
-
-7. Add the role to a user under **Lists&rarr;Employees&rarr;Employees**. Select to edit an employee and add the new token role under **Access&rarr;Roles**.
-
-![Manage Roles](../../images/NetsuiteManageRoles.png)
-
-9. Navigate to **Setup&rarr;User/Roles&rarr;Access Tokens** and create a new access token. Select the application name as the integration that was created earlier, and the same user and role that were updated in the previous steps.
-10. After creating the access token, a Token Id and Token Secret will be displayed. These map directly to the OAuthAccessToken and OAuthAccessTokenSecret. Save these to the document.
+   2. Add the Role ID to your document.
+7. Add the role to a user under **Lists&rarr;Employees&rarr;Employees**. Select to edit an employee and add the new token role under **Access &rarr; Roles**.
+   ![Manage Roles](../../images/NetsuiteManageRoles.png)
+8. Navigate to **Setup&rarr;User/Roles&rarr;Access Tokens** and create a new access token. Select the application name as the integration that was created earlier, and the same user and role that were updated in the previous steps.
+9.  After creating the access token, a Token Id and Token Secret will be displayed. These map directly to the OAuthAccessToken and OAuthAccessTokenSecret. Save these to the document.
 
 ![AccessTokens](../../images/NetsuiteAccessTokens.png)
 
 You should now have the following information:
 
-**AccountId** specifying the account to connect to.
-**OAuthClientId** the Consumer Key displayed when the application was created.
-**OAuthClientSecret** the Consumer Secret displayed when the application was created.
-**OAuthAccessToken** the Token Id when the access token was created.
-**OAuthAccessTokenSecret** the Token Secret when the access token was created.
+**AccountId** : specifying the account to connect to.
+**RoleId** : specifying the role/permissions to use.
+**OAuthClientId** : the Consumer Key displayed when the application was created.
+**OAuthClientSecret** : the Consumer Secret displayed when the application was created.
+**OAuthAccessToken** : the Token Id when the access token was created.
+**OAuthAccessTokenSecret** : the Token Secret when the access token was created.
 
 ---
 
