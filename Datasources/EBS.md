@@ -32,9 +32,9 @@
    3. Schema
       1. Usually the same as database Username typically uppercase.
    4. Port
-      1. default port for oracle is 1521.
+      1. Default port for oracle is 1521.
    5. Username
-      1. login name for database user.
+      1. Login name for database user.
    6. Password
       1. Password for database user.
 4.  If the Datasource is being use as a source:
