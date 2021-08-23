@@ -30,20 +30,23 @@
    1. Recommended: ``Source Kronos`` or something similar.
    2. Select Kronos Template
    3. Click Save
-3. ![Kronos Datasource](../images/kronos.png)
-4. Logon Information Section
-   1. User: *User name for service*
-   2. Password: *Password for specified user*
-   3. Endpoint: *URL for instance*
-5. If the Datasource is being used as a source:
-      1. Date fields
-         1. This is a comma separated list of fields that contain dates for use in incremental downloads.
-         2. Choose any and all date fields in the Schema that are altered during a create or update of the records.
-         3. The order of precedence is from left to right in what date field is chosen. Given a date field list `LastModifiedDate, CreatedDate` when the tables is queried it will check first if `LastModifiedDate` exists if it does, it will use that for incremental. If it doesn't then it will use `CreateDate`. If neither exist it will do a full table pull.
-      2. First Record Date
-         1. The oldest date found in the schema for the fields in the date field list. This helps to avoid slow startup of initial load where it will query empty time.
-6. Click Test
-7. Once you see Connection Test Successful, click Save and Close.
+   ![Kronos Datasource](../images/kronos.png)
+3. Logon Information Section
+   1. User
+      1. User name for service.
+   2. Password
+      1. Password for specified user.
+   3. Endpoint
+      1. URL for instance.
+4. If the Datasource is being used as a source:
+   1. Date Fields
+      1. This is a comma separated list of fields that contain dates for use in incremental downloads.
+      2. Choose any and all date fields in the Schema that are altered during a create or update of the records.
+      3. The order of precedence is from left to right in what date field is chosen. Given a date field list `LastModifiedDate, CreatedDate` when the tables is queried it will check first if `LastModifiedDate` exists if it does, it will use that for incremental. If it doesn't then it will use `CreateDate`. If neither exist it will do a full table pull.
+   2. First Record Date
+      1. The oldest date found in the schema for the fields in the date field list. This helps to avoid slow startup of initial load where it will query empty time.
+5. Click Test
+6. Once you see Connection Test Successful, click Save and Close.
 
 ---
 
