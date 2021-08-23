@@ -28,9 +28,13 @@
    1. Recommended: ‘Source SAP Concur' or something similar.
    2. Select SAPConcur Template
    3. Click Save
-   ![SAPHana Datasource](../images/SAPConcur.png)
+   ![SAPConcur Datasource](../images/SAPConcur.png)
 3. Logon Information Section
-   1. ConcurInstanceURL *The server URL to use. For example https://concursolutions.com for some production accounts and https://implementation.concursolutions.com for sandbox accounts. Set this connection property if you are using V1-V3 API version and the server does not accept the Base Url with region information..*
+   1. ConcurInstanceURL
+      1. The server URL to use. 
+         1. Production Accounts Example: ``https://concursolutions.com`` 
+         2. Sandbox Accounts Example: ``https://implementation.concursolutions.com`` 
+      2. Set this connection property if you are using V1-V3 API version and the server does not accept the Base Url with region information.
 4. If the Datasource is being use as a source:
       1. Date fields
          1. This is a comma separated list of fields that contain dates for use in incremental downloads.

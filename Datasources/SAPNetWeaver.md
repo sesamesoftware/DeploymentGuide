@@ -30,11 +30,14 @@
    1. Recommended: ‘Source SAP NetWeaver' or something similar.
    2. Select SAPNetWeaver Template
    3. Click Save
-   ![SAPNetWeaver Datasource](../images/SAPNetWeaver.png)
+   ![SAPNetWeaver Datasource](../images/sapnetweaver.png)
 3. Logon Information Section
-   3. User: *The SAP Gateway user account used to authenticate.*
-   4. Password: *The password used to authenticate the user.*
-   5. URL: *Set this to the URL your SAP Gateway environment or to the full URL of the OData service.*
+   1. User
+      1. The SAP Gateway user account used to authenticate.
+   2. Password
+      1. The password used to authenticate the user.
+   3. URL
+      1. Set this to the URL your SAP Gateway environment or to the full URL of the OData service.
 4. If the Datasource is being use as a source:
       1. Date fields
          1. This is a comma separated list of fields that contain dates for use in incremental downloads.
