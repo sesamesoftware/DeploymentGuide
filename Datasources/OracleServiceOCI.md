@@ -37,8 +37,8 @@
       1. Login name for database user.
    6. Password
       1. Password for database user.
-4. If Datasource is being use as a source
-   1. Date fields
+4. If Datasource is being use as a source:
+   1. Date Fields
       1. This is a comma separated list of fields that contain dates for use in incremental downloads
       2. Choose any and all date fields in the Schema that are altered during a create or update of the records
       3. The order of precedence is from left to right in what date field is chosen. given a date field list `LastModifiedDate, CreatedDate` when the tables is queried it will see first if `LastModifiedDate` exists if it does use that for incremental. If it doesn't then it will use `CreateDate` if neither exist it will do a full table pull.
