@@ -42,7 +42,7 @@
    2. Password
       1. The password used to authenticate the user.
 1. If the Datasource is being use as a source:
-      1. Date fields
+      1. Date Fields
          1. This is a comma separated list of fields that contain dates for use in incremental downloads.
          2. Choose any and all date fields in the Schema that are altered during a create or update of the records.
          3. The order of precedence is from left to right in what date field is chosen. Given a date field list `LastModifiedDate, CreatedDate` when the tables is queried it will check first if `LastModifiedDate` exists if it does, it will use that for incremental. If it doesn't then it will use `CreateDate`. If neither exist it will do a full table pull.
@@ -51,8 +51,7 @@
 2. Click Test
    1. If you see Connection Test Successful
       1. Click the SQL Button and perform a simple query to confirm that data is visible to the User. Example: ``select * from sample.``
-   2. If no data is returned follow the instruction for a connection Test Failed below.
-      1. Connection Test Failed: Check your URI and try again.
+   2. Connection Test Failed: Check your URI and try again.
 3. Once you see Connection Test Successful, click Save and Close.
 
 ---
