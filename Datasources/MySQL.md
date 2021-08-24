@@ -26,11 +26,11 @@
    1. Host
       1. DNS/IP of database server
    2. Database
-      1. ServiceName
+      1. Database Service Name
    3. Schema
-      1. Usually the same as database typically uppercase.
+      1. Usually the same as database, typically uppercase.
    4. Port
-      1. Required port, default port for mysql is 3306.
+      1. Required port, default port for MySQL is 3306.
    5. Username
       1. Login name for database user.
    6. Password
