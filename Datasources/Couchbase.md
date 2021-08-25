@@ -32,7 +32,6 @@
    3. Click Save
    ![Couchbase Logon Information](../images/CouchbaseLogonInformation.png)
 3. Logon Information section
-<<<<<<< Updated upstream
    1. Server: 
       1. HOST/IP address of database server, beginning with `http://`
    2. User
@@ -41,16 +40,6 @@
       1. Password for database user
 4. If the Datasource is being used as a source:
    1. Date Fields
-=======
-   1. Server
-      1. Host/IP of database server, beginning with `http://`.
-   2. User
-      1. Login name for database user.
-   3. Password
-      1. Password for database user.
-4. If the Datasource is being used as a source:
-   1. Date fields
->>>>>>> Stashed changes
       1. This is a comma separated list of fields that contain dates for use in incremental downloads.
       2. Choose any and all date fields in the Schema that are altered during a create or update of the records.
       3. The order of precedence is from left to right in what date field is chosen. Given a date field list `LastModifiedDate, CreatedDate` when the tables is queried it will check first if `LastModifiedDate` exists if it does, it will use that for incremental. If it doesn't then it will use `CreateDate`. If neither exist it will do a full table pull.
