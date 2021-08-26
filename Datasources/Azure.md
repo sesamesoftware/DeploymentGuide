@@ -34,28 +34,34 @@
 
 1. From the front page of the RJ UI, go to the left hand side and click **Datasources &rarr; New Datasource**
 2. On the next screen, choose a label for your Datasource.
-   1. Recommended: ``Source Azure`` or something similar.
+   1. Recommended: `Source Azure` or something similar.
    2. Select Azure Template
    3. Click Save
-3. ![Azure Datasource](../images/azure.png)
-4. Logon Information Section
+   ![Azure Datasource](../images/azure.png)
+3. Logon Information Section
    1. ServerName
+      1. Computer running SQL Server.
    2. Database
    3. Schema
    4. Port Number
+      1. Required port.
    5. User
+      1. Database user.
    6. Password
+      1. Password for the database user.
    7. Encrypt
+      1. Determines if SSL should be used between client and server.
    8. Trust Certificate
-6. If the Datasource is being used as a source:
-      1. Date fields
-         1. This is a comma separated list of fields that contain dates for use in incremental downloads.
-         2. Choose any and all date fields in the Schema that are altered during a create or update of the records.
-         3. The order of precedence is from left to right in what date field is chosen. Given a date field list `LastModifiedDate, CreatedDate` when the tables is queried it will check first if `LastModifiedDate` exists if it does, it will use that for incremental. If it doesn't then it will use `CreateDate`. If neither exist it will do a full table pull.
-      2. First Record Date
-         1. The oldest date found in the schema for the fields in the date field list. This helps to avoid slow startup of initial load where it will query empty time.
-7. Click Test
-8. Once you see Connection Test Successful, click Save and Close.
+      1. Determines if RJ will validate SSL.
+4. If the Datasource is being used as a source:
+   1. Date Fields
+      1. This is a comma separated list of fields that contain dates for use in incremental downloads.
+      2. Choose any and all date fields in the Schema that are altered during a create or update of the records.
+      3. The order of precedence is from left to right in what date field is chosen. Given a date field list `LastModifiedDate, CreatedDate` when the tables is queried it will check first if `LastModifiedDate` exists if it does, it will use that for incremental. If it doesn't then it will use `CreateDate`. If neither exist it will do a full table pull.
+   2. First Record Date
+      1. The oldest date found in the schema for the fields in the date field list. This helps to avoid slow startup of initial load where it will query empty time.
+5. Click Test
+6. Once you see Connection Test Successful, click Save and Close.
 
 ---
 
