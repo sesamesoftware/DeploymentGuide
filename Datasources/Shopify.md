@@ -27,27 +27,24 @@
 
 1. From the front page of the RJ UI, go to the left hand side and click **Datasources --> New Datasource**
 2. On the next screen, choose a label for your Datasource.
-   1. Recommended: ‘Source Shopify' or something similar.
+   1. Recommended: `Source Shopify` or something similar.
    2. Select Shopify Template
    3. Click Save
    ![Shopify Datasource](../images/Shopify.png)
 3. Logon Information Section
-   1. Password: *Password for database user*
-   2. AppId: *APIID for the Admin API*
-   3. ShopURL: *Full URL for your Shopify Shop*
-   4. Date Fields *See below*
-   5. Schema Prefix Case: *UPPER/LOWER, if required.*
-   6. Tablename Case: *UPPER/LOWER, if required.*
-   7. Select Method 	
-       1.  FIELD_LIST
-       2.  STAR
+   1. Password
+      1. Password for database user.
+   2. AppId
+      1. API ID for the Admin API.
+   3. ShopURL
+      1. Full URL for your Shopify Shop.
 4. If the Datasource is being use as a source:
-      1. Date fields
-         1. This is a comma separated list of fields that contain dates for use in incremental downloads.
-         2. Choose any and all date fields in the Schema that are altered during a create or update of the records.
-         3. The order of precedence is from left to right in what date field is chosen. Given a date field list `LastModifiedDate, CreatedDate` when the tables is queried it will check first if `LastModifiedDate` exists if it does, it will use that for incremental. If it doesn't then it will use `CreateDate`. If neither exist it will do a full table pull.
-      2. First Record Date
-         1. The oldest date found in the schema for the fields in the date field list. This helps to avoid slow startup of initial load where it will query empty time.
+   1. Date Fields
+      1. This is a comma separated list of fields that contain dates for use in incremental downloads.
+      2. Choose any and all date fields in the Schema that are altered during a create or update of the records.
+      3. The order of precedence is from left to right in what date field is chosen. Given a date field list `LastModifiedDate, CreatedDate` when the tables is queried it will check first if `LastModifiedDate` exists if it does, it will use that for incremental. If it doesn't then it will use `CreateDate`. If neither exist it will do a full table pull.
+   2. First Record Date
+      1. The oldest date found in the schema for the fields in the date field list. This helps to avoid slow startup of initial load where it will query empty time.
 5. Click Test
 6. Once you see Connection Test Successful, click Save and Close.
 
