@@ -43,7 +43,7 @@
 ![Manage Integrations](../../images/NetsuiteManageIntegrations.png)
 
 4. Navigate to **Setup&rarr;User/Roles&rarr;Manage Roles**. 
-   1. Create a new role or edit an existing role with the required configuration and permissions or RJWarehouse to use.
+   1. Create a new role or edit an existing role with the required configuration and permissions for RJWarehouse.
       1. See [Role Creation, Modification and Setting Permissions](../../images/netsuitepermissions.md) for more information on the requirements for roles and permissions.
    2. Locate the internal ID of the Role from the Manage Roles List display or the role itself.
    3. Add the Role ID to your document.
