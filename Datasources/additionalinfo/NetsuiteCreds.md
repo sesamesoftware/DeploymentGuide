@@ -31,7 +31,7 @@
    3. Concurrency Limit
       1. Based on how many concurrent connections instance can maintain.
       2. Default for Relational Junction is 1.
-      3. Please contact [support@sesamesoftware.com](support@sesamesoftware.com) if attempting to set-up a multi-user job which may affect concurrence.
+      3. Please contact [support](support@sesamesoftware.com) if attempting to set-up a multi-user job which may affect concurrence.
    4. Verify that `Token-Based Authentication` is checked.
    5. Checking `User Credentials` is optional.
    6. Un-check everything else.
@@ -68,7 +68,7 @@
       1. Check upper right hand corner, role will be listed.
 ![Role](../../images/Netsuiterolefp.png)
    2. Scroll to the bottom of the home screen and click `Manage Access Tokens` in your Settings Portlet.
-![Role](../../images/Netsuitesettingsportlet.png)
+![Portlet](../../images/Netsuitesettingsportlet.png)
    3. Click `New My Access Token`
    4. In the Application Name dropdown, select the Application ID created in Step 3.
    5. Save.
@@ -84,8 +84,8 @@ You should now have the following information in your txt document:
 **RoleId** : Specifying the role, and its permissions, to use.
 **OAuthClientId** : The Consumer Key displayed when the Application ID was created.
 **OAuthClientSecret** : The Consumer Secret displayed when the Application ID was created.
-**OAuthAccessToken** : The Token Id when the Role Access Token was created.
-**OAuthAccessTokenSecret** : The Token Secret when the Role Access Token was created.
+**OAuthAccessToken** : The Token Id displayed when the Role Access Token was created.
+**OAuthAccessTokenSecret** : The Token Secret displayed when the Role Access Token was created.
 
 It is recommended to preserve this txt file in a safe location.
 
