@@ -1,9 +1,12 @@
-<img  src="../../images/SesameSoftwareLogo-2020Final.png" width="100"><img align=right src="../../images/RJOrbitLogo-2021Final.png" width="100">
+<a href="http://www.sesamesoftware.com"><img align=left src="../../images/RJOrbit110x110.png"></img></a>
 
+[comment]: # (Change Heading to reflect Datasource)
 
-# Role Configuration
+#  NetSuite Roles and Permissions
 
-[![Pre-Installation](../../images/Button_PreInstall.png)](../../README.md)[![Installation](../../images/Button_Installation.png)](guides/installguide.md)[![Registration](../../images/Button_Registration.png)](guides/RegistrationGuide.md)[![Configuration](../../images/Button_Configuration.png)](guides/configurationGuide.md)[![Datasource](../../images/Button_Datasource.png)](../README.md)
+[comment]: # (Leave Nav BAR untouched)
+
+[[Installation](../guides/installguide.md)] [[Registration](../guides/RegistrationGuide.md)] [[Configuration](../guides/configurationGuide.md)] [[Datasource](../guides/DatasourceGuide.md)]
 
 ---
 
@@ -42,15 +45,14 @@ With a few exceptions any existing role can be utilized, however the following m
 
 An existing role must have the Center Type, Employee Restrictions, Subsidiary Restriction and Authentication settings as above. Verify the following options are ***not*** checked: ```CORE ADMINISTRATION PERMISSIONS```, ```SINGLE SIGN-ON ONLY```, ```WEB SERVICES ONLY ROLE``` and ```RESTRICT THIS ROLE BY DEVICE ID```.
 
-Optional but recommended: Re-name the existing role to indicate that it is being utilized by RJWarehouse in addition to its other functions to locate it in the future easily.
+Optional but recommended: Re-name the existing role to indicate that it is being utilized by RJWarehouse in addition to its other functions.
 
 Once your role is created or you have your existing role which conforms to the requirements set above, save the role and then add the permissions for the data you need replicated.
 #### NetSuite Permissions
 
 Permissions may be configured for a role in NetSuite under **Setup &rarr; Users/Roles &rarr; Mange Roles**. The only permission additions/removals required by RJWarehouse are in the following Required and Access Violation sections. 
 
-All other permissions can be selected as needed however, be aware that in Sesame Software's experience restricting the role too heavily can lead to repeated access/permission violations. For example, if you are attempting to replicate the object Sales Order, you will need the permission for Sales Order but you may also need permissions for any related lists and Sales Order-adjacent objects (i.e.; Customer Payment, Account, etc). This is even more relevant to analytics after replication. Starting with a high-permission role will speed the process of getting your replication running the way you need.
-
+All other permissions can be selected as needed however, be aware that in Sesame Software's experience restricting the role too heavily can lead to repeated access/permission violations.  Starting with a high-permission role will speed the process of getting your replication running.
 #### Permissions
 
 ![NetSuite Permissions](../../images/netsuite4.png)
@@ -69,7 +71,9 @@ All other permissions can be selected as needed however, be aware that in Sesame
 
 Please see this Oracle Document: [NetSuite Users & Roles](https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/chapter_N284861.html) for more information on permissions.
 
-You can find information about removing objects from the RJWarehouse job that you don't have or don't want to grant permission for in the [Warehouse Config](../rjwarehouseconfig.md) and [Select Tables to Load](../RJWarehouseConfigSelectTables.md) documentation.
+Please see this document: [NetSuite Quick Start Permissions Set](NetSuiteBasicPermissionSet.md) for an broad set of permissions that will handle most use cases.
+
+You can find information about removing objects from the RJWarehouse job that you don't have or don't want to grant permission for in the [Warehouse Config](../rjwarehouseconfig.md) and [Select Tables to Load](../../guides/RJWarehouseConfigSelectTables.md) documentation.
 #### Required Permissions
 Note: Most of the following permissions fall under the Permissions &rarr; Setup section for a role. All permissions from the Required section are necessary for the function of RJWarehouse.
 
@@ -91,9 +95,7 @@ Note: Most of the following permissions fall under the Permissions &rarr; Setup 
 
 Our Other Permissions section is a compilation of commonly used objects and useful data replications permissions. Please be aware that it is not possible for us to provide an exhaustive list of permissions as NetSuite adds support for new entities and permissions with each version.
 
-Note: Most permissions outside of the Setup tab (Transactions, Reports, Lists) can be set for view-only to limit access if required. 
-
-If you are receiving permission errors during a run for objects you know you have the permission for, setting to FULL or EDIT can sometimes be the issue.
+Note: Most permissions outside of the Setup tab (Transactions, Reports, Lists) can be set for view-only to limit access if required. If you are receiving permission errors during a run for objects you know you have the permission for, setting to FULL or EDIT can sometimes be the issue.
 
 |Section|Permission|Used For|
 |---|---|---|
@@ -154,7 +156,7 @@ For the function of RJWarehouse, all of these permissions must be removed from t
 |---|---|---|
 |Permissions &rarr; Setup|Access Token Management|While required during setup of the tokens, this can cause violations and prevent access to NetSuite once role is being used.|
 |Permissions &rarr; Setup|	OAuth 2.0 Authorized Applications Management| Possible permission violation.|
-|Permissions &rarr; Setup|Core Administration Permissions|This is a Two Factor Authorization trigger which can cause a permission violation. 2FA is being deprecated by NetSuite however, the current ETA for full deprecation is unknown. Removing this permission is best practice.|
+|Permissions &rarr; Setup|Core Administration Permissions|This is a Two Factor Authorization trigger which can cause a permission violation. 2FA is being deprecated by NetSuite, however the current ETA for full deprecation is unknown. Removing this permission is best practice.|
 |Permissions &rarr; Setup|	Two-Factor Authentication base| 2FA Trigger, see above.|
 |Permissions &rarr; Setup|Set Up OpenID Connect (OIDC) Single Sign-on|	 Possible permission violation.|
 |Permissions &rarr; Setup|Set Up OpenID Single Sign-on|	 Possible permission violation.|

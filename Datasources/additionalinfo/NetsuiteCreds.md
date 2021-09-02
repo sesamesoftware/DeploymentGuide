@@ -9,40 +9,85 @@
 
 * **Account ID**
 * **Role ID**
+* **Application ID**
 * **Authorization Tokens**
 
 
-1. In NetSuite, log in as an administrator role and navigate to **Setup&rarr;Company&rarr;Company Information**. Save the Account ID to a .txt or other easy-to-find document.
+1. Sign onto NetSuite using a Administrator login.
+2. Navigate to **Setup&rarr;Company&rarr;Company Information**. 
+   1. Find the `Account ID` and copy/paste to a .txt or other easy-to-find document.
 
 ![account id](../../images/NetsuiteAccountId.png)
 
 2. Navigate to **Setup&rarr;Company&rarr;Enable Features&rarr;SuiteCloud&rarr;Manage Authentication**.
-3. Make sure Token-Based Authentication and TBA: Authorization Flow are checked and save changes.
+   1. Verify `Token-Based Authentication` and `TBA: Authorization Flow` are checked.
+   2. Save.
 ![Manage Authentication](../../images/NetsuiteManageAuthentication.png)
 
-4. Navigate to **Setup&rarr;Integration&rarr;Manage Integrations**.
-5. Create a new integration and select Token-Based Authentication. When the integration is created, the Consumer Key and Consumer Secret displayed will map directly to the OAuthClientId and OAuthClientSecret connection properties in RJWarehouse. Save the Application ID and the keys to the document where you saved the Account ID.
+3. Navigate to **Setup&rarr;Integration&rarr;Manage Integrations**.
+   1. Click New.
+   2. Name
+      1. Suggested: `RJ App ID` or something similar.
+   3. Concurrency Limit
+      1. Based on how many concurrent connections instance can maintain.
+      2. Default for Relational Junction is 1.
+      3. Please contact [support](support@sesamesoftware.com) if attempting to set-up a multi-user job which may affect concurrence.
+   4. Verify that `Token-Based Authentication` is checked.
+   5. Checking `User Credentials` is optional.
+   6. Un-check everything else.
+   7. Save.
+   8. On the next screen, the `Application ID`, `Consumer Key` and `Consumer Secret` will be displayed.
+      1. The `Consumer Key` and `Consumer Secret` map directly to the `OAuthClientId` and `OAuthClientSecret` connection properties in RJWarehouse. 
+   9. Save the `Application ID` and the keys to the document where you saved the `Account ID`.
 
 ![Manage Integrations](../../images/NetsuiteManageIntegrations.png)
 
-6. Create a token role by navigating to **Setup&rarr;User/Roles&rarr;Manage Roles** and either create a new role for RJWarehouse to use or edit an existing role with the required configuration and permissions
-   1. See [Role Creation, Modification and Setting Permissions](../../images/netsuitepermissions.md) for more information on the requirements for roles and permissions.
-   2. Add the Role ID to your document.
-7. Add the role to a user under **Lists&rarr;Employees&rarr;Employees**. Select to edit an employee and add the new token role under **Access &rarr; Roles**.
-   ![Manage Roles](../../images/NetsuiteManageRoles.png)
-8. Navigate to **Setup&rarr;User/Roles&rarr;Access Tokens** and create a new access token. Select the application name as the integration that was created earlier, and the same user and role that were updated in the previous steps.
-9.  After creating the access token, a Token Id and Token Secret will be displayed. These map directly to the OAuthAccessToken and OAuthAccessTokenSecret. Save these to the document.
+4. Navigate to **Setup&rarr;User/Roles&rarr;Manage Roles**. 
+   1. Create a new role or edit an existing role with the required configuration and permissions for RJWarehouse.
+      1. See [Role Creation, Modification and Setting Permissions](../../images/netsuitepermissions.md) for more information on the requirements for roles and permissions.
+   2. Locate the internal ID of the Role from the Manage Roles List display or the role itself.
+   3. Add the Role ID to your document.
+![Manage Roles](../../images/NetsuiteManageRoles.png)
+
+5. Navigate to **Setup&rarr;User/Roles&rarr;Manage Users**.
+   1. Locate a User Login which the role you edited/created in Step 4 can be assigned to.
+      1. This must be a login that can be accessed during this process.
+   2. Click the Name of the user whom you are assigning the role.
+![Manage users](../../images/NetsuiteManageusers.png)   
+
+   3. On the User screen, click Edit.
+   4. On the User navigation bar click Access.
+   5. Click the dropdown and select the role you edited/created in Step 4.
+![Manage Access](../../images/Netsuiteuseraccess.png)  
+
+   6. Click Add.
+   7. Click Save.
+   
+1. Log into the User whom you assigned the role you edited/created in Step 4.
+   1. Verify that you are logged into that role.
+      1. Check upper right hand corner, role will be listed.
+![Role](../../images/Netsuiterolefp.png)
+   2. Scroll to the bottom of the home screen and click `Manage Access Tokens` in your Settings Portlet.
+![Portlet](../../images/Netsuitesettingsportlet.png)
+   3. Click `New My Access Token`
+   4. In the Application Name dropdown, select the Application ID created in Step 3.
+   5. Save.
+   6. On the next screen, the `Token Id` and `Token Secret` will be displayed.
+      1. The `Token Id` and `Token Secret` map directly to the `OAuthAccessToken` and `OAuthAccessTokenSecret` connection properties in RJWarehouse. 
+   9. Save the keys to your document.
 
 ![AccessTokens](../../images/NetsuiteAccessTokens.png)
 
-You should now have the following information:
+You should now have the following information in your txt document:
 
-**AccountId** : specifying the account to connect to.
-**RoleId** : specifying the role/permissions to use.
-**OAuthClientId** : the Consumer Key displayed when the application was created.
-**OAuthClientSecret** : the Consumer Secret displayed when the application was created.
-**OAuthAccessToken** : the Token Id when the access token was created.
-**OAuthAccessTokenSecret** : the Token Secret when the access token was created.
+**AccountId** : Specifying the account to connect to.
+**RoleId** : Specifying the role, and its permissions, to use.
+**OAuthClientId** : The Consumer Key displayed when the Application ID was created.
+**OAuthClientSecret** : The Consumer Secret displayed when the Application ID was created.
+**OAuthAccessToken** : The Token Id displayed when the Role Access Token was created.
+**OAuthAccessTokenSecret** : The Token Secret displayed when the Role Access Token was created.
+
+It is recommended to preserve this txt file in a safe location.
 
 ---
 
